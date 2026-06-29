@@ -1,0 +1,65 @@
+# --- Confidentiality guard: never commit private source recordings ---
+# A document rendered from a private or confidential recording (its video,
+# transcript, or frames) is a LOCAL correctness proof only and must never
+# enter this repo. Keep private test inputs and their renders out.
+*_private*
+lanes/sop/output/
+lanes/**/output/private/
+
+# --- Local scratch / temp ---
+scratch/
+scratchpad/
+tmp/
+*.tmp
+*.bak
+*.orig
+*.log
+
+# --- Local working notes (never publish) ---
+# Session notes, handoffs, reviews, reconciles, research, and planning are
+# internal records, not deliverables.
+_SESSION_NOTES*.md
+_HANDOFF*.md
+_REVIEW_*.md
+_RECONCILE_*.md
+_RESEARCH_*.md
+_planning/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# --- Brand design staging (local source only) ---
+# Raw exports from the design pass. The SHIPPED assets are copied into
+# _config/ (brand.css, brand/logo/*) and assets/brand/, which ARE tracked.
+_assets-content-engine-brand/
+_design-content-engine/
+
+# --- Renderer intermediate ---
+# build_pdf writes a .src.html that Chrome prints from; regenerated every
+# render, never a deliverable. Matches anywhere (samples + the render selftest).
+*.src.html
+
+# --- Render byproducts not meant to ship ---
+# Stage output/ folders carry .gitkeep but their generated contents are
+# run-local. Commit only the deliverables under samples/rendered/.
+lanes/**/stages/**/output/*
+!lanes/**/stages/**/output/.gitkeep
+00-install/output/*
+!00-install/output/.gitkeep
+!00-install/output/readiness-scorecard.example.md

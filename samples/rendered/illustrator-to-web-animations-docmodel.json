@@ -1,0 +1,279 @@
+{
+  "schema": "docmodel-1.0",
+  "meta": {
+    "title": "From Illustrator to Web Animations with Claude Code",
+    "subtitle": "Turn hand-drawn Adobe Illustrator characters into editable, animated React components you can refine in plain language and drop into a website.",
+    "doc_type": "guide",
+    "audience": "Designers and makers who have an Illustrator file and want animated web characters without hand-coding every frame",
+    "author": "content-engine (Will Vessels)",
+    "date": "2026-06-27",
+    "reading_time_min": 8,
+    "learning_objectives": [
+      "Recognize why an editable file structure, not a one-off export, is what makes design work repeatable.",
+      "Prepare an Adobe Illustrator file by naming its layers and exporting it as SVG so an AI can work with it.",
+      "Install the two building blocks this workflow relies on: the Remotion library and the UI/UX Pro skill.",
+      "Set up Claude Code in an editor so it can read your project and change files in place.",
+      "Refine animated characters in plain language and move a finished one into a React website."
+    ],
+    "source": {
+      "video_title": "SVG to React: Turning Illustrator Designs into Web Animations with Claude Code",
+      "manifest": "a8827daf934b"
+    }
+  },
+  "sections": [
+    {
+      "id": "intro-what-this-builds",
+      "heading": "What this builds",
+      "level": 1,
+      "kind": "intro",
+      "objective": "See the finished result and the idea behind it before you build.",
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "A friend needed a website for a storyboard he had drawn, and he wanted the characters from it to come alive. As you scroll the page, the story unfolds, and scattered through it are little characters you can jump into, each with its own animations and micro expressions, almost reacting to one another. He also wanted a full video on the site that walks through every character in its animated form."
+        },
+        {
+          "type": "prose",
+          "md": "There was a catch. He was doing this for a professor who loves design and did not believe AI could generate this kind of animation in a way that stayed clean, organized, and editable, built from the original Adobe Illustrator files. This guide walks through how that challenge was met: hand-drawn art becomes animated web characters you can keep editing, all driven from a single folder."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 10,
+          "caption": "The finished site: a hand-drawn character, now animated, running live in the browser.",
+          "alt": "A web page showing a large green cartoon character with expressive eyes above the word FOCUS, one slide of a twenty-slide animated sequence.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.77, "h": 1.0 },
+          "crop_reason": "Trimmed the presenter webcam tile in the upper right, which sits over empty page margin; the live character and page are kept whole."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "The goal is not a single exported animation. It is a folder you can keep working in, where every character stays editable long after the first version is done."
+        }
+      ]
+    },
+    {
+      "id": "why-file-structure",
+      "heading": "Why a file structure, not an app",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Understand the core idea that makes the rest of the workflow click.",
+      "depends_on": ["intro-what-this-builds"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The big idea behind this approach is simple to say: you do not need a pile of separate apps, you need a good file structure. Once the project lives as an organized folder of files, that folder becomes the thing you edit. You can build and refine videos, websites, or characters without opening Illustrator or any other single-purpose tool, because the work itself is just files you can change."
+        },
+        {
+          "type": "prose",
+          "md": "That shift matters because it changes how you make edits. Instead of clicking through menus and panels, you describe what you want in plain language and let the AI make the change in the right file. The design knowledge still matters, and the original Illustrator art is still where everything starts. What changes is that the result stays open and editable rather than locked inside one program."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "Keep this framing in mind as you read the steps: every step below exists to turn the drawing into editable files and then give an AI a clean way to work on them."
+        }
+      ]
+    },
+    {
+      "id": "prepare-illustrator",
+      "heading": "Start with the Illustrator file",
+      "level": 1,
+      "kind": "step",
+      "objective": "Get the original artwork into a shape an AI can work with.",
+      "depends_on": ["why-file-structure"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Everything starts with the original Adobe Illustrator storyboard. Each panel was hand designed and placed by the artist, so the source is real design work, not a template. The first job is to get that artwork out of Illustrator and into a form the AI can read directly."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 53,
+          "caption": "The hand-drawn storyboard: each panel of the story is its own designed frame.",
+          "alt": "A row of small storyboard panels along the bottom of the design canvas, each a labeled illustration such as Parts, Emotions Shape, Find, Focus, and Parts Noticed.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.77, "h": 1.0 },
+          "crop_reason": "Trimmed the presenter webcam tile in the upper right, which sits over the empty canvas; the storyboard filmstrip is kept whole."
+        },
+        {
+          "type": "prose",
+          "md": "Before exporting, the layers get clear, consistent names. Working together, the artist relabeled the pieces of each character: left iris, right iris, left eye, right eye, eyebrow left, eyebrow right, and so on. The reason is that the AI looks for those named parts so it knows exactly which piece is which. It can take screenshots to figure things out, but naming the layers up front skips that step and lets it go straight to the right element."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 79,
+          "caption": "Named layers on the right (left iris, right eye, eyebrow, head) make each character part easy to find.",
+          "alt": "A vector design file showing several cartoon emotion characters labeled Joy, Anxiety, Sadness, Fear, Anger, and Surprised, with a layers panel on the right listing parts such as left iris, left eyebrow, right eye, and head.",
+          "crop": null,
+          "crop_reason": "Kept the full frame: the presenter webcam overlaps the top of the layers panel, so cropping it would clip the named layers the reader needs to see."
+        },
+        {
+          "type": "prose",
+          "md": "With the parts named, the whole storyboard is exported as a single SVG file. An SVG is essentially a big structured file much like an HTML file, so it is easy for the AI to open and work with directly. That one export becomes the shared starting point for everything that follows."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "Naming layers is the small bit of human setup that pays off everywhere later. Consistent names like left iris and right eyebrow let you ask for an edit by name instead of pointing at pixels."
+        }
+      ]
+    },
+    {
+      "id": "remotion",
+      "heading": "Add Remotion for the animations",
+      "level": 1,
+      "kind": "step",
+      "objective": "Install the library that turns code into video and animation.",
+      "depends_on": ["prepare-illustrator"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "This workflow leans on two building blocks you grab from GitHub. The first is **Remotion**, a library that lets you create animations programmatically with React. Instead of drawing each frame by hand, you describe animations in JavaScript and React code, which is exactly the kind of work AI is good at writing. Remotion can go well beyond small clips and build entire scenes in code."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 107,
+          "caption": "Remotion lets you compose video and animation with React code instead of a timeline.",
+          "alt": "The remotion.dev website with the heading Compose with code and the text Use React, a powerful frontend technology, to create sophisticated videos with code, alongside an Edit dynamically section.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.77, "h": 1.0 },
+          "crop_reason": "Trimmed the presenter webcam tile in the upper right, which sits over empty space; the Remotion page content is kept whole."
+        },
+        {
+          "type": "prose",
+          "md": "Remotion is the engine that animated the storyboard characters. Because the animations are code, they can be generated, tweaked, and regenerated, which is what lets the rest of this workflow stay flexible."
+        }
+      ]
+    },
+    {
+      "id": "ui-ux-skill",
+      "heading": "Add the UI/UX Pro skill for clean design",
+      "level": 1,
+      "kind": "step",
+      "objective": "Install the skill that helps the AI design a clean front end.",
+      "depends_on": ["remotion"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The second building block is a skill called **UI/UX Pro**. It gives the AI design intelligence for building a professional front end: how a site should look, which styles, colors, and patterns fit. Without it, you tend to prompt over and over to get close to a clean design. The skill carries that knowledge built in, so the result looks intentional instead of hastily put together."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 147,
+          "caption": "The UI/UX Pro skill adds design know-how so the front end looks polished, not improvised.",
+          "alt": "A GitHub page for UI UX Pro Max, described as an AI skill that provides design intelligence for building professional UI/UX across multiple platforms and frameworks.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.65, "h": 1.0 },
+          "crop_reason": "Trimmed the presenter webcam and the right-hand repository sidebar; the project title and description are kept whole."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "Both pieces, Remotion and the UI/UX Pro skill, are installed from GitHub and are treated as requirements for this workflow. One handles the animation, the other handles the look."
+        }
+      ]
+    },
+    {
+      "id": "claude-in-editor",
+      "heading": "Work in an editor with Claude Code",
+      "level": 1,
+      "kind": "step",
+      "objective": "Set up a place where the AI can read your project and edit it directly.",
+      "depends_on": ["remotion", "ui-ux-skill"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "With the pieces in place, the work happens in an editor with Claude Code running alongside the files. A code editor like VS Code is a comfortable home for this, because you can click a character, see it right there, and talk to the AI about the project while it reads and edits the actual files. The editor is a preference, not a requirement; the same Claude Code works from the terminal too."
+        },
+        {
+          "type": "prose",
+          "md": "Building the characters was mostly a long back-and-forth conversation: take these individual SVGs and make animations from them, try a design, say what worked and what did not, and let the AI edit. Behind the scenes, it is pulling each SVG into Remotion components, so the drawings become real, editable building blocks of the project."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 231,
+          "caption": "The project as a folder: characters, scenes, and data as files Claude Code can read and edit in place.",
+          "alt": "VS Code with Claude Code open, showing a project file tree (components, data, EmotionShowcase, Composition, Root, CLAUDE.md) and a code file defining emotion entries for joy, fear, anger, sadness, anxiety, and surprised, each with a label, trait, gradient, and accent color.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.92, "h": 1.0 },
+          "crop_reason": "Trimmed the presenter webcam tile in the upper right, which overlaps only truncated values at the far edge of the code; the file tree, Claude panel, and the readable code are kept whole."
+        },
+        {
+          "type": "prose",
+          "md": "Look at the file tree and you can see the shape of the project: a folder of components for the characters, a data file for their details, scenes that assemble them, and the storyboard. Each character keeps its own settings, such as its head and colors, when it blinks, and how fast its irises move. Because all of that lives in plain files, it stays editable."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "Add a project file named **CLAUDE.md** so the AI reads it automatically. Point it at where things live, such as which folders hold which parts and where the original SVG is, so the AI starts with that context instead of re-reading the whole codebase every time."
+        }
+      ]
+    },
+    {
+      "id": "refine-and-ship",
+      "heading": "Refine in plain language, then move it to the site",
+      "level": 1,
+      "kind": "step",
+      "objective": "Make precise edits by describing them, then place a finished character on the website.",
+      "depends_on": ["claude-in-editor"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Once the project is a set of files, editing becomes a conversation. You can say something like, I do not like the eyes on the sad character, what can I do, and the AI does not have to rework the whole animation. It finds the specific component for that character, adjusts just the values that matter, the iris speed or the movement for that emotion, and leaves the rest of the code alone. You can hand-edit any of it yourself, or let the AI make the small, refined change."
+        },
+        {
+          "type": "prose",
+          "md": "This is the difference from tools where one change forces you to redo an entire video or risks breaking half of what you built. Here the edit is surgical. When a character looks right in its scene, you can take that finished character and ask to add it into the React website, which is exactly how the storyboard site gained its animated characters."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "Plain-language editing does not mean giving up fine control. You capture your intent in words while every small detail stays adjustable, by you or by the AI."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "heading": "What you can take from this",
+      "level": 1,
+      "kind": "summary",
+      "objective": "Lock in the workflow and the mindset behind it.",
+      "depends_on": ["refine-and-ship", "why-file-structure"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The path is repeatable: start with real Illustrator artwork, name its layers and export it as SVG, bring in Remotion for the animation and the UI/UX Pro skill for the design, and work in an editor with Claude Code so it can read and change the files directly. From there you refine characters in plain language and move the ones you like into the website."
+        },
+        {
+          "type": "prose",
+          "md": "What used to take weeks by hand came together in a few hours, but the design judgment and the original artwork still did the heavy lifting. The real takeaway is the structure: when your work lives as editable files, you can do all of it inside a single folder with an AI, rather than bouncing between separate apps."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "Some edits are still faster in Illustrator, and some pieces are best left alone once the scenes are assembled. The skill is deciding where the human belongs in the loop and where the AI can carry the work."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "heading": "Tools and links",
+      "level": 1,
+      "kind": "summary",
+      "objective": "Find the tools this workflow named.",
+      "depends_on": ["summary"],
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Remotion (React animation library): [remotion.dev](https://remotion.dev)",
+            "UI/UX Pro skill (design intelligence for the front end): [github.com](https://github.com)",
+            "Claude Code (the AI that reads and edits your files): [claude.com](https://claude.com)",
+            "Adobe Illustrator (the original artwork): [adobe.com](https://adobe.com)"
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "disclaimer": "Educational guide generated by content-engine from a public recording. Every claim traces to the source transcript via the provenance sidecar; the reader surface carries no timestamps or citations.",
+    "confidentiality": "Source: 'SVG to React: Turning Illustrator Designs into Web Animations with Claude Code' (public YouTube)."
+  }
+}

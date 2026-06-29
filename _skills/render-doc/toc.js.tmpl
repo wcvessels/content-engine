@@ -1,0 +1,76 @@
+/* render-doc OPTIONAL scroll-spy (post-green polish, NOT in the MVP).
+ *
+ * The MVP ships the sticky <nav> TOC with plain in-page anchor links and zero
+ * JavaScript (build_html emits exactly that). This template adds an
+ * IntersectionObserver that active-highlights the TOC entry for whichever
+ * section is currently on screen. It is pure enhancement: if it never loads,
+ * the anchor links still work.
+ *
+ * To use: build_html() would inline this as
+ *   <script>...this file...</script>
+ * just before </body>. It is a .tmpl (not auto-injected) so the MVP stays
+ * JS-free until this polish is deliberately turned on.
+ *
+ * House rule: zero em dash characters.
+ */
+(function () {
+  "use strict";
+
+  var sections = Array.prototype.slice.call(
+    document.querySelectorAll(".doc-section[id]")
+  );
+  var links = {};
+  document.querySelectorAll(".toc a[href^='#']").forEach(function (a) {
+    links[a.getAttribute("href").slice(1)] = a;
+  });
+  if (!sections.length || !("IntersectionObserver" in window)) {
+    return; // graceful no-op: the anchor links still navigate.
+  }
+
+  function setActive(id) {
+    Object.keys(links).forEach(function (key) {
+      links[key].classList.toggle("toc-active", key === id);
+    });
+  }
+
+  var visible = {};
+  var observer = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.id] = entry.isIntersecting
+          ? entry.intersectionRatio
+          : 0;
+      });
+      // Highlight the section nearest the top that is currently visible.
+      var best = null;
+      var bestTop = Infinity;
+      sections.forEach(function (sec) {
+        if (visible[sec.id]) {
+          var top = sec.getBoundingClientRect().top;
+          if (top < bestTop) {
+            bestTop = top;
+            best = sec.id;
+          }
+        }
+      });
+      if (best) {
+        setActive(best);
+      }
+    },
+    { rootMargin: "0px 0px -65% 0px", threshold: [0, 0.1, 0.5, 1] }
+  );
+
+  sections.forEach(function (sec) {
+    observer.observe(sec);
+  });
+})();
+
+/* Companion CSS to inline alongside this script (the MVP theme has no
+ * .toc-active rule, so add it when this polish is enabled):
+ *
+ *   .toc a.toc-active {
+ *     background: var(--ce-line);
+ *     color: var(--ce-primary);
+ *     font-weight: 600;
+ *   }
+ */

@@ -1,0 +1,5139 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "uri": "https://youtu.be/izMBiWG3L24",
+    "type": "yt-dlp",
+    "title": "SVG to React: Turning Illustrator Designs into Web Animations with Claude Code",
+    "duration_s": 718.654,
+    "width": 1280,
+    "height": 720,
+    "fps": 30.00001391530865,
+    "codec": "vp9"
+  },
+  "run": {
+    "run_id": "a8827daf934b",
+    "generated_at": "2026-06-28T01:28:17Z",
+    "tool_version": "a1.0",
+    "host_os": "windows",
+    "download_s": 11.297000000020489,
+    "processing_s": 120.04699999996228,
+    "wall_clock_s": 131.34399999998277
+  },
+  "transcription": {
+    "path": "whisperx",
+    "model": "large-v3",
+    "diarization": "off",
+    "diarization_reason": "auto_single_speaker",
+    "language": "en",
+    "speaker_count": 0
+  },
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_s": 0.0,
+      "file": "frame_0001_000000.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ad25a303bbf25a52dafad2d2f6dad292dff25823fab8c280f2dada1",
+      "sharpness": 371.028
+    },
+    {
+      "index": 1,
+      "timestamp_s": 1.0,
+      "file": "frame_0002_000001.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ad25a103bbf25852dafad2d2f6dad292dff258237af8e290f2dada1",
+      "sharpness": 376.36
+    },
+    {
+      "index": 2,
+      "timestamp_s": 2.0,
+      "file": "frame_0003_000002.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ad25a302ebf25a52dafad2d2f6dad692dff258226ef8e290f2da9a1",
+      "sharpness": 374.713
+    },
+    {
+      "index": 3,
+      "timestamp_s": 4.0,
+      "file": "frame_0004_000004.jpg",
+      "is_scene_cut": false,
+      "phash": "d0005ad25a7672d22dbfa3252dadadad2dedad192dbb8d884d8925892da98da9",
+      "sharpness": 277.142
+    },
+    {
+      "index": 4,
+      "timestamp_s": 5.0,
+      "file": "frame_0005_000005.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d276de58d20dbf8d252d2fad252d6fad6d39eb0c8819ab2ca83babacad",
+      "sharpness": 292.576
+    },
+    {
+      "index": 5,
+      "timestamp_s": 6.0,
+      "file": "frame_0006_000006.jpg",
+      "is_scene_cut": false,
+      "phash": "d000561652f2667267beb1a12f2d2d6d2fafa9896dcf98984d8b89c92dadac89",
+      "sharpness": 321.78
+    },
+    {
+      "index": 6,
+      "timestamp_s": 8.0,
+      "file": "frame_0007_000008.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ada52726667a52d2dadad2d2dadad0d2ded89883dabad892dadad8d",
+      "sharpness": 319.752
+    },
+    {
+      "index": 7,
+      "timestamp_s": 10.0,
+      "file": "frame_0008_000010.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ada5252776725252dadad2d2dfdad492dff2989198bad892dadad89",
+      "sharpness": 310.93
+    },
+    {
+      "index": 8,
+      "timestamp_s": 12.0,
+      "file": "frame_0009_000012.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005ad252d246466ff7a7653d6db12d2f6dad290fef8e0809abb88839b9a9b9",
+      "sharpness": 276.17
+    },
+    {
+      "index": 9,
+      "timestamp_s": 13.0,
+      "file": "frame_0010_000013.jpg",
+      "is_scene_cut": false,
+      "phash": "d00052525eda72627f67ad352d6dad652db9ad092fcf098839bb89892dadac89",
+      "sharpness": 297.156
+    },
+    {
+      "index": 10,
+      "timestamp_s": 14.0,
+      "file": "frame_0011_000014.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005a525ada72226e6f25a52d6da52d2dbd8d4d3d9f98883da93d893dadad89",
+      "sharpness": 268.674
+    },
+    {
+      "index": 11,
+      "timestamp_s": 16.0,
+      "file": "frame_0012_000016.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25af672505fff2565279dad252feda98d0dab2889398f8ca92da9ad8d",
+      "sharpness": 292.263
+    },
+    {
+      "index": 12,
+      "timestamp_s": 17.0,
+      "file": "frame_0013_000017.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525ade5292777727652dedad2d2dedada929ab88892eaf8c892d9d8d99",
+      "sharpness": 238.708
+    },
+    {
+      "index": 13,
+      "timestamp_s": 19.0,
+      "file": "frame_0014_000019.jpg",
+      "is_scene_cut": false,
+      "phash": "d0005ad25ef6721233bfac652deda52d2dadaca92faf89892f898c892dada189",
+      "sharpness": 292.601
+    },
+    {
+      "index": 14,
+      "timestamp_s": 20.0,
+      "file": "frame_0015_000020.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005ad25af6729877bdad652d6da50d2dfdad692fcf88892ba988a92da9a189",
+      "sharpness": 322.866
+    },
+    {
+      "index": 15,
+      "timestamp_s": 21.0,
+      "file": "frame_0016_000021.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005ad25af6729a33bdad652defa50d2dadad292faf89892b898c892dada589",
+      "sharpness": 319.909
+    },
+    {
+      "index": 16,
+      "timestamp_s": 23.0,
+      "file": "frame_0017_000023.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d256d256726dff25252d2dad2d2dada9293baf998939aba9892dcdad89",
+      "sharpness": 256.45
+    },
+    {
+      "index": 17,
+      "timestamp_s": 24.0,
+      "file": "frame_0018_000024.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525267ffa5252dedad2d2dadad892deb098919abac892dadadad",
+      "sharpness": 299.09
+    },
+    {
+      "index": 18,
+      "timestamp_s": 26.0,
+      "file": "frame_0019_000026.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25a7652766f9f252d2d6dad252dadad892deb0c893dab89892dadad8d",
+      "sharpness": 312.278
+    },
+    {
+      "index": 19,
+      "timestamp_s": 27.0,
+      "file": "frame_0020_000027.jpg",
+      "is_scene_cut": false,
+      "phash": "d000565242d272166f272c392d6daded2dafad293cb98c886deab9892dadad8d",
+      "sharpness": 240.486
+    },
+    {
+      "index": 20,
+      "timestamp_s": 28.0,
+      "file": "frame_0021_000028.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d252de727237ff870d2dad252d2faf8d092de929891f8b2da92dad8d8d",
+      "sharpness": 326.727
+    },
+    {
+      "index": 21,
+      "timestamp_s": 30.0,
+      "file": "frame_0022_000030.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525ad670760f1f25652feda5e92de98f8b2de989881d8b2da90f9f2dad",
+      "sharpness": 348.248
+    },
+    {
+      "index": 22,
+      "timestamp_s": 31.0,
+      "file": "frame_0023_000031.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525ad670760f7f25252feda5692ded8f8b2de988881dab2da90f9f25ad",
+      "sharpness": 353.804
+    },
+    {
+      "index": 23,
+      "timestamp_s": 33.0,
+      "file": "frame_0024_000033.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052565ade52762f6725252deda5a92dedad892deb89891dab8d892d8dad8d",
+      "sharpness": 319.229
+    },
+    {
+      "index": 24,
+      "timestamp_s": 35.0,
+      "file": "frame_0025_000035.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052565ada70720e7f25252feda5a92ded8f892de989891dab2da91f8f25ad",
+      "sharpness": 384.645
+    },
+    {
+      "index": 25,
+      "timestamp_s": 36.0,
+      "file": "frame_0026_000036.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052565ada70f00f3f25652feda5a92de98f892de9898a1dab2ca91f9d2dad",
+      "sharpness": 405.737
+    },
+    {
+      "index": 26,
+      "timestamp_s": 38.0,
+      "file": "frame_0027_000038.jpg",
+      "is_scene_cut": false,
+      "phash": "e00052565ada70300f3725a52feda5692ded8f8b2de989881fab2da91f8d2dad",
+      "sharpness": 407.847
+    },
+    {
+      "index": 27,
+      "timestamp_s": 39.0,
+      "file": "frame_0028_000039.jpg",
+      "is_scene_cut": false,
+      "phash": "e000da525ad252627be725a9272f2d250f9f2dad0f1f2c894f9d8d892dad8d8d",
+      "sharpness": 390.05
+    },
+    {
+      "index": 28,
+      "timestamp_s": 41.0,
+      "file": "frame_0029_000041.jpg",
+      "is_scene_cut": false,
+      "phash": "e000d2525ad252727bf721e52f7f2d250f8f2da90f9f24884d998d892ded8d8d",
+      "sharpness": 389.832
+    },
+    {
+      "index": 29,
+      "timestamp_s": 42.0,
+      "file": "frame_0030_000042.jpg",
+      "is_scene_cut": false,
+      "phash": "e000d2525ad252727bf721e52f3f2d250f9f2da90f1f25894d898da92dad8d8d",
+      "sharpness": 391.495
+    },
+    {
+      "index": 30,
+      "timestamp_s": 43.0,
+      "file": "frame_0031_000043.jpg",
+      "is_scene_cut": false,
+      "phash": "e000d2525ad252727bf721e12f7f2d250f9f2da90f1f25894d998d892dad8d8d",
+      "sharpness": 389.976
+    },
+    {
+      "index": 31,
+      "timestamp_s": 45.0,
+      "file": "frame_0032_000045.jpg",
+      "is_scene_cut": false,
+      "phash": "e000d2525ad252723bf721a92f2f2d250f9f2dad0f1f25894d998da92ded8d8d",
+      "sharpness": 385.255
+    },
+    {
+      "index": 32,
+      "timestamp_s": 46.0,
+      "file": "frame_0033_000046.jpg",
+      "is_scene_cut": false,
+      "phash": "e000d2525ad252727bf721a52f2f2d250f9f2dad0f1f25894d998d892ded8d8d",
+      "sharpness": 392.373
+    },
+    {
+      "index": 33,
+      "timestamp_s": 48.0,
+      "file": "frame_0034_000048.jpg",
+      "is_scene_cut": false,
+      "phash": "e000da525ad252623be725a92f2f2d250f9f2dad0f9f24894f998d892ded8d8d",
+      "sharpness": 392.142
+    },
+    {
+      "index": 34,
+      "timestamp_s": 49.0,
+      "file": "frame_0035_000049.jpg",
+      "is_scene_cut": false,
+      "phash": "e000d2525ad252727bf721a12f2f2da50f9f2dad0f1f25894d998d892ded8d8d",
+      "sharpness": 389.534
+    },
+    {
+      "index": 35,
+      "timestamp_s": 50.0,
+      "file": "frame_0036_000050.jpg",
+      "is_scene_cut": false,
+      "phash": "e000da525ad252723bf725a52f2f2d250f9f2da90f9f24884f998da92dad8d8d",
+      "sharpness": 393.823
+    },
+    {
+      "index": 36,
+      "timestamp_s": 52.0,
+      "file": "frame_0037_000052.jpg",
+      "is_scene_cut": false,
+      "phash": "e000da525ad252723bf725e5277d2d250f8f2da90f9f24884f998d892ded8d8d",
+      "sharpness": 389.65
+    },
+    {
+      "index": 37,
+      "timestamp_s": 53.0,
+      "file": "frame_0038_000053.jpg",
+      "is_scene_cut": false,
+      "phash": "e000d2525af2527239f725a52f2f2d2d0f9f2d290f9f25a94f8b29a10f8dad8d",
+      "sharpness": 392.575
+    },
+    {
+      "index": 38,
+      "timestamp_s": 55.0,
+      "file": "frame_0039_000055.jpg",
+      "is_scene_cut": false,
+      "phash": "c000527252da5a723fffaca52dafad2d2daf25892deb09880da9ac892dadad8d",
+      "sharpness": 245.493
+    },
+    {
+      "index": 39,
+      "timestamp_s": 56.0,
+      "file": "frame_0040_000056.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525226dfa4252dafadad2dad8dc92deb19891dafac892dadadad",
+      "sharpness": 322.99
+    },
+    {
+      "index": 40,
+      "timestamp_s": 57.0,
+      "file": "frame_0041_000057.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a7652522e9fa5252dafadad2dad8d8d2dfd1d890dabac892dadada9",
+      "sharpness": 315.248
+    },
+    {
+      "index": 41,
+      "timestamp_s": 59.0,
+      "file": "frame_0042_000059.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525266dfa4252dadadad2dad8dad2de919891dbfac892dadada9",
+      "sharpness": 320.244
+    },
+    {
+      "index": 42,
+      "timestamp_s": 60.0,
+      "file": "frame_0043_000100.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525227dfa5252dadadad2dad8da92dab19891dbbac892dbdada5",
+      "sharpness": 322.483
+    },
+    {
+      "index": 43,
+      "timestamp_s": 62.0,
+      "file": "frame_0044_000102.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76521226dfa4252dafad2d2dad8dcd2ddd1d891dbbad892dadada9",
+      "sharpness": 320.813
+    },
+    {
+      "index": 44,
+      "timestamp_s": 63.0,
+      "file": "frame_0045_000103.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525266ffa4212dafadad2dad8d892df91d890d9fac892dbdada9",
+      "sharpness": 324.682
+    },
+    {
+      "index": 45,
+      "timestamp_s": 64.0,
+      "file": "frame_0046_000104.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525266dfa5252d6dad2d2ded8d892deb1d890dbbad892dbdad89",
+      "sharpness": 322.83
+    },
+    {
+      "index": 46,
+      "timestamp_s": 66.0,
+      "file": "frame_0047_000106.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525266dfa4252dedadad2dad8d8d2de91d891dabad892dadada9",
+      "sharpness": 321.66
+    },
+    {
+      "index": 47,
+      "timestamp_s": 67.0,
+      "file": "frame_0048_000107.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525267dfa5252dadadad2dadad892deb19880dbbac892dbdada5",
+      "sharpness": 320.232
+    },
+    {
+      "index": 48,
+      "timestamp_s": 69.0,
+      "file": "frame_0049_000109.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525267dfa5252d65ad2d2fadada92dab8d890dabad892dbdad85",
+      "sharpness": 325.215
+    },
+    {
+      "index": 49,
+      "timestamp_s": 70.0,
+      "file": "frame_0050_000110.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a7652526edfa4252dafadad2dad8da92de91d890dbfac892dbdad81",
+      "sharpness": 321.014
+    },
+    {
+      "index": 50,
+      "timestamp_s": 71.0,
+      "file": "frame_0051_000111.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525266dfa4252dafadad2dad8da92de91d891dbbac892dadada9",
+      "sharpness": 321.919
+    },
+    {
+      "index": 51,
+      "timestamp_s": 73.0,
+      "file": "frame_0052_000113.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76525266dfa5252dafadad2dad8dad2de909890dbfac892dadada9",
+      "sharpness": 322.769
+    },
+    {
+      "index": 52,
+      "timestamp_s": 74.0,
+      "file": "frame_0053_000114.jpg",
+      "is_scene_cut": true,
+      "phash": "d50a5a562a55c4922bdd37292dbd25a92b6db52b2db62b4d4a5a6c93d4ac928d",
+      "sharpness": 568.037
+    },
+    {
+      "index": 53,
+      "timestamp_s": 76.0,
+      "file": "frame_0054_000116.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a5a562ad7d2502bd595a92dad35292dad2d292bff2b596aa60a8dd2a83ea5",
+      "sharpness": 566.352
+    },
+    {
+      "index": 54,
+      "timestamp_s": 77.0,
+      "file": "frame_0055_000117.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562ad7d2502ad595a92fad35292dad2d6d2bf72b596ab60a85d2a83ea5",
+      "sharpness": 571.408
+    },
+    {
+      "index": 55,
+      "timestamp_s": 78.0,
+      "file": "frame_0056_000118.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562ad7d2522bf595a92fad25292dad2d692bff0b436ab01a8dd6a03aad",
+      "sharpness": 623.669
+    },
+    {
+      "index": 56,
+      "timestamp_s": 80.0,
+      "file": "frame_0057_000120.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562ad7d2502bd595a92fad25a92dad2d6d2bfb2a5c6ab31a05d6a83aa5",
+      "sharpness": 601.05
+    },
+    {
+      "index": 57,
+      "timestamp_s": 81.0,
+      "file": "frame_0058_000121.jpg",
+      "is_scene_cut": false,
+      "phash": "d5084a562a5751c22bd585292f2db5a827e9217b69dc0ec76a333fa9138df88f",
+      "sharpness": 546.883
+    },
+    {
+      "index": 58,
+      "timestamp_s": 83.0,
+      "file": "frame_0059_000123.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562bd7c04c2bff35a129ed052f2db52d492b7f96b172826bcdd4a090bd",
+      "sharpness": 645.874
+    },
+    {
+      "index": 59,
+      "timestamp_s": 84.0,
+      "file": "frame_0060_000124.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a522bd7c04c2bff35a129ed052d2fb52d492b7f96b172826b4fd4a091af",
+      "sharpness": 665.814
+    },
+    {
+      "index": 60,
+      "timestamp_s": 85.0,
+      "file": "frame_0061_000125.jpg",
+      "is_scene_cut": false,
+      "phash": "d4024a522ad5d1962bd5256929adb5ad2f7b25ad3b9dce5240a93b8dd4a28aed",
+      "sharpness": 698.065
+    },
+    {
+      "index": 61,
+      "timestamp_s": 87.0,
+      "file": "frame_0062_000127.jpg",
+      "is_scene_cut": false,
+      "phash": "d4084a562a57d0d02bd5252f2fedb5a92d2f3d682bd98c2f52303bd4d4ab9a35",
+      "sharpness": 630.155
+    },
+    {
+      "index": 62,
+      "timestamp_s": 88.0,
+      "file": "frame_0063_000128.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562a57d4c22bf525292fadb5a9293d2d2f2bd4b83a4e3b3bc5d0a09e2d",
+      "sharpness": 619.615
+    },
+    {
+      "index": 63,
+      "timestamp_s": 90.0,
+      "file": "frame_0064_000130.jpg",
+      "is_scene_cut": false,
+      "phash": "d502da522ad5ced92bd731e72dad35292e6d252b2b970ac64aa033a5d2a99e8d",
+      "sharpness": 757.242
+    },
+    {
+      "index": 64,
+      "timestamp_s": 92.0,
+      "file": "frame_0065_000132.jpg",
+      "is_scene_cut": false,
+      "phash": "d50ada522ad54d912bf735af2f3d046929ed31a30ad6ca4572b21acdc4ac3ba5",
+      "sharpness": 760.118
+    },
+    {
+      "index": 65,
+      "timestamp_s": 93.0,
+      "file": "frame_0066_000133.jpg",
+      "is_scene_cut": false,
+      "phash": "d50ada522ad54d912bf735af2f3d042929ef31a30af6ca4572921adcc4ac3ba5",
+      "sharpness": 748.863
+    },
+    {
+      "index": 66,
+      "timestamp_s": 95.0,
+      "file": "frame_0067_000135.jpg",
+      "is_scene_cut": false,
+      "phash": "d50ada522ad54d912bf735af2f3d046921ed31a30af6ca4572b21accd4ac3ba5",
+      "sharpness": 732.379
+    },
+    {
+      "index": 67,
+      "timestamp_s": 97.0,
+      "file": "frame_0068_000137.jpg",
+      "is_scene_cut": false,
+      "phash": "d5084ad22a554cc82bd5b7293ea6b7293f6d6d3439b62a5f49bc0db7c0b89864",
+      "sharpness": 628.692
+    },
+    {
+      "index": 68,
+      "timestamp_s": 106.0,
+      "file": "frame_0069_000146.jpg",
+      "is_scene_cut": false,
+      "phash": "d52a5a1e2a5707c229d7f0603b8125a128751d396ed7f24193f96fe497b80f5c",
+      "sharpness": 715.734
+    },
+    {
+      "index": 69,
+      "timestamp_s": 107.0,
+      "file": "frame_0070_000147.jpg",
+      "is_scene_cut": false,
+      "phash": "d52a5a1e2a5707c229f7f0603b8125a12874193b6ed7f24193f96fe4d7b00edc",
+      "sharpness": 718.989
+    },
+    {
+      "index": 70,
+      "timestamp_s": 108.0,
+      "file": "frame_0071_000148.jpg",
+      "is_scene_cut": false,
+      "phash": "d52a1a1e2a5707c229bff0603b8125a92875193b6ed3f24193f96fe497b80edc",
+      "sharpness": 720.775
+    },
+    {
+      "index": 71,
+      "timestamp_s": 111.0,
+      "file": "frame_0072_000151.jpg",
+      "is_scene_cut": false,
+      "phash": "d52a5a5e2a5707c229b7f0603b8125a928751d3b6ed2f24193f96fe4d7a00edc",
+      "sharpness": 725.417
+    },
+    {
+      "index": 72,
+      "timestamp_s": 112.0,
+      "file": "frame_0073_000152.jpg",
+      "is_scene_cut": false,
+      "phash": "d50adb562a55c6c22bd736292d293dad2f6d0d692b7b3b1678860e0cd6a8c9a5",
+      "sharpness": 807.309
+    },
+    {
+      "index": 73,
+      "timestamp_s": 115.0,
+      "file": "frame_0074_000155.jpg",
+      "is_scene_cut": false,
+      "phash": "d50adb542a55c2c22bd736292d293d2d2f6d8d692f693b3678860e58d6a8c9a7",
+      "sharpness": 790.483
+    },
+    {
+      "index": 74,
+      "timestamp_s": 116.0,
+      "file": "frame_0075_000156.jpg",
+      "is_scene_cut": false,
+      "phash": "d50adb562a55c6c22bd737292d293dad2f6d0d692b793a1678860e1cd6a8c9a5",
+      "sharpness": 788.752
+    },
+    {
+      "index": 75,
+      "timestamp_s": 117.0,
+      "file": "frame_0076_000157.jpg",
+      "is_scene_cut": false,
+      "phash": "d408dad02b5743762af73c392df935a92f27252b29ce3add4ab14689d0a8b8ad",
+      "sharpness": 721.825
+    },
+    {
+      "index": 76,
+      "timestamp_s": 119.0,
+      "file": "frame_0077_000159.jpg",
+      "is_scene_cut": false,
+      "phash": "d408dad02b5743762bf734392df935a92f2f252b29ca3add4ab14681d0a9b8ad",
+      "sharpness": 745.463
+    },
+    {
+      "index": 77,
+      "timestamp_s": 120.0,
+      "file": "frame_0078_000200.jpg",
+      "is_scene_cut": false,
+      "phash": "d42272d22bd7c2742f7d8d2c2d3d2529256f181f391b025d6a95fda2d1bb9981",
+      "sharpness": 737.19
+    },
+    {
+      "index": 78,
+      "timestamp_s": 123.0,
+      "file": "frame_0079_000203.jpg",
+      "is_scene_cut": false,
+      "phash": "d408cad22a57585d2add25aa2fa195a928af246e2fc93bb35ab26ecdc6a91aa5",
+      "sharpness": 690.306
+    },
+    {
+      "index": 79,
+      "timestamp_s": 124.0,
+      "file": "frame_0080_000204.jpg",
+      "is_scene_cut": false,
+      "phash": "d408cad22a5658362b5d25eb2fedb5a92db9342768ce6a4a5aa91bb7d0a02ead",
+      "sharpness": 689.428
+    },
+    {
+      "index": 80,
+      "timestamp_s": 125.0,
+      "file": "frame_0081_000205.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562ad7d2522bd535a92dadb5292de92d6d2caf2b5b4af818add4a41aa5",
+      "sharpness": 669.454
+    },
+    {
+      "index": 81,
+      "timestamp_s": 127.0,
+      "file": "frame_0082_000207.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562ad7d2502bd5b5a92fadb5292ded256b2a792a4b7ab21a8dd0a83ea5",
+      "sharpness": 552.506
+    },
+    {
+      "index": 82,
+      "timestamp_s": 128.0,
+      "file": "frame_0083_000208.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562ad7d2502bd5b5a92fadb5292ded256b2b792a4b7ab21a8dd0a13aa5",
+      "sharpness": 550.004
+    },
+    {
+      "index": 83,
+      "timestamp_s": 130.0,
+      "file": "frame_0084_000210.jpg",
+      "is_scene_cut": true,
+      "phash": "ad5aa55aa5520152da955ab55ab55ab5fa851529e50a252bf5ab56a95aa55aa5",
+      "sharpness": 286.141
+    },
+    {
+      "index": 84,
+      "timestamp_s": 131.0,
+      "file": "frame_0085_000211.jpg",
+      "is_scene_cut": false,
+      "phash": "ad5aa552a55205509a951eb55ab55ab5fa856123e50a256afdab1eab5aa55aa5",
+      "sharpness": 287.141
+    },
+    {
+      "index": 85,
+      "timestamp_s": 134.0,
+      "file": "frame_0086_000214.jpg",
+      "is_scene_cut": true,
+      "phash": "c00056d256ded152793fa9252bbda9a52fedad693d6b25087dbb00a02bada9a5",
+      "sharpness": 391.017
+    },
+    {
+      "index": 86,
+      "timestamp_s": 136.0,
+      "file": "frame_0087_000216.jpg",
+      "is_scene_cut": false,
+      "phash": "c00058525ad6d2c467dfa7852fbfada12dedb8ed3def21286d3b2c212cad2c21",
+      "sharpness": 548.532
+    },
+    {
+      "index": 87,
+      "timestamp_s": 137.0,
+      "file": "frame_0088_000217.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052de52ded4127ef7ac212fadad242defa58b27ef006a2fff0c292db1a4a1",
+      "sharpness": 506.195
+    },
+    {
+      "index": 88,
+      "timestamp_s": 139.0,
+      "file": "frame_0089_000219.jpg",
+      "is_scene_cut": false,
+      "phash": "c00056d256d6d152793fa9252bbda9a52fadad293d6ba5086bbf20a12bbda9a1",
+      "sharpness": 388.867
+    },
+    {
+      "index": 89,
+      "timestamp_s": 140.0,
+      "file": "frame_0090_000220.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005a5257d6942635bea8952b9fa89d2dada5ad2d6f27626b6f23292bada869",
+      "sharpness": 439.974
+    },
+    {
+      "index": 90,
+      "timestamp_s": 141.0,
+      "file": "frame_0091_000221.jpg",
+      "is_scene_cut": false,
+      "phash": "c00056d256ded152793fa9252bbda9a52fedad293d6b25086bbf20a12bada9a1",
+      "sharpness": 394.41
+    },
+    {
+      "index": 91,
+      "timestamp_s": 144.0,
+      "file": "frame_0092_000224.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76527627bfac8d2fadada52dafa5892dbb0d897d8989892dada5a9",
+      "sharpness": 318.347
+    },
+    {
+      "index": 92,
+      "timestamp_s": 145.0,
+      "file": "frame_0093_000225.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525a76527637bfacad2fadada52dada5892dbb0d886dc989892dada5a9",
+      "sharpness": 316.788
+    },
+    {
+      "index": 93,
+      "timestamp_s": 147.0,
+      "file": "frame_0094_000227.jpg",
+      "is_scene_cut": true,
+      "phash": "8552cb725f5e96974b24b4831cb569ed349d712061a835d82de93cf5673978a1",
+      "sharpness": 1614.711
+    },
+    {
+      "index": 94,
+      "timestamp_s": 148.0,
+      "file": "frame_0095_000228.jpg",
+      "is_scene_cut": false,
+      "phash": "ac4669385f5894c66399b6c31eb64989b6575d6a2da9b65349aa38a7671958a6",
+      "sharpness": 2017.018
+    },
+    {
+      "index": 95,
+      "timestamp_s": 149.0,
+      "file": "frame_0096_000229.jpg",
+      "is_scene_cut": false,
+      "phash": "ac466b385f5b94466399b6871eb64989b2535d643dadb650494a18b7671d98a7",
+      "sharpness": 1847.812
+    },
+    {
+      "index": 96,
+      "timestamp_s": 151.0,
+      "file": "frame_0097_000231.jpg",
+      "is_scene_cut": false,
+      "phash": "ac466b3819cf94466318b6971ef74bc9b21345046dadb65f59eac8b4e71118a7",
+      "sharpness": 1844.851
+    },
+    {
+      "index": 97,
+      "timestamp_s": 152.0,
+      "file": "frame_0098_000232.jpg",
+      "is_scene_cut": false,
+      "phash": "ac466b3819cf94466318b6971ef74bc9b21345006dafb65f59ead8a4e71118a7",
+      "sharpness": 1863.83
+    },
+    {
+      "index": 98,
+      "timestamp_s": 154.0,
+      "file": "frame_0099_000234.jpg",
+      "is_scene_cut": false,
+      "phash": "c000525252de52d82cb7a18c2e6ba52d2dbfad2333ce866379be2c232fafa9ad",
+      "sharpness": 1907.261
+    },
+    {
+      "index": 99,
+      "timestamp_s": 155.0,
+      "file": "frame_0100_000235.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052725ade52da6cb7a18c2e69a12d2da7ad333bce866379bcad2128ffad2c",
+      "sharpness": 1628.199
+    },
+    {
+      "index": 100,
+      "timestamp_s": 157.0,
+      "file": "frame_0101_000237.jpg",
+      "is_scene_cut": false,
+      "phash": "d000525252de52527bbfac252dada52d2d2fa5293f6b3d48667b31a82eaba1ad",
+      "sharpness": 1357.384
+    },
+    {
+      "index": 101,
+      "timestamp_s": 160.0,
+      "file": "frame_0102_000240.jpg",
+      "is_scene_cut": false,
+      "phash": "afeaad50a5552550d29552a6daa55aafd2a515abb54ab56af02852a9d2ad52b5",
+      "sharpness": 345.839
+    },
+    {
+      "index": 102,
+      "timestamp_s": 161.0,
+      "file": "frame_0103_000241.jpg",
+      "is_scene_cut": false,
+      "phash": "a3faa570ad543d573e071e075e871e8fc1a9c1e0e1f0b1f8f0c842a1ce255e8f",
+      "sharpness": 932.625
+    },
+    {
+      "index": 103,
+      "timestamp_s": 163.0,
+      "file": "frame_0104_000243.jpg",
+      "is_scene_cut": false,
+      "phash": "c3f3a170347c8d43cf873e1e3e1ece83c181307ce1f0c1e1b2d9323ccd27ce87",
+      "sharpness": 861.565
+    },
+    {
+      "index": 104,
+      "timestamp_s": 164.0,
+      "file": "frame_0105_000244.jpg",
+      "is_scene_cut": false,
+      "phash": "c3f3a178347c8d43cf873e1e3e1ece83c381307ce1f0c1e1b2d8322ccd27ce87",
+      "sharpness": 861.362
+    },
+    {
+      "index": 105,
+      "timestamp_s": 165.0,
+      "file": "frame_0106_000245.jpg",
+      "is_scene_cut": false,
+      "phash": "c3f2a570347c8d43cf873e1f3e1ece83c1813078e1f0c1e3f2c8322ccea7ce87",
+      "sharpness": 861.991
+    },
+    {
+      "index": 106,
+      "timestamp_s": 168.0,
+      "file": "frame_0107_000248.jpg",
+      "is_scene_cut": true,
+      "phash": "8f738d72a75831ce6696529dd9a4db2678a72da734e92709921906a870b65cb7",
+      "sharpness": 936.303
+    },
+    {
+      "index": 107,
+      "timestamp_s": 169.0,
+      "file": "frame_0108_000249.jpg",
+      "is_scene_cut": false,
+      "phash": "cf3e395331c9ce72f21c39c1ce364e36398725afce37033938e3860e38a34639",
+      "sharpness": 771.396
+    },
+    {
+      "index": 108,
+      "timestamp_s": 171.0,
+      "file": "frame_0109_000251.jpg",
+      "is_scene_cut": false,
+      "phash": "cf3acf72b9c6311831c139cc718cc63dc6630ce6c63f863b1df339a753180e31",
+      "sharpness": 782.123
+    },
+    {
+      "index": 109,
+      "timestamp_s": 172.0,
+      "file": "frame_0110_000252.jpg",
+      "is_scene_cut": false,
+      "phash": "cf3bc772b8c0311831c139c4739cc61de6678c74c63f867339c339a65c390ee3",
+      "sharpness": 799.892
+    },
+    {
+      "index": 110,
+      "timestamp_s": 173.0,
+      "file": "frame_0111_000253.jpg",
+      "is_scene_cut": false,
+      "phash": "cf3b271aad4139c678d054e7c63cce31d38e8e6331ce2d9939b826b94c730ab1",
+      "sharpness": 701.158
+    },
+    {
+      "index": 111,
+      "timestamp_s": 175.0,
+      "file": "frame_0112_000255.jpg",
+      "is_scene_cut": false,
+      "phash": "9f778d472552754e6618528cccb5d821dcb326b735c724b99349062d738e4cb7",
+      "sharpness": 990.378
+    },
+    {
+      "index": 112,
+      "timestamp_s": 176.0,
+      "file": "frame_0113_000256.jpg",
+      "is_scene_cut": false,
+      "phash": "8f33b9c3e71830ce761cd29cd8e5cf3c38e3871631c3273997490e6d718608b7",
+      "sharpness": 1032.387
+    },
+    {
+      "index": 113,
+      "timestamp_s": 178.0,
+      "file": "frame_0114_000258.jpg",
+      "is_scene_cut": false,
+      "phash": "8b679d42a75735c4729c5218dcb4de367cb229a331f325999649226d73a618b7",
+      "sharpness": 877.089
+    },
+    {
+      "index": 114,
+      "timestamp_s": 179.0,
+      "file": "frame_0115_000259.jpg",
+      "is_scene_cut": false,
+      "phash": "df639d40a75f21de639e5299ccb4ce277ce22da33d2827899649226470a678a7",
+      "sharpness": 1038.87
+    },
+    {
+      "index": 115,
+      "timestamp_s": 180.0,
+      "file": "frame_0116_000300.jpg",
+      "is_scene_cut": true,
+      "phash": "c3c287d23c3c3c3dd2957c3d3c3d72bd3c2d3c2d2dca850b3c2952a9c2877aa4",
+      "sharpness": 539.149
+    },
+    {
+      "index": 116,
+      "timestamp_s": 182.0,
+      "file": "frame_0117_000302.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c283d23d3c3c3cc8d73c3d3c3d78b53c2d3c2d2dcb85cb3c2852a2d6a37231",
+      "sharpness": 469.091
+    },
+    {
+      "index": 117,
+      "timestamp_s": 183.0,
+      "file": "frame_0118_000303.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c287d23c3c3c3c48953c3d3c3d72b53c3d3c2d2deb876b3c29d2a9d6807aa0",
+      "sharpness": 464.616
+    },
+    {
+      "index": 118,
+      "timestamp_s": 185.0,
+      "file": "frame_0119_000305.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c287d23c3c3c3cc2973c3d3c3d72b53c2d3c2d2deb856b3c29d2a1d6807aa4",
+      "sharpness": 484.215
+    },
+    {
+      "index": 119,
+      "timestamp_s": 186.0,
+      "file": "frame_0120_000306.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3c42973c3d3c3d70b57c2d3c2d2deb85eb3c2952a1d6817aa4",
+      "sharpness": 492.99
+    },
+    {
+      "index": 120,
+      "timestamp_s": 187.0,
+      "file": "frame_0121_000307.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d27d3c3c3c7c37783d3c3d78ad7c2d3c2d3308a76a2c2b0ea9d68452a4",
+      "sharpness": 472.407
+    },
+    {
+      "index": 121,
+      "timestamp_s": 189.0,
+      "file": "frame_0122_000309.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d27d3c3c3c7c3d703d3c3d78ad7cad3c29333aa76a2ca906a9938252a4",
+      "sharpness": 481.968
+    },
+    {
+      "index": 122,
+      "timestamp_s": 190.0,
+      "file": "frame_0123_000310.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d27d3c3c3c7c1d343d3c3d78ad2cad3c29332aa56a2cec06a1979552f4",
+      "sharpness": 465.516
+    },
+    {
+      "index": 123,
+      "timestamp_s": 192.0,
+      "file": "frame_0124_000312.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d27d3c3c3c7c1d743d3c3d78ad2cad3c29233ba72a2ca906a1979452f4",
+      "sharpness": 465.694
+    },
+    {
+      "index": 124,
+      "timestamp_s": 193.0,
+      "file": "frame_0125_000313.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283c27d3c3c3d7c1d703d3c3d78ad2cad3c28233aa56a2cad06a5d79552b4",
+      "sharpness": 465.878
+    },
+    {
+      "index": 125,
+      "timestamp_s": 194.0,
+      "file": "frame_0126_000314.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d27d3c3c3c78bd783d383d78ad7cad3c293333a56a2cad06a1938452b4",
+      "sharpness": 466.613
+    },
+    {
+      "index": 126,
+      "timestamp_s": 196.0,
+      "file": "frame_0127_000316.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23d3c2c3d7cbd7c3d7c3d78ad2cad3c39333aa54a2ca906a992855aa0",
+      "sharpness": 517.931
+    },
+    {
+      "index": 127,
+      "timestamp_s": 197.0,
+      "file": "frame_0128_000317.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23d3c2c3d7cbd7c3d3c3d78ad2cad3c29333b854a2cad06a1d6855aa0",
+      "sharpness": 524.908
+    },
+    {
+      "index": 128,
+      "timestamp_s": 199.0,
+      "file": "frame_0129_000319.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d287d23d3c2c3d68bd7c3d3c3d78ad2cad3c39333aa54a6ca916a9928552a4",
+      "sharpness": 520.824
+    },
+    {
+      "index": 129,
+      "timestamp_s": 200.0,
+      "file": "frame_0130_000320.jpg",
+      "is_scene_cut": true,
+      "phash": "c00052525a76527637bfadad2fadada52dada5892dba8d886d8989892dada5a9",
+      "sharpness": 326.725
+    },
+    {
+      "index": 130,
+      "timestamp_s": 201.0,
+      "file": "frame_0131_000321.jpg",
+      "is_scene_cut": false,
+      "phash": "9010565246d270d43327a7273dbdac3d2ceda5c867eb19c9399b8d892cadacad",
+      "sharpness": 273.971
+    },
+    {
+      "index": 131,
+      "timestamp_s": 203.0,
+      "file": "frame_0132_000323.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052525ed25e922f37a38d2badad252cffacc92dfb15881d998d892dada5ad",
+      "sharpness": 427.419
+    },
+    {
+      "index": 132,
+      "timestamp_s": 204.0,
+      "file": "frame_0133_000324.jpg",
+      "is_scene_cut": false,
+      "phash": "d00058d6729652b631eca3612d69ad692d6b8cc92dfb2d8a6d9e25ac2dada5ad",
+      "sharpness": 373.291
+    },
+    {
+      "index": 133,
+      "timestamp_s": 206.0,
+      "file": "frame_0134_000326.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d252d2726639efad252fadad2d2f2d8d2c1dae8d0c4dae8d8d2dadad8d",
+      "sharpness": 306.406
+    },
+    {
+      "index": 134,
+      "timestamp_s": 207.0,
+      "file": "frame_0135_000327.jpg",
+      "is_scene_cut": false,
+      "phash": "d00052525a5672926eeead252dadadad2dadad293dcb8d882d9b89892dadad8d",
+      "sharpness": 402.602
+    },
+    {
+      "index": 135,
+      "timestamp_s": 208.0,
+      "file": "frame_0136_000328.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ad65a502fbf25a52dafad2d2d2dad293dab25822fef8c292f2da9a5",
+      "sharpness": 382.506
+    },
+    {
+      "index": 136,
+      "timestamp_s": 210.0,
+      "file": "frame_0137_000330.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ad25a5027bf25a52dafad2d2f2dad292dff258327ef8c290f2dada1",
+      "sharpness": 387.138
+    },
+    {
+      "index": 137,
+      "timestamp_s": 211.0,
+      "file": "frame_0138_000331.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ad25a503bbf25852dafad2d2f2dad292def24832fef88292f2dada5",
+      "sharpness": 389.533
+    },
+    {
+      "index": 138,
+      "timestamp_s": 213.0,
+      "file": "frame_0139_000333.jpg",
+      "is_scene_cut": false,
+      "phash": "81fc52d25e125a727e21ad2d3da9a5ad3d83a5697f089f687f018da17d81258d",
+      "sharpness": 542.633
+    },
+    {
+      "index": 139,
+      "timestamp_s": 214.0,
+      "file": "frame_0140_000334.jpg",
+      "is_scene_cut": false,
+      "phash": "80fc56d250d252f63e08af2d61a1a1af3d03ad697e099e697b29a1f53f812d8d",
+      "sharpness": 569.622
+    },
+    {
+      "index": 140,
+      "timestamp_s": 215.0,
+      "file": "frame_0141_000335.jpg",
+      "is_scene_cut": true,
+      "phash": "efc2a170347c8d47cf873e1f3e1ece83c1893078e1f0c1e1b0c8322ccfa7ce87",
+      "sharpness": 974.406
+    },
+    {
+      "index": 141,
+      "timestamp_s": 217.0,
+      "file": "frame_0142_000337.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c3f842345c8dd3c9c3723c7a3ccf83cb81307ca510cdc3b7cd363ccca5caa3",
+      "sharpness": 1170.244
+    },
+    {
+      "index": 142,
+      "timestamp_s": 218.0,
+      "file": "frame_0143_000338.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c3b942345c85d3c9c3723c7a3ccf83cfc5347ca514cdc3b3cd303cc8a5caa3",
+      "sharpness": 961.969
+    },
+    {
+      "index": 143,
+      "timestamp_s": 220.0,
+      "file": "frame_0144_000340.jpg",
+      "is_scene_cut": false,
+      "phash": "cbc3b942345c85d3c9c3723c7a3ccfa3cf81307ce43acd83b7cb323cc8a5ca81",
+      "sharpness": 890.004
+    },
+    {
+      "index": 144,
+      "timestamp_s": 221.0,
+      "file": "frame_0145_000341.jpg",
+      "is_scene_cut": true,
+      "phash": "c00052925a5e524c3b6dad2d2dbf2da32dafa16d3f6f254969bf262129adac25",
+      "sharpness": 1023.338
+    },
+    {
+      "index": 145,
+      "timestamp_s": 222.0,
+      "file": "frame_0146_000342.jpg",
+      "is_scene_cut": false,
+      "phash": "c00058925ed253cc1a6db26d2b2dac612daf259c6cfb398c3faeac2339bda5a5",
+      "sharpness": 1632.786
+    },
+    {
+      "index": 146,
+      "timestamp_s": 225.0,
+      "file": "frame_0147_000345.jpg",
+      "is_scene_cut": false,
+      "phash": "8fdb2142ad508516f30456f4cb2d56b572854d69b4b7292bb4a849a9daa776ad",
+      "sharpness": 1075.463
+    },
+    {
+      "index": 147,
+      "timestamp_s": 226.0,
+      "file": "frame_0148_000346.jpg",
+      "is_scene_cut": false,
+      "phash": "8ffba15a214c3450d4944bbdcab556b4f297396be90884f3a9294b2bf2a476a5",
+      "sharpness": 922.885
+    },
+    {
+      "index": 148,
+      "timestamp_s": 228.0,
+      "file": "frame_0149_000348.jpg",
+      "is_scene_cut": false,
+      "phash": "cfebad5aad523956f2155294d2955385f2a91cabb82a8c2be42a12a3faa556a5",
+      "sharpness": 1360.324
+    },
+    {
+      "index": 149,
+      "timestamp_s": 229.0,
+      "file": "frame_0150_000349.jpg",
+      "is_scene_cut": false,
+      "phash": "cfebad5aa5523154f05552955a9558a5faa81cabe72b342ab82a4388fab552b5",
+      "sharpness": 1337.932
+    },
+    {
+      "index": 150,
+      "timestamp_s": 230.0,
+      "file": "frame_0151_000350.jpg",
+      "is_scene_cut": false,
+      "phash": "cfefad5abd503551f85552f5d2b552a4f0881caae72a1d6aec0a46a8daa54295",
+      "sharpness": 1280.86
+    },
+    {
+      "index": 151,
+      "timestamp_s": 232.0,
+      "file": "frame_0152_000352.jpg",
+      "is_scene_cut": false,
+      "phash": "8ffa214aac548513734556d5cb2556b5738d8e28b5ab296aa4a8492b76c55eed",
+      "sharpness": 1105.868
+    },
+    {
+      "index": 152,
+      "timestamp_s": 233.0,
+      "file": "frame_0153_000353.jpg",
+      "is_scene_cut": false,
+      "phash": "8ffba15a214c3450d4944bbfcaa556b4f296396be9488473a9114927f2b576b5",
+      "sharpness": 916.366
+    },
+    {
+      "index": 153,
+      "timestamp_s": 235.0,
+      "file": "frame_0154_000355.jpg",
+      "is_scene_cut": false,
+      "phash": "8ffba15a21483458dc944bbfcab556b4f295396be90d84f7a911492bd2a476a4",
+      "sharpness": 930.443
+    },
+    {
+      "index": 154,
+      "timestamp_s": 236.0,
+      "file": "frame_0155_000356.jpg",
+      "is_scene_cut": false,
+      "phash": "8efba15a214c3450d4d44b95ca3556b4f297396be90884e2e9ab4b2bd2b476f5",
+      "sharpness": 920.548
+    },
+    {
+      "index": 155,
+      "timestamp_s": 237.0,
+      "file": "frame_0156_000357.jpg",
+      "is_scene_cut": false,
+      "phash": "8ffba15a21483450dcd44b95cab556b4f297396be90884f3d929492bd2b476f4",
+      "sharpness": 919.698
+    },
+    {
+      "index": 156,
+      "timestamp_s": 239.0,
+      "file": "frame_0157_000359.jpg",
+      "is_scene_cut": false,
+      "phash": "8fdba152214c3450d4b44bafcaa556b4f296796be9488477ad154907f29536f5",
+      "sharpness": 918.805
+    },
+    {
+      "index": 157,
+      "timestamp_s": 240.0,
+      "file": "frame_0158_000400.jpg",
+      "is_scene_cut": false,
+      "phash": "8fdba15229443450dcb44bafcaab56b4f286796be9488476ad154923f2b576a5",
+      "sharpness": 920.799
+    },
+    {
+      "index": 158,
+      "timestamp_s": 242.0,
+      "file": "frame_0159_000402.jpg",
+      "is_scene_cut": false,
+      "phash": "8ffba15b214c3450dcd44b97ca3756b4f296396be90884e3a929492bd2b476f4",
+      "sharpness": 917.566
+    },
+    {
+      "index": 159,
+      "timestamp_s": 243.0,
+      "file": "frame_0160_000403.jpg",
+      "is_scene_cut": false,
+      "phash": "fe02b54a216c045c94f64b95cab556b4b297796be90884e381bf4babd2b476a5",
+      "sharpness": 1110.107
+    },
+    {
+      "index": 160,
+      "timestamp_s": 244.0,
+      "file": "frame_0161_000404.jpg",
+      "is_scene_cut": false,
+      "phash": "fe43b552214c045c94f64b97cab756b4b297396be90884e381bf4b2bd2b476a4",
+      "sharpness": 1116.955
+    },
+    {
+      "index": 161,
+      "timestamp_s": 246.0,
+      "file": "frame_0162_000406.jpg",
+      "is_scene_cut": false,
+      "phash": "fe42a152294c045c90f643bfcab71eb4b297796be15884f38f1d4b2bd2b472a4",
+      "sharpness": 1187.298
+    },
+    {
+      "index": 162,
+      "timestamp_s": 247.0,
+      "file": "frame_0163_000407.jpg",
+      "is_scene_cut": false,
+      "phash": "fe43a152214d045c94f64bb7cab756b4b297796be90884e381bd4b2bd2b476a4",
+      "sharpness": 1100.49
+    },
+    {
+      "index": 163,
+      "timestamp_s": 248.0,
+      "file": "frame_0164_000408.jpg",
+      "is_scene_cut": false,
+      "phash": "8efba15a294c3450d4d44b95ca3556b4f296396be90884e2e9aa4b2bd2b576f5",
+      "sharpness": 917.172
+    },
+    {
+      "index": 164,
+      "timestamp_s": 250.0,
+      "file": "frame_0165_000410.jpg",
+      "is_scene_cut": false,
+      "phash": "8efba15a214c3450d4d44b95ca3556b4f296796be90884e2e9294b2bf2b576f5",
+      "sharpness": 917.328
+    },
+    {
+      "index": 165,
+      "timestamp_s": 251.0,
+      "file": "frame_0166_000411.jpg",
+      "is_scene_cut": false,
+      "phash": "fd42ad52215e215c76d55295d2955aa5c9ad89aba12a9ceae0ab76a962a556b5",
+      "sharpness": 588.634
+    },
+    {
+      "index": 166,
+      "timestamp_s": 253.0,
+      "file": "frame_0167_000413.jpg",
+      "is_scene_cut": false,
+      "phash": "8ffba15a214834509cd44b95ca3556b5f297796be90884e2d9aa492bd2b476f5",
+      "sharpness": 902.652
+    },
+    {
+      "index": 167,
+      "timestamp_s": 254.0,
+      "file": "frame_0168_000414.jpg",
+      "is_scene_cut": false,
+      "phash": "8efba15a294c3450d4d44b95cb3556b4f296396ae90886f2a9154b27f29576f5",
+      "sharpness": 914.749
+    },
+    {
+      "index": 168,
+      "timestamp_s": 255.0,
+      "file": "frame_0169_000415.jpg",
+      "is_scene_cut": false,
+      "phash": "8d5aa552b5520557eb7546bd6bad59adee2b11aaa24a91aa929a9291d2955ab5",
+      "sharpness": 723.832
+    },
+    {
+      "index": 169,
+      "timestamp_s": 257.0,
+      "file": "frame_0170_000417.jpg",
+      "is_scene_cut": false,
+      "phash": "9c5aa55ab55a0552eb754e756bad59a5ea6511a9a24b90aad2aa929bd2955aa5",
+      "sharpness": 785.707
+    },
+    {
+      "index": 170,
+      "timestamp_s": 260.0,
+      "file": "frame_0171_000420.jpg",
+      "is_scene_cut": false,
+      "phash": "bd48ad5aad500556dadd52b54ab452b5ea449da9ec2a95aaaa2b1aa9d2ad5aa5",
+      "sharpness": 389.739
+    },
+    {
+      "index": 171,
+      "timestamp_s": 262.0,
+      "file": "frame_0172_000422.jpg",
+      "is_scene_cut": false,
+      "phash": "9dcaad5aa7582754d8d75c976234723cc8c79d8b662a3728888b9c8b72ad7235",
+      "sharpness": 436.539
+    },
+    {
+      "index": 172,
+      "timestamp_s": 263.0,
+      "file": "frame_0173_000423.jpg",
+      "is_scene_cut": false,
+      "phash": "bd4aad5aad500556dadd52b54a9452b5ea459da9ec2a95aae22b10a9d2ad5ab5",
+      "sharpness": 387.718
+    },
+    {
+      "index": 173,
+      "timestamp_s": 264.0,
+      "file": "frame_0174_000424.jpg",
+      "is_scene_cut": false,
+      "phash": "bd48ad42ad5a055eda5d56b54a9452bdea6d95abe82291aae02b50a9d2ad5ab5",
+      "sharpness": 434.337
+    },
+    {
+      "index": 174,
+      "timestamp_s": 266.0,
+      "file": "frame_0175_000426.jpg",
+      "is_scene_cut": false,
+      "phash": "b554a54a4adb055fb55414b4f6a15aa94ad7b534b52ac92bea8b5a885aa9b5a5",
+      "sharpness": 514.798
+    },
+    {
+      "index": 175,
+      "timestamp_s": 267.0,
+      "file": "frame_0176_000427.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4a6b0556b55414bdb5355aa94acbb534b5348d2ab52b5aa95aa9b5a5",
+      "sharpness": 520.116
+    },
+    {
+      "index": 176,
+      "timestamp_s": 269.0,
+      "file": "frame_0177_000429.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4adb255eb55456b4b5255aa94acba534b52b9d2bb52c5a894a9b34a5",
+      "sharpness": 518.057
+    },
+    {
+      "index": 177,
+      "timestamp_s": 270.0,
+      "file": "frame_0178_000430.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4adb255eb55456b4b5255aa94acbb534b52b9d2bb52c5a894a91b4a5",
+      "sharpness": 513.917
+    },
+    {
+      "index": 178,
+      "timestamp_s": 271.0,
+      "file": "frame_0179_000431.jpg",
+      "is_scene_cut": false,
+      "phash": "b574a94a4acb255eb5545695b5354aa94acba536b52b8d2aa52c4ad95a9735a5",
+      "sharpness": 545.731
+    },
+    {
+      "index": 179,
+      "timestamp_s": 273.0,
+      "file": "frame_0180_000433.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4adba55eb55456b4b5255aa94acba534a5238d2bb52c5aa95a9b34a5",
+      "sharpness": 514.449
+    },
+    {
+      "index": 180,
+      "timestamp_s": 274.0,
+      "file": "frame_0181_000434.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4adba55eb55456b4b5355aa94acba534a52b8d2bb52c5a894a9b34a5",
+      "sharpness": 514.176
+    },
+    {
+      "index": 181,
+      "timestamp_s": 276.0,
+      "file": "frame_0182_000436.jpg",
+      "is_scene_cut": false,
+      "phash": "a5742d5a4acb8556b53452b5b5b45aad5acba534a52a9d2ab5ab4ab94a9934a5",
+      "sharpness": 762.619
+    },
+    {
+      "index": 182,
+      "timestamp_s": 277.0,
+      "file": "frame_0183_000437.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad5a4acba556b53456b5b5a55aad4a8bb536a5238d2aa52a4a895a9b35a5",
+      "sharpness": 790.44
+    },
+    {
+      "index": 183,
+      "timestamp_s": 278.0,
+      "file": "frame_0184_000438.jpg",
+      "is_scene_cut": false,
+      "phash": "b574ad5a4acb2556b53456b5b5a45aa94acb8576b5099d29b52b5a895a9934a5",
+      "sharpness": 859.328
+    },
+    {
+      "index": 184,
+      "timestamp_s": 280.0,
+      "file": "frame_0185_000440.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad5a4acba556b53456b4b5a45aa94acbb554a50b852ab5a95aa95a9b95a5",
+      "sharpness": 1024.825
+    },
+    {
+      "index": 185,
+      "timestamp_s": 285.0,
+      "file": "frame_0186_000445.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad5a4adba556b53456b4b5a45aa94acbb554a5098529b5a95aa95a9b95a5",
+      "sharpness": 1009.34
+    },
+    {
+      "index": 186,
+      "timestamp_s": 287.0,
+      "file": "frame_0187_000447.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad5a4acb2556b53456b5b5a55aa94acba576a5099d2ab52a5a995a9934a5",
+      "sharpness": 838.862
+    },
+    {
+      "index": 187,
+      "timestamp_s": 288.0,
+      "file": "frame_0188_000448.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad5a4acb2556b5345695b5855aad4a8ba566a5aa9d2ab52a5a995a9535a5",
+      "sharpness": 834.571
+    },
+    {
+      "index": 188,
+      "timestamp_s": 289.0,
+      "file": "frame_0189_000449.jpg",
+      "is_scene_cut": false,
+      "phash": "b574ad5a4acb2556b53456b5b5a45aa94acba574b5019d29b52d5a995a9934a5",
+      "sharpness": 833.016
+    },
+    {
+      "index": 189,
+      "timestamp_s": 291.0,
+      "file": "frame_0190_000451.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad4a4acb8552b53456d5b5a55aa94acba564a52ab528b52b5ab95ad535a5",
+      "sharpness": 1005.427
+    },
+    {
+      "index": 190,
+      "timestamp_s": 292.0,
+      "file": "frame_0191_000452.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad5a4acb2556b55456d5b5b55aa94a8ba52ca58aa52ab52b5ab94a9535a5",
+      "sharpness": 1046.312
+    },
+    {
+      "index": 191,
+      "timestamp_s": 294.0,
+      "file": "frame_0192_000454.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad524acb255eb53456b6b5a45aa94a8bb554a509a569b5295ab95a9b35a5",
+      "sharpness": 1056.822
+    },
+    {
+      "index": 192,
+      "timestamp_s": 295.0,
+      "file": "frame_0193_000455.jpg",
+      "is_scene_cut": false,
+      "phash": "b574a94a4acba556b55456d5b5355aa94acba536a52a8d2ab52a4a895ad535b5",
+      "sharpness": 517.333
+    },
+    {
+      "index": 193,
+      "timestamp_s": 296.0,
+      "file": "frame_0194_000456.jpg",
+      "is_scene_cut": false,
+      "phash": "b574ad4a4acba55eb57456b4b5245aa94acba574a5218d29b5ad5a895a9b35a1",
+      "sharpness": 503.74
+    },
+    {
+      "index": 194,
+      "timestamp_s": 298.0,
+      "file": "frame_0195_000458.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4adba55eb57456b4b5245aa94acba574b5218d29b5ad5a894a9b34a5",
+      "sharpness": 507.201
+    },
+    {
+      "index": 195,
+      "timestamp_s": 299.0,
+      "file": "frame_0196_000459.jpg",
+      "is_scene_cut": false,
+      "phash": "b5542d4a4adba55eb53456b4b5a45aa94acba574b5459d29b52d5a894a9b34a9",
+      "sharpness": 499.237
+    },
+    {
+      "index": 196,
+      "timestamp_s": 301.0,
+      "file": "frame_0197_000501.jpg",
+      "is_scene_cut": false,
+      "phash": "b574ad4a4adba55eb57456b4b5245aa94ac9a574a5058d29b52d5acb5a9b35a0",
+      "sharpness": 507.892
+    },
+    {
+      "index": 197,
+      "timestamp_s": 302.0,
+      "file": "frame_0198_000502.jpg",
+      "is_scene_cut": false,
+      "phash": "b574ad4a4adba55eb57456b6b5245aa94ac9a574a5258d29b52d5ac95a9a35a0",
+      "sharpness": 508.445
+    },
+    {
+      "index": 198,
+      "timestamp_s": 303.0,
+      "file": "frame_0199_000503.jpg",
+      "is_scene_cut": false,
+      "phash": "b574ad4a4adba55eb53456beb5a45aa94acba574a5458d29b52d4ac94a9b34a0",
+      "sharpness": 506.348
+    },
+    {
+      "index": 199,
+      "timestamp_s": 305.0,
+      "file": "frame_0200_000505.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4adba556b53452b4b5a55aa94acba574b503952bb52d5aa94a9b34a5",
+      "sharpness": 510.056
+    },
+    {
+      "index": 200,
+      "timestamp_s": 306.0,
+      "file": "frame_0201_000506.jpg",
+      "is_scene_cut": true,
+      "phash": "c00056d256d6d152793fa9252bbda9a52fedad293d6b25086fbf20a02bbda9a1",
+      "sharpness": 387.326
+    },
+    {
+      "index": 201,
+      "timestamp_s": 309.0,
+      "file": "frame_0202_000509.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562ad7d2502bd5b5aa2dadb5292def256b2a592a576ab60ad5d0a13ea5",
+      "sharpness": 536.383
+    },
+    {
+      "index": 202,
+      "timestamp_s": 310.0,
+      "file": "frame_0203_000510.jpg",
+      "is_scene_cut": false,
+      "phash": "d40a4a562ad752502bd535ab2dedb5292ded256b2afd2a5f6ab60a85d0a116ad",
+      "sharpness": 533.44
+    },
+    {
+      "index": 203,
+      "timestamp_s": 311.0,
+      "file": "frame_0204_000511.jpg",
+      "is_scene_cut": true,
+      "phash": "b574ad4a4acba556b57452b6b5b55aa94acbb574a523852bb5ad4a814a9334a5",
+      "sharpness": 420.224
+    },
+    {
+      "index": 204,
+      "timestamp_s": 313.0,
+      "file": "frame_0205_000513.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad5a4acba556b57452beb5a55aa94ac9b534b5218529b52d5a895a9b34a5",
+      "sharpness": 473.102
+    },
+    {
+      "index": 205,
+      "timestamp_s": 314.0,
+      "file": "frame_0206_000514.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad5a4adba556b53452beb5a55aa95a8bb534b5218529b52d4ad94a9334a5",
+      "sharpness": 475.879
+    },
+    {
+      "index": 206,
+      "timestamp_s": 316.0,
+      "file": "frame_0207_000516.jpg",
+      "is_scene_cut": false,
+      "phash": "a5543c5b4acb3c52a5d41ebfb5354aa95a9be1e43c31c1e9bc2d42cc5a1bc1ac",
+      "sharpness": 522.454
+    },
+    {
+      "index": 207,
+      "timestamp_s": 317.0,
+      "file": "frame_0208_000517.jpg",
+      "is_scene_cut": false,
+      "phash": "b574ad4a4acba556b57452b6b5355aa94ac9b534a5218d29b5ad5a895a9b34a5",
+      "sharpness": 480.401
+    },
+    {
+      "index": 208,
+      "timestamp_s": 318.0,
+      "file": "frame_0209_000518.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad5a4acba556b57452beb5a55aa94ac9b534b5218529b52d5a895a9b34a5",
+      "sharpness": 475.694
+    },
+    {
+      "index": 209,
+      "timestamp_s": 320.0,
+      "file": "frame_0210_000520.jpg",
+      "is_scene_cut": false,
+      "phash": "a574255a4acba552b53412bfb5b55aa95a8b9534a569b529b52d5a894a9b35a5",
+      "sharpness": 1002.209
+    },
+    {
+      "index": 210,
+      "timestamp_s": 321.0,
+      "file": "frame_0211_000521.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad5a4acbb556b51456bdb5a55aa95a89b514a521956bb52f4a8b4a9b34a1",
+      "sharpness": 1004.363
+    },
+    {
+      "index": 211,
+      "timestamp_s": 323.0,
+      "file": "frame_0212_000523.jpg",
+      "is_scene_cut": false,
+      "phash": "a574255a4acba552b534cc36b5ad5aa94acbb554a5359d29b52d5a895a9b95a4",
+      "sharpness": 751.327
+    },
+    {
+      "index": 212,
+      "timestamp_s": 324.0,
+      "file": "frame_0213_000524.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad434acb2552b574ce3495a55aad7acbb51cb528b52ba5295ac74a9995a4",
+      "sharpness": 973.085
+    },
+    {
+      "index": 213,
+      "timestamp_s": 325.0,
+      "file": "frame_0214_000525.jpg",
+      "is_scene_cut": false,
+      "phash": "a574ad424acb255ab574ce34b5a55aad7acbb514a529b5aba5295ac34a9995a4",
+      "sharpness": 962.056
+    },
+    {
+      "index": 214,
+      "timestamp_s": 327.0,
+      "file": "frame_0215_000527.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad5a4acba556b57412beb5355aa94acbb534b521852bb52d5a894a9b34a5",
+      "sharpness": 458.474
+    },
+    {
+      "index": 215,
+      "timestamp_s": 328.0,
+      "file": "frame_0216_000528.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4acba556b53416bcb5355aa94acbb534b52b852bb52d5a895a9334a5",
+      "sharpness": 473.561
+    },
+    {
+      "index": 216,
+      "timestamp_s": 330.0,
+      "file": "frame_0217_000530.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4adba556b57456b4b5a45aa94acbb534b5219d29b52d5aa94a9b14a5",
+      "sharpness": 518.475
+    },
+    {
+      "index": 217,
+      "timestamp_s": 331.0,
+      "file": "frame_0218_000531.jpg",
+      "is_scene_cut": false,
+      "phash": "b574ad4a4acba556b57416f6b5355aa94ac9b534b5299529b52d5a894a9334a5",
+      "sharpness": 475.686
+    },
+    {
+      "index": 218,
+      "timestamp_s": 332.0,
+      "file": "frame_0219_000532.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad4a4adba556b51456b4b5355aa94acbb534b5219d29b52d4a994a9f34a5",
+      "sharpness": 573.187
+    },
+    {
+      "index": 219,
+      "timestamp_s": 334.0,
+      "file": "frame_0220_000534.jpg",
+      "is_scene_cut": false,
+      "phash": "b554ad5a4adba556b57452b4b5245aa94acb9534b5299d29b52d5a895a9b34a5",
+      "sharpness": 645.106
+    },
+    {
+      "index": 220,
+      "timestamp_s": 335.0,
+      "file": "frame_0221_000535.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d0a55a8b5e155acacc42b5f2a55ab57add8d29e02b9c20688914ad5abd5abd",
+      "sharpness": 1278.408
+    },
+    {
+      "index": 221,
+      "timestamp_s": 337.0,
+      "file": "frame_0222_000537.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d0a55aad5e155adacc52b772a50ebd68ed9f28f0039c2a68ab18add8b55aa1",
+      "sharpness": 1107.787
+    },
+    {
+      "index": 222,
+      "timestamp_s": 338.0,
+      "file": "frame_0223_000538.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d2a55a8d5e155acacc52b5f2a50abd6aed9f28f0039c2168ab1aadd8b55aa9",
+      "sharpness": 1105.472
+    },
+    {
+      "index": 223,
+      "timestamp_s": 339.0,
+      "file": "frame_0224_000539.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d2a55a8d5e1552cadc52b572a51ebd68ed8f28f0839c2a78ab18add0b55aa5",
+      "sharpness": 1146.328
+    },
+    {
+      "index": 224,
+      "timestamp_s": 341.0,
+      "file": "frame_0225_000541.jpg",
+      "is_scene_cut": false,
+      "phash": "e3cf3d53e1441c53e2945ab17ab552b43e39e1e83c29c1c83e2bc38c3e35c3a5",
+      "sharpness": 1325.76
+    },
+    {
+      "index": 225,
+      "timestamp_s": 343.0,
+      "file": "frame_0226_000543.jpg",
+      "is_scene_cut": true,
+      "phash": "8000565256def00221ffa92529ad8bad6bad0de97d0b05fb7c2f03ec3ebda1a5",
+      "sharpness": 456.733
+    },
+    {
+      "index": 226,
+      "timestamp_s": 345.0,
+      "file": "frame_0227_000545.jpg",
+      "is_scene_cut": true,
+      "phash": "9b7e8d4625586592729652ccdca59a23dce32cb7356b263896492bad71a638a7",
+      "sharpness": 960.512
+    },
+    {
+      "index": 227,
+      "timestamp_s": 346.0,
+      "file": "frame_0228_000546.jpg",
+      "is_scene_cut": true,
+      "phash": "c3d283d23d3c3c3c7cbd783d383d78ad7cad3c293333852b2cad06a9d38552a0",
+      "sharpness": 464.069
+    },
+    {
+      "index": 228,
+      "timestamp_s": 347.0,
+      "file": "frame_0229_000547.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c287d23d3c3c3cd2977c3d3c3d70a53c2d3c2d2deb85ab3c2952a1d2817aa4",
+      "sharpness": 475.669
+    },
+    {
+      "index": 229,
+      "timestamp_s": 349.0,
+      "file": "frame_0230_000549.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c287c23d3c3c3c52973c3d3c3d70b53c3d3c2d25ab87ab3c2d52a1d6857aa0",
+      "sharpness": 462.422
+    },
+    {
+      "index": 230,
+      "timestamp_s": 350.0,
+      "file": "frame_0231_000550.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c7c3c7cc8cc383c383d72b53c3d3c3d256b85c93cadde89d68472a0",
+      "sharpness": 492.349
+    },
+    {
+      "index": 231,
+      "timestamp_s": 353.0,
+      "file": "frame_0232_000553.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d0a55a8d5e155acadc52b772a51abd6aed9d3de1019d2168ad14ac5aad50a5",
+      "sharpness": 1129.719
+    },
+    {
+      "index": 232,
+      "timestamp_s": 354.0,
+      "file": "frame_0233_000554.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d0a55a8d5e155acad452d572a50abd6add9d2de1099c21e9a914acdaad5aa9",
+      "sharpness": 1150.606
+    },
+    {
+      "index": 233,
+      "timestamp_s": 355.0,
+      "file": "frame_0234_000555.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d0a55a8d5e155acadc52b772a10abd6add9d2de1419c21e92914acdaae5aa9",
+      "sharpness": 1153.509
+    },
+    {
+      "index": 234,
+      "timestamp_s": 357.0,
+      "file": "frame_0235_000557.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d0a55a895e1552d8dc52b57aa50a3d7abd9d29e109dc2968ab5aa95aad14b5",
+      "sharpness": 1193.29
+    },
+    {
+      "index": 235,
+      "timestamp_s": 358.0,
+      "file": "frame_0236_000558.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d02d5a895e1552dacc52b57aa50a3db2dd9d2de141dca168eb1aa95aad14b5",
+      "sharpness": 1171.132
+    },
+    {
+      "index": 236,
+      "timestamp_s": 360.0,
+      "file": "frame_0237_000600.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d0a54a895e1552ccd452bd7aa11eb572cd9eade10b9d2968ad1aacdab550a5",
+      "sharpness": 1144.419
+    },
+    {
+      "index": 237,
+      "timestamp_s": 361.0,
+      "file": "frame_0238_000601.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d0a55a8d5e055aced452b5f2855ab56acd8f29e00b9d29e0af1ead5aad50a5",
+      "sharpness": 1078.629
+    },
+    {
+      "index": 238,
+      "timestamp_s": 362.0,
+      "file": "frame_0239_000602.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d0a55a8d5e1554ca5c52ddf2954a3d68ed9f29e00b9d29e8ab14ad5aad5aa1",
+      "sharpness": 1059.248
+    },
+    {
+      "index": 239,
+      "timestamp_s": 364.0,
+      "file": "frame_0240_000604.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d0a55aad5e0554ca5c52bdf2a55abd68ed9d28600b9d29e8ab14acdaa55aa5",
+      "sharpness": 1076.559
+    },
+    {
+      "index": 240,
+      "timestamp_s": 365.0,
+      "file": "frame_0241_000605.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d0a55aad5e1554ca5c5215f2b54abdf88d1e286a2b9d2bf88814a4d8bd5af5",
+      "sharpness": 1113.657
+    },
+    {
+      "index": 241,
+      "timestamp_s": 367.0,
+      "file": "frame_0242_000607.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2255aad5f155acadc5a9472b55ab5f0858d2961299ca3f88918a85abd5ab5",
+      "sharpness": 1085.655
+    },
+    {
+      "index": 242,
+      "timestamp_s": 368.0,
+      "file": "frame_0243_000608.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2255aad5e155acadd5ad472b55ab5f0850d29612b9ca2f88918a85abd5ab5",
+      "sharpness": 1083.461
+    },
+    {
+      "index": 243,
+      "timestamp_s": 369.0,
+      "file": "frame_0244_000609.jpg",
+      "is_scene_cut": false,
+      "phash": "bed2255aad5f155acadc5a9472a55abff08d0d2961299ca2f80918a85abd5ab5",
+      "sharpness": 1087.634
+    },
+    {
+      "index": 244,
+      "timestamp_s": 371.0,
+      "file": "frame_0245_000611.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55a8d5e055ac85d52a46a255abdf88d8d3db12b9ca1f80958a85abd5aad",
+      "sharpness": 1266.195
+    },
+    {
+      "index": 245,
+      "timestamp_s": 372.0,
+      "file": "frame_0246_000612.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55a8d5e16dac94d528472b54abdfacd0e3db0a18d29f80918a85abf5aa9",
+      "sharpness": 1243.275
+    },
+    {
+      "index": 246,
+      "timestamp_s": 374.0,
+      "file": "frame_0247_000614.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55a8d5e16dac94d5a8472b55abdf88d8f39720b94a1e8095aa85abd16b4",
+      "sharpness": 1262.834
+    },
+    {
+      "index": 247,
+      "timestamp_s": 375.0,
+      "file": "frame_0248_000615.jpg",
+      "is_scene_cut": false,
+      "phash": "b692a55a8d5f145acadc5aa572255ab56a8d9e3da1298d69f88918a85abd16b5",
+      "sharpness": 1230.903
+    },
+    {
+      "index": 248,
+      "timestamp_s": 376.0,
+      "file": "frame_0249_000616.jpg",
+      "is_scene_cut": false,
+      "phash": "b692255a8d5f145acadc5aa572055ab57acd9ebda1298d6bf08910a85abd16b5",
+      "sharpness": 1223.253
+    },
+    {
+      "index": 249,
+      "timestamp_s": 378.0,
+      "file": "frame_0250_000618.jpg",
+      "is_scene_cut": false,
+      "phash": "b690255b8d5f165acadc5a0872155ab76acd9eb5e1298d69f88118a85abf16b6",
+      "sharpness": 1221.548
+    },
+    {
+      "index": 250,
+      "timestamp_s": 379.0,
+      "file": "frame_0251_000619.jpg",
+      "is_scene_cut": false,
+      "phash": "b692255b8d5f16dadadc5aad72255ab56acd9e35a145896bf80114aa58af14aa",
+      "sharpness": 1217.009
+    },
+    {
+      "index": 251,
+      "timestamp_s": 381.0,
+      "file": "frame_0252_000621.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d0a55a895f165acafd52a9722152bf78c99c3ca14b8d6bf8891aa85aad52a5",
+      "sharpness": 1242.622
+    },
+    {
+      "index": 252,
+      "timestamp_s": 382.0,
+      "file": "frame_0253_000622.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2ad5aed50005adafc52af522d56b5f8c99c34a149896be88d1aa85aad5ea5",
+      "sharpness": 1030.982
+    },
+    {
+      "index": 253,
+      "timestamp_s": 383.0,
+      "file": "frame_0254_000623.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55aed50005acadc4abf7a355ab5f8cd9c25a1498d6be04b1caa5aba5ea0",
+      "sharpness": 1026.359
+    },
+    {
+      "index": 254,
+      "timestamp_s": 385.0,
+      "file": "frame_0255_000625.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55aed50005acafd4aad722d5ab5f8899c34e14b8d6bf80b1ca85aad1ea5",
+      "sharpness": 1031.932
+    },
+    {
+      "index": 255,
+      "timestamp_s": 386.0,
+      "file": "frame_0256_000626.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55aed50005acadc5abf72255ab5f8cd9c34a1498d6be8ad1ea85aad56a0",
+      "sharpness": 1026.314
+    },
+    {
+      "index": 256,
+      "timestamp_s": 388.0,
+      "file": "frame_0257_000628.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55aed50005acafd5aad52ad5aa9f889d428e14b8d6be88b1aac5aad5aa5",
+      "sharpness": 1029.432
+    },
+    {
+      "index": 257,
+      "timestamp_s": 389.0,
+      "file": "frame_0258_000629.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a552ed50005acafc5aaf722d5ea9f8899c20e14b8d6be84f1cac5aad1ea5",
+      "sharpness": 1026.999
+    },
+    {
+      "index": 258,
+      "timestamp_s": 390.0,
+      "file": "frame_0259_000630.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55aed50005acafc52bd72255ab5f8cd9c34a149896be88f1ea85aad5ea4",
+      "sharpness": 1030.548
+    },
+    {
+      "index": 259,
+      "timestamp_s": 392.0,
+      "file": "frame_0260_000632.jpg",
+      "is_scene_cut": false,
+      "phash": "d4024a562ad5d2502bfdb5ab2dadb5292daf256b2b5b2a5b6ab21a8dd0a816ad",
+      "sharpness": 537.349
+    },
+    {
+      "index": 260,
+      "timestamp_s": 393.0,
+      "file": "frame_0261_000633.jpg",
+      "is_scene_cut": false,
+      "phash": "d0032df62df609523fb4d20952b5d2093dbc34ab2dfc804ae94bd28bdaad56b5",
+      "sharpness": 879.213
+    },
+    {
+      "index": 261,
+      "timestamp_s": 395.0,
+      "file": "frame_0262_000635.jpg",
+      "is_scene_cut": false,
+      "phash": "afcafd10dd505d5454b50aff02bf00ff103f107ff01fb70afe007e807e803ea0",
+      "sharpness": 1086.37
+    },
+    {
+      "index": 262,
+      "timestamp_s": 396.0,
+      "file": "frame_0263_000636.jpg",
+      "is_scene_cut": false,
+      "phash": "ed602d523fd0fc5e7c0100bf02ff82fd101f302fa03fe7c0ff00fe807e25dea0",
+      "sharpness": 2011.288
+    },
+    {
+      "index": 263,
+      "timestamp_s": 397.0,
+      "file": "frame_0264_000637.jpg",
+      "is_scene_cut": false,
+      "phash": "c316f30e439c3c722606c70d20e381a77a8d8fd97bcb99ea6198863373ad8ead",
+      "sharpness": 179.969
+    },
+    {
+      "index": 264,
+      "timestamp_s": 399.0,
+      "file": "frame_0265_000639.jpg",
+      "is_scene_cut": false,
+      "phash": "c316f30e439c3c722606c70d216181a77b8f8f587bcb99ea619886337b958fad",
+      "sharpness": 176.182
+    },
+    {
+      "index": 265,
+      "timestamp_s": 400.0,
+      "file": "frame_0266_000640.jpg",
+      "is_scene_cut": true,
+      "phash": "c3d283d23c7c3c7cc8cd3c3d3c2d72a93c3b3c3b256b854a3ca9da89d68472a4",
+      "sharpness": 489.997
+    },
+    {
+      "index": 266,
+      "timestamp_s": 402.0,
+      "file": "frame_0267_000642.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3cda977c3d3c3d70ad3c2d3c2d256b854b3c28d2aad6827aa8",
+      "sharpness": 492.166
+    },
+    {
+      "index": 267,
+      "timestamp_s": 403.0,
+      "file": "frame_0268_000643.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c287d23c7c3c3c52977c3d3c3d70a93c3d3c2d2d4b854b3c2952abd68478ac",
+      "sharpness": 484.229
+    },
+    {
+      "index": 268,
+      "timestamp_s": 404.0,
+      "file": "frame_0269_000644.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d287d23c7c3c3cda9d3c3d3c2d72a93c2d3c2d2d4b854b3c29d289d6857aa0",
+      "sharpness": 492.461
+    },
+    {
+      "index": 269,
+      "timestamp_s": 407.0,
+      "file": "frame_0270_000647.jpg",
+      "is_scene_cut": true,
+      "phash": "c3d283d23c7c3c3c5a9f7c3d3c2d72a93c2d3c2d2d4b854b3c29d2a8d6887aa8",
+      "sharpness": 485.838
+    },
+    {
+      "index": 270,
+      "timestamp_s": 408.0,
+      "file": "frame_0271_000648.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d287d23c7c3c3cd29f7c3d3c2d72a93c2d3c2d2d4b854b3c29d2a9d68072a8",
+      "sharpness": 506.014
+    },
+    {
+      "index": 271,
+      "timestamp_s": 411.0,
+      "file": "frame_0272_000651.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad52ed50045ecaad5aad5aad5aa5f8899520e14b8d6af08a1eaa5aad5aa5",
+      "sharpness": 1015.148
+    },
+    {
+      "index": 272,
+      "timestamp_s": 412.0,
+      "file": "frame_0273_000652.jpg",
+      "is_scene_cut": false,
+      "phash": "a7d63d50e34e1c70c38f1abd5a2dc2a43c69c38e3c71c38e3c79c38e5cb1428f",
+      "sharpness": 1004.183
+    },
+    {
+      "index": 273,
+      "timestamp_s": 413.0,
+      "file": "frame_0274_000653.jpg",
+      "is_scene_cut": true,
+      "phash": "c3c287d26d2c3c78c38f383d3c2d72ad3c39612c3c71838e3c79c38edef0728c",
+      "sharpness": 547.0
+    },
+    {
+      "index": 274,
+      "timestamp_s": 416.0,
+      "file": "frame_0275_000656.jpg",
+      "is_scene_cut": true,
+      "phash": "a7d63d50e3461c70c38f5aad5aadc2a53c29c38e3c73c14e3c79c38e5cb1428f",
+      "sharpness": 1013.87
+    },
+    {
+      "index": 275,
+      "timestamp_s": 417.0,
+      "file": "frame_0276_000657.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad52ed50045acaad5aad5aad5aadf8c99520e1438d6ae0cb1aa85aad5ea5",
+      "sharpness": 1009.442
+    },
+    {
+      "index": 276,
+      "timestamp_s": 419.0,
+      "file": "frame_0277_000659.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a552ed50045acaad4aad7aad5ea5f8c99534e1438d4ae0cf1aac5aad5aa5",
+      "sharpness": 1015.161
+    },
+    {
+      "index": 277,
+      "timestamp_s": 421.0,
+      "file": "frame_0278_000701.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a552ed50045ecaad4aad7aad5ea5f8c99530e1438d4be0cf1aac5aad1aa5",
+      "sharpness": 1025.034
+    },
+    {
+      "index": 278,
+      "timestamp_s": 422.0,
+      "file": "frame_0279_000702.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad52ed50005ecaad4aad7aad5eadf8899422e14b8d6af08b1aa85aad5aa5",
+      "sharpness": 1029.577
+    },
+    {
+      "index": 279,
+      "timestamp_s": 424.0,
+      "file": "frame_0280_000704.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad52ed500456daec52ad522d5eadf8899e20e14b8d6af08b16aa5aad56a5",
+      "sharpness": 1032.544
+    },
+    {
+      "index": 280,
+      "timestamp_s": 425.0,
+      "file": "frame_0281_000705.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad5aed50005edafc52bd52255eb5f8c99c24e14b896be88b1aa85aab52a1",
+      "sharpness": 1034.214
+    },
+    {
+      "index": 281,
+      "timestamp_s": 427.0,
+      "file": "frame_0282_000707.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d2ad5aad541556dafd52bd52a556a5f8cb8d68612b8d6aa88b14a85aa95aa9",
+      "sharpness": 1038.398
+    },
+    {
+      "index": 282,
+      "timestamp_s": 428.0,
+      "file": "frame_0283_000708.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d6a95aad540556cade56bd72a95aa97aa99d28a14b8d6a68ab5aa8d8a95aa1",
+      "sharpness": 1100.373
+    },
+    {
+      "index": 283,
+      "timestamp_s": 429.0,
+      "file": "frame_0284_000709.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d2ad5aad541556daac52ad72a956a5f8cb8d28692b8d7ba84b14ac5aa95aa9",
+      "sharpness": 1038.408
+    },
+    {
+      "index": 284,
+      "timestamp_s": 431.0,
+      "file": "frame_0285_000711.jpg",
+      "is_scene_cut": false,
+      "phash": "b556ad5aad541556caad52ad72a956a9f8ca9d68614b8d7aa94b142c5aad5aa1",
+      "sharpness": 1033.382
+    },
+    {
+      "index": 285,
+      "timestamp_s": 432.0,
+      "file": "frame_0286_000712.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d6ad5aad540556cade56bd72a95aad7aa98d28a15b8d6968a95aa8d8a95aa0",
+      "sharpness": 1095.871
+    },
+    {
+      "index": 286,
+      "timestamp_s": 434.0,
+      "file": "frame_0287_000714.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d6a552ed52015acadd52bd52a9daa97a898d3ca54b0d6a78ab50a8daa95aa9",
+      "sharpness": 1109.719
+    },
+    {
+      "index": 287,
+      "timestamp_s": 435.0,
+      "file": "frame_0288_000715.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d6a95aed500555cadd52bf72a556a57a898d30214b8d6ba52b58a8daab52a9",
+      "sharpness": 1219.7
+    },
+    {
+      "index": 288,
+      "timestamp_s": 436.0,
+      "file": "frame_0289_000716.jpg",
+      "is_scene_cut": false,
+      "phash": "b552ad52ed501556cadd52af72a5daa97aa99d28214b8d6ae8cb5aa8d0a95aa9",
+      "sharpness": 1007.836
+    },
+    {
+      "index": 289,
+      "timestamp_s": 438.0,
+      "file": "frame_0290_000718.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d2ad52eb54155edcd452bd72ad4aa9f089953c212b8d6a684b52acd4ad5aa9",
+      "sharpness": 968.581
+    },
+    {
+      "index": 290,
+      "timestamp_s": 439.0,
+      "file": "frame_0291_000719.jpg",
+      "is_scene_cut": false,
+      "phash": "b552ad5aed501552dedc52bd72a95aa9f0899d2c612b8d6a684b5aacd0ad5aa9",
+      "sharpness": 969.099
+    },
+    {
+      "index": 291,
+      "timestamp_s": 441.0,
+      "file": "frame_0292_000721.jpg",
+      "is_scene_cut": false,
+      "phash": "b552ad52ef541556dedc52bf52a95aa9f08b9d28612b8d6a684b58a8d0ad5aa9",
+      "sharpness": 979.3
+    },
+    {
+      "index": 292,
+      "timestamp_s": 442.0,
+      "file": "frame_0293_000722.jpg",
+      "is_scene_cut": false,
+      "phash": "b5daa54aed50155adedc52bd7ab54aadf0859d3561098d7b684b58a8d0aa78a8",
+      "sharpness": 971.221
+    },
+    {
+      "index": 293,
+      "timestamp_s": 443.0,
+      "file": "frame_0294_000723.jpg",
+      "is_scene_cut": false,
+      "phash": "b4daa54acf41155ade9c52be72b34a29f0d59d7469558d79694b1828d4aa78aa",
+      "sharpness": 968.358
+    },
+    {
+      "index": 294,
+      "timestamp_s": 445.0,
+      "file": "frame_0295_000725.jpg",
+      "is_scene_cut": false,
+      "phash": "b5daa54aed48155aced45ad67a954aa5f0859d3571299d6b694b182cf0aa78aa",
+      "sharpness": 978.633
+    },
+    {
+      "index": 295,
+      "timestamp_s": 446.0,
+      "file": "frame_0296_000726.jpg",
+      "is_scene_cut": false,
+      "phash": "b552a552ed50155adebc52bf52a95aa9f0c58d7429498d7b684b58add0a95aa9",
+      "sharpness": 975.633
+    },
+    {
+      "index": 296,
+      "timestamp_s": 448.0,
+      "file": "frame_0297_000728.jpg",
+      "is_scene_cut": true,
+      "phash": "c3d283d23c3c3c3cda9f7c3d3c2d70a93c2d3c2d2d4b854b3c29d2a3d6827aa8",
+      "sharpness": 496.766
+    },
+    {
+      "index": 297,
+      "timestamp_s": 449.0,
+      "file": "frame_0298_000729.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3cda9d7c3d3c3d72a13c2d3c2d2d4b876b3c29d2a9d6807aa0",
+      "sharpness": 493.686
+    },
+    {
+      "index": 298,
+      "timestamp_s": 450.0,
+      "file": "frame_0299_000730.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d287d23c7c3c3cda9d383d3c2d72a93c2d3c2d2d4b854b3c29d289d6857aa8",
+      "sharpness": 493.809
+    },
+    {
+      "index": 299,
+      "timestamp_s": 452.0,
+      "file": "frame_0300_000732.jpg",
+      "is_scene_cut": true,
+      "phash": "c3d283d23c7c3c3cda9f3c3d3c2d72a13c3d3c2d2d4f854b3c2952a8d6887aa8",
+      "sharpness": 488.756
+    },
+    {
+      "index": 300,
+      "timestamp_s": 453.0,
+      "file": "frame_0301_000733.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c7c3c3c5a9d7c3d3c2d72a93c2d3c2d2d4b854b3c29d2a9d6817aa8",
+      "sharpness": 489.442
+    },
+    {
+      "index": 301,
+      "timestamp_s": 455.0,
+      "file": "frame_0302_000735.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6a552ed50005ecabd5aad5aad5ea5f8899428e14b8d6af08b1ea85aad5aa5",
+      "sharpness": 1014.296
+    },
+    {
+      "index": 302,
+      "timestamp_s": 456.0,
+      "file": "frame_0303_000736.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad52ed500056caad4aad5aad5aadf88b952ae14b8d6af08a1ea85aad5aa5",
+      "sharpness": 1010.302
+    },
+    {
+      "index": 303,
+      "timestamp_s": 457.0,
+      "file": "frame_0304_000737.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6a552ed500456caad4aad5aad5aa5f88b9522e14b8d6af08b16aa5aad5ea5",
+      "sharpness": 971.301
+    },
+    {
+      "index": 304,
+      "timestamp_s": 460.0,
+      "file": "frame_0305_000740.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c287d26d3c3c7cc38f383d3c2d62ad3c39612c3c73838e3c78c38edea072ac",
+      "sharpness": 559.54
+    },
+    {
+      "index": 305,
+      "timestamp_s": 462.0,
+      "file": "frame_0306_000742.jpg",
+      "is_scene_cut": true,
+      "phash": "b6d6a552ed50045ecaad5aad5aad5aadf8899520e14b8d6af08b1ea85aad5aa5",
+      "sharpness": 1011.956
+    },
+    {
+      "index": 306,
+      "timestamp_s": 464.0,
+      "file": "frame_0307_000744.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a552ed50045acaad4aad7aad5ea5f8c99534e1438d4ae0cf1aac5aad5aa5",
+      "sharpness": 1016.571
+    },
+    {
+      "index": 307,
+      "timestamp_s": 466.0,
+      "file": "frame_0308_000746.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a552ed50045acaad4aad7aad5ea5f8c99530e1438d5be0cf1aac5aad1aa5",
+      "sharpness": 1018.971
+    },
+    {
+      "index": 308,
+      "timestamp_s": 467.0,
+      "file": "frame_0309_000747.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad52ed50005ecaad4aad7aad5eadf8c9d420e14b8d6ae0cb1aa85aad1aa5",
+      "sharpness": 1022.785
+    },
+    {
+      "index": 309,
+      "timestamp_s": 469.0,
+      "file": "frame_0310_000749.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad52ed50045edaec52ad722d5ea5f8899e20e10b896bf08b1ea85cad56a5",
+      "sharpness": 1037.341
+    },
+    {
+      "index": 310,
+      "timestamp_s": 470.0,
+      "file": "frame_0311_000750.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d6ad52ed54005edaac5aad52a95ea8f8abd428e14b8d6be0cb1aa85aad52a5",
+      "sharpness": 1028.025
+    },
+    {
+      "index": 311,
+      "timestamp_s": 472.0,
+      "file": "frame_0312_000752.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d2ad5aad541556dafd52bd52a556a5f0ca9d68616b8d7aa84b14a85aa95aa1",
+      "sharpness": 1035.046
+    },
+    {
+      "index": 312,
+      "timestamp_s": 473.0,
+      "file": "frame_0313_000753.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d6ad5aad540556cade12bd72a95aad7aa98d28a15b8d6b68ab5aa8d8a95aa0",
+      "sharpness": 1097.769
+    },
+    {
+      "index": 313,
+      "timestamp_s": 474.0,
+      "file": "frame_0314_000754.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d2ad5aad541556daad52bd72a5d6a5f8cb8f28692b8d3aa84b14a85aa95aa1",
+      "sharpness": 1032.892
+    },
+    {
+      "index": 314,
+      "timestamp_s": 476.0,
+      "file": "frame_0315_000756.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d2ad5aad541556dabc52bd72a9d6a5f8cb8f28692b8d3aa84b14a85aa95aa1",
+      "sharpness": 1031.134
+    },
+    {
+      "index": 315,
+      "timestamp_s": 477.0,
+      "file": "frame_0316_000757.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d6ad5aad541556dadc52bd72a956adf8899d78294b8d29688b54a8d0ab52a9",
+      "sharpness": 1083.892
+    },
+    {
+      "index": 316,
+      "timestamp_s": 479.0,
+      "file": "frame_0317_000759.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d6a552cb52055acadd52bf72a5daa5f8894a68a14b8d6b78ab50a8daa952a9",
+      "sharpness": 1105.606
+    },
+    {
+      "index": 317,
+      "timestamp_s": 480.0,
+      "file": "frame_0318_000800.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d6a552eb521557caed52bd72a55aa9fa899d28214b0d6aa84b54a8d8ad5aa9",
+      "sharpness": 1187.211
+    },
+    {
+      "index": 318,
+      "timestamp_s": 481.0,
+      "file": "frame_0319_000801.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d6a552eb52015acadd52af72a5daa5f08d8f28694b8d7ae84b54a8d0ad5aa1",
+      "sharpness": 1114.257
+    },
+    {
+      "index": 319,
+      "timestamp_s": 483.0,
+      "file": "frame_0320_000803.jpg",
+      "is_scene_cut": false,
+      "phash": "b552ad5aef54155edcdc52bd72ad5aa9f0899528212b8d6a484b5aacd4ad52a9",
+      "sharpness": 973.565
+    },
+    {
+      "index": 320,
+      "timestamp_s": 484.0,
+      "file": "frame_0321_000804.jpg",
+      "is_scene_cut": false,
+      "phash": "b552ad5aed501556dedc52bd72a95aa9f0899d2c612b8d6a684b58acd0ad5aa9",
+      "sharpness": 979.022
+    },
+    {
+      "index": 321,
+      "timestamp_s": 485.0,
+      "file": "frame_0322_000805.jpg",
+      "is_scene_cut": false,
+      "phash": "b552ad52ed541556dedc52bd52a95aa9f08b9d28612b8d6a684b5aacd0ad5aa9",
+      "sharpness": 974.976
+    },
+    {
+      "index": 322,
+      "timestamp_s": 487.0,
+      "file": "frame_0323_000807.jpg",
+      "is_scene_cut": false,
+      "phash": "b5daa55aed50155aded452bd7aa55aa9f0859d34712b9d6a684b58a4d0a578a1",
+      "sharpness": 976.239
+    },
+    {
+      "index": 323,
+      "timestamp_s": 488.0,
+      "file": "frame_0324_000808.jpg",
+      "is_scene_cut": false,
+      "phash": "b4d22549cb55155bded452fe7a134a2af0c69d74612b9d6a694b1828f4aa78ab",
+      "sharpness": 972.025
+    },
+    {
+      "index": 324,
+      "timestamp_s": 490.0,
+      "file": "frame_0325_000810.jpg",
+      "is_scene_cut": false,
+      "phash": "b5daa54aed48155aced44ad66a954ab1fac59c34712b9d6b694b182cf0ac78a9",
+      "sharpness": 979.752
+    },
+    {
+      "index": 325,
+      "timestamp_s": 491.0,
+      "file": "frame_0326_000811.jpg",
+      "is_scene_cut": false,
+      "phash": "b55aa55aed50155ade9452bd5aa55aa9f0859d7521498d7b694b58acd0a95aa9",
+      "sharpness": 980.787
+    },
+    {
+      "index": 326,
+      "timestamp_s": 492.0,
+      "file": "frame_0327_000812.jpg",
+      "is_scene_cut": false,
+      "phash": "b552ad5ac956055fde8452bd52b55aadf0c58d70e143ad6a684a1aac58af5aa9",
+      "sharpness": 1088.593
+    },
+    {
+      "index": 327,
+      "timestamp_s": 494.0,
+      "file": "frame_0328_000814.jpg",
+      "is_scene_cut": false,
+      "phash": "b550a55ac95f1552ded452bf5aa15aa8f0c58d71e1498d6968895aad5aad5aa9",
+      "sharpness": 1130.703
+    },
+    {
+      "index": 328,
+      "timestamp_s": 495.0,
+      "file": "frame_0329_000815.jpg",
+      "is_scene_cut": false,
+      "phash": "b7d0ad52c9551552ded442ff72ab5ea8f08b9d2961299d61e8491aa5c8bd1aa9",
+      "sharpness": 1129.32
+    },
+    {
+      "index": 329,
+      "timestamp_s": 497.0,
+      "file": "frame_0330_000817.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d0ad5ac95f1552ded452ff52b15aa8f08d8d6d61098d29e8895aac58af5aa8",
+      "sharpness": 1129.457
+    },
+    {
+      "index": 330,
+      "timestamp_s": 498.0,
+      "file": "frame_0331_000818.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d2ad5ac95f1552ded452bf52b55a28f08d8d68610b856b68895aad58ad5aa9",
+      "sharpness": 1131.711
+    },
+    {
+      "index": 331,
+      "timestamp_s": 499.0,
+      "file": "frame_0332_000819.jpg",
+      "is_scene_cut": false,
+      "phash": "b5d2a55ac95f1552ded442bf7aa15aa9f08d8d6d6109956b68495aacc8ad1aa9",
+      "sharpness": 1131.886
+    },
+    {
+      "index": 332,
+      "timestamp_s": 501.0,
+      "file": "frame_0333_000821.jpg",
+      "is_scene_cut": false,
+      "phash": "bed0ad52c9551552dcd452fe52aa5eaaf08b8d2961298d71e84d5ae5c8bd58a9",
+      "sharpness": 1125.547
+    },
+    {
+      "index": 333,
+      "timestamp_s": 502.0,
+      "file": "frame_0334_000822.jpg",
+      "is_scene_cut": false,
+      "phash": "93d283d2c7d2387d7c3c3c3d7c2d74b874a9866b394b2d4d283d3a29e285d2a2",
+      "sharpness": 750.521
+    },
+    {
+      "index": 334,
+      "timestamp_s": 504.0,
+      "file": "frame_0335_000824.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c283d23c3c3c3c52977c3d7c3d70bd3c3d3c2d294faf49282d8aa9d2817aa8",
+      "sharpness": 467.892
+    },
+    {
+      "index": 335,
+      "timestamp_s": 505.0,
+      "file": "frame_0336_000825.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c2cd8cc7c3d7c3d72313c2d3c2da9cd87533939d2a1d6807ce8",
+      "sharpness": 514.247
+    },
+    {
+      "index": 336,
+      "timestamp_s": 506.0,
+      "file": "frame_0337_000826.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c283d23c3c3c3cd89d7c3d3c3d70b93c2d3c2d2d6b876b3c2952a1d6817aa8",
+      "sharpness": 494.329
+    },
+    {
+      "index": 337,
+      "timestamp_s": 508.0,
+      "file": "frame_0338_000828.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3cda9f3c3d3c2d70a93c2d3c2d254b876b3c2d52a1d6837aa8",
+      "sharpness": 493.238
+    },
+    {
+      "index": 338,
+      "timestamp_s": 509.0,
+      "file": "frame_0339_000829.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d287d23c3c3c3cda9f3c3d3c2d70a93c3d3c2d254b854b3c2952a3d6837aa8",
+      "sharpness": 504.794
+    },
+    {
+      "index": 339,
+      "timestamp_s": 511.0,
+      "file": "frame_0340_000831.jpg",
+      "is_scene_cut": false,
+      "phash": "a742b55a695601567aa5cea7dab55aadf08105eb286c8d2bcca938a9d8ad76a9",
+      "sharpness": 1963.937
+    },
+    {
+      "index": 340,
+      "timestamp_s": 512.0,
+      "file": "frame_0341_000832.jpg",
+      "is_scene_cut": false,
+      "phash": "b552a552c9571552de9452bf5aa55aa9f08d8d69614b956a68895aad5aad5aa9",
+      "sharpness": 1132.616
+    },
+    {
+      "index": 341,
+      "timestamp_s": 513.0,
+      "file": "frame_0342_000833.jpg",
+      "is_scene_cut": false,
+      "phash": "b552a55ac9571552ded452bf7aa15aa9f08d8d78612b956ae8895aac58ad1aa9",
+      "sharpness": 1133.993
+    },
+    {
+      "index": 342,
+      "timestamp_s": 515.0,
+      "file": "frame_0343_000835.jpg",
+      "is_scene_cut": false,
+      "phash": "b550255a8d5d1552c8dd5aac52bd5aa9f0898d79616b9d6a688b5aadd8a95aa9",
+      "sharpness": 1217.445
+    },
+    {
+      "index": 343,
+      "timestamp_s": 516.0,
+      "file": "frame_0344_000836.jpg",
+      "is_scene_cut": false,
+      "phash": "b750255a8d5d1552d8d552a552bd5ea9f0899569616b9d2a688b5aadd8ad5aa9",
+      "sharpness": 1219.749
+    },
+    {
+      "index": 344,
+      "timestamp_s": 518.0,
+      "file": "frame_0345_000838.jpg",
+      "is_scene_cut": false,
+      "phash": "b692255b8d5f105acacd5aad723d5eb4e8cd9c34210b8d6bf88950a85aad16bd",
+      "sharpness": 1264.551
+    },
+    {
+      "index": 345,
+      "timestamp_s": 519.0,
+      "file": "frame_0346_000839.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2255b8d5e105aca8d5aad72bd5eb4e8cd9c34a1498d6bf88952a85aad12ad",
+      "sharpness": 1270.623
+    },
+    {
+      "index": 346,
+      "timestamp_s": 520.0,
+      "file": "frame_0347_000840.jpg",
+      "is_scene_cut": false,
+      "phash": "b692255b8d5e105acacd5abd723d5ea4e8cd9434a1038d6bf88950a85aaf16bf",
+      "sharpness": 1257.178
+    },
+    {
+      "index": 347,
+      "timestamp_s": 522.0,
+      "file": "frame_0348_000842.jpg",
+      "is_scene_cut": false,
+      "phash": "b692255a8d5f015ac94d5abc52b55ea1e8cd8d68b1039d35e94b52a85aaf12bf",
+      "sharpness": 1225.884
+    },
+    {
+      "index": 348,
+      "timestamp_s": 523.0,
+      "file": "frame_0349_000843.jpg",
+      "is_scene_cut": false,
+      "phash": "b690255a8d5f015ac94d5abc52b55ea1f0cd9d69b1039d3de94952a85aaf12af",
+      "sharpness": 1231.107
+    },
+    {
+      "index": 349,
+      "timestamp_s": 526.0,
+      "file": "frame_0350_000846.jpg",
+      "is_scene_cut": false,
+      "phash": "b692255a8d5e015acacd52bc6a2d5aa5f8cd8d68b1039db5e9495aa85aad5aab",
+      "sharpness": 1262.123
+    },
+    {
+      "index": 350,
+      "timestamp_s": 527.0,
+      "file": "frame_0351_000847.jpg",
+      "is_scene_cut": false,
+      "phash": "b690255b8d5e015ac84d5aed52bd5eb4f8cd9c24614b9d7bf48550a84aaf1aab",
+      "sharpness": 1266.527
+    },
+    {
+      "index": 351,
+      "timestamp_s": 528.0,
+      "file": "frame_0352_000848.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2a55e8f561252c96d52ad52bd5a29f0cd8d28b5038d6bf88b5aa85aad52a9",
+      "sharpness": 1215.234
+    },
+    {
+      "index": 352,
+      "timestamp_s": 530.0,
+      "file": "frame_0353_000850.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2255a8d5e1252cacd5aad72b55eb1e9cd8d28694b8d2be88950a852af5aad",
+      "sharpness": 1194.104
+    },
+    {
+      "index": 353,
+      "timestamp_s": 531.0,
+      "file": "frame_0354_000851.jpg",
+      "is_scene_cut": false,
+      "phash": "b6d2255b8d5e1252cacd5aad72b55eb1e1cd8d2869498d2be88950a85abf1aad",
+      "sharpness": 1190.413
+    },
+    {
+      "index": 354,
+      "timestamp_s": 533.0,
+      "file": "frame_0355_000853.jpg",
+      "is_scene_cut": false,
+      "phash": "b690255a8d5f015ac84d5ae952b55ea5e8cd8d29694b9d2bf88d50a85aaf5aab",
+      "sharpness": 1341.685
+    },
+    {
+      "index": 355,
+      "timestamp_s": 534.0,
+      "file": "frame_0356_000854.jpg",
+      "is_scene_cut": false,
+      "phash": "bd48255a8b561458dade5aac52b55ab5f0cfcf68a1031d6bf18b50a85aad1aad",
+      "sharpness": 1190.764
+    },
+    {
+      "index": 356,
+      "timestamp_s": 535.0,
+      "file": "frame_0357_000855.jpg",
+      "is_scene_cut": false,
+      "phash": "b5c0255acf5e005acacd52bc72b55ea1f1cd8d69614b8d69e88b5aa85aad16ad",
+      "sharpness": 1473.174
+    },
+    {
+      "index": 357,
+      "timestamp_s": 537.0,
+      "file": "frame_0358_000857.jpg",
+      "is_scene_cut": false,
+      "phash": "b480255a8f5e005ac84d5aad52b55e29f0cd9d2d63439d6be9c95aa85aaf1aaf",
+      "sharpness": 1306.719
+    },
+    {
+      "index": 358,
+      "timestamp_s": 538.0,
+      "file": "frame_0359_000858.jpg",
+      "is_scene_cut": false,
+      "phash": "b480255a8f5e005ac84d5aad52b55e29f0cd952d634b9d6be9c95aa85aaf1abd",
+      "sharpness": 1303.568
+    },
+    {
+      "index": 359,
+      "timestamp_s": 540.0,
+      "file": "frame_0360_000900.jpg",
+      "is_scene_cut": false,
+      "phash": "b480255a8f5e145ac85d5abc52b55aa87acf952d614b8d6bad4950a85abf1abd",
+      "sharpness": 1289.47
+    },
+    {
+      "index": 360,
+      "timestamp_s": 541.0,
+      "file": "frame_0361_000901.jpg",
+      "is_scene_cut": false,
+      "phash": "b480255a8d5e145ac84d5aad52ad5ea978cf952d634b9d6ae9cb52a85aaf12ad",
+      "sharpness": 1304.247
+    },
+    {
+      "index": 361,
+      "timestamp_s": 542.0,
+      "file": "frame_0362_000902.jpg",
+      "is_scene_cut": false,
+      "phash": "b480255a8d5e105ac84d5abd52b55e29f0cd952d634b9d6be8cb5aa85aaf1aad",
+      "sharpness": 1318.007
+    },
+    {
+      "index": 362,
+      "timestamp_s": 544.0,
+      "file": "frame_0363_000904.jpg",
+      "is_scene_cut": false,
+      "phash": "b580255acb56105ad8cd52bc6abd5ea1e8cbdf2831438d69f88b94a85aaf5aad",
+      "sharpness": 1362.675
+    },
+    {
+      "index": 363,
+      "timestamp_s": 545.0,
+      "file": "frame_0364_000905.jpg",
+      "is_scene_cut": false,
+      "phash": "b5c0255acf5e505acadd52ac72bd9ea178cd9d6931419d2be84950a8daaf12ad",
+      "sharpness": 1484.563
+    },
+    {
+      "index": 364,
+      "timestamp_s": 547.0,
+      "file": "frame_0365_000907.jpg",
+      "is_scene_cut": false,
+      "phash": "a74ab55a695601567aa5cea7dab55aa5f08105eb286c8d2bcca938a9d8ad76a9",
+      "sharpness": 1948.974
+    },
+    {
+      "index": 365,
+      "timestamp_s": 548.0,
+      "file": "frame_0366_000908.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3cd89f7c3d3c2d70a93c2d3c2d2d4f87693c2d52a1d6827aa8",
+      "sharpness": 495.529
+    },
+    {
+      "index": 366,
+      "timestamp_s": 549.0,
+      "file": "frame_0367_000909.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c7c3c7cc8ce3c3c3c2c72293c3d3c3d254f85cd3caddaa9d68072a8",
+      "sharpness": 481.929
+    },
+    {
+      "index": 367,
+      "timestamp_s": 551.0,
+      "file": "frame_0368_000911.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3cd8cd7c3d3c2d72a93c2d3c2d2dcf874b3c29d2a9d68078a8",
+      "sharpness": 517.792
+    },
+    {
+      "index": 368,
+      "timestamp_s": 552.0,
+      "file": "frame_0369_000912.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3cda8f7c3d3c2d70a93c2d3c2d2d4f855b3c2d52a1d6817aa8",
+      "sharpness": 492.071
+    },
+    {
+      "index": 369,
+      "timestamp_s": 554.0,
+      "file": "frame_0370_000914.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c283d23c3c3c3c52d77c3d3c3d70a97c2d3c2d276b87e938add2a1d2817aa0",
+      "sharpness": 474.116
+    },
+    {
+      "index": 370,
+      "timestamp_s": 555.0,
+      "file": "frame_0371_000915.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d383d33c3d3c3dca95383d3c3d70b53c3d3d7d25558555282dc285d2857aa0",
+      "sharpness": 475.988
+    },
+    {
+      "index": 371,
+      "timestamp_s": 556.0,
+      "file": "frame_0372_000916.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3dca8f383d382d72aa7c2d3c2c254f85573c2dda85d2857aa5",
+      "sharpness": 492.915
+    },
+    {
+      "index": 372,
+      "timestamp_s": 558.0,
+      "file": "frame_0373_000918.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3c509f7c3d7c3d7031753d3d7d254d8745282d8aa9ca857aa8",
+      "sharpness": 491.34
+    },
+    {
+      "index": 373,
+      "timestamp_s": 559.0,
+      "file": "frame_0374_000919.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c283d2692c3c78c38e7c3d3c3d71353c3d652d3c71838f3c39c38e9eb0628e",
+      "sharpness": 552.698
+    },
+    {
+      "index": 374,
+      "timestamp_s": 561.0,
+      "file": "frame_0375_000921.jpg",
+      "is_scene_cut": false,
+      "phash": "c3c287d26d2c3c78c38e3c3c3c2d72a83c3961ad3c71838f3c31c38fdef0728e",
+      "sharpness": 562.941
+    },
+    {
+      "index": 375,
+      "timestamp_s": 563.0,
+      "file": "frame_0376_000923.jpg",
+      "is_scene_cut": false,
+      "phash": "c3d283d23c3c3c3c529e7c3d3c2d702b3c2d3c2d2dcf8767382ddaa9d2807aa8",
+      "sharpness": 489.546
+    },
+    {
+      "index": 376,
+      "timestamp_s": 564.0,
+      "file": "frame_0377_000924.jpg",
+      "is_scene_cut": true,
+      "phash": "c00056d656d6d012793fa92929ada9ad2fadad692d6fa5012bbd2aa52bada9a9",
+      "sharpness": 382.054
+    },
+    {
+      "index": 377,
+      "timestamp_s": 566.0,
+      "file": "frame_0378_000926.jpg",
+      "is_scene_cut": false,
+      "phash": "d00052565a5672b26faeac2d2dafa5292dedad292dfb99890dad88892da9ada9",
+      "sharpness": 360.891
+    },
+    {
+      "index": 378,
+      "timestamp_s": 567.0,
+      "file": "frame_0379_000927.jpg",
+      "is_scene_cut": false,
+      "phash": "c000525272de52d27ffb2d253dbd2d293dbdad690dbe88a92aafa8a029adaca4",
+      "sharpness": 329.215
+    },
+    {
+      "index": 379,
+      "timestamp_s": 569.0,
+      "file": "frame_0380_000929.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25a9a523237a7a52d2d2da52d2defad4d3ddd8dcd2d9d88892cadada9",
+      "sharpness": 323.541
+    },
+    {
+      "index": 380,
+      "timestamp_s": 570.0,
+      "file": "frame_0381_000930.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d25ada52727777ad2d2dada52d2defad8d2ddd888d2a9d88892da9ad89",
+      "sharpness": 318.368
+    },
+    {
+      "index": 381,
+      "timestamp_s": 571.0,
+      "file": "frame_0382_000931.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005ad25ad252362aa7a9ad2dada52d2defad4d3ddd8dc92ddd88852eada889",
+      "sharpness": 321.48
+    },
+    {
+      "index": 382,
+      "timestamp_s": 573.0,
+      "file": "frame_0383_000933.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364ddbad2d2dafa9a92def31292ddf89810e9d30ad2eada98d",
+      "sharpness": 351.106
+    },
+    {
+      "index": 383,
+      "timestamp_s": 574.0,
+      "file": "frame_0384_000934.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364ddbad2d2dafa9a92fad31a93dbf89890c8f31892dadad89",
+      "sharpness": 346.161
+    },
+    {
+      "index": 384,
+      "timestamp_s": 576.0,
+      "file": "frame_0385_000936.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364ddbad2d2dafa9a92dcd31392ddf89894c8d31a92fada9a9",
+      "sharpness": 353.75
+    },
+    {
+      "index": 385,
+      "timestamp_s": 577.0,
+      "file": "frame_0386_000937.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364fdbad2d2dafa9a92dad31292ddf89890ddd31892dadad89",
+      "sharpness": 353.045
+    },
+    {
+      "index": 386,
+      "timestamp_s": 578.0,
+      "file": "frame_0387_000938.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364ddbac2d2dafa9a12fcd31392ddd89890d8f31a92fadada9",
+      "sharpness": 353.657
+    },
+    {
+      "index": 387,
+      "timestamp_s": 580.0,
+      "file": "frame_0388_000940.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364d9bad2d2dafa9a92fad31393ddf89894c8f31892dadad89",
+      "sharpness": 348.791
+    },
+    {
+      "index": 388,
+      "timestamp_s": 581.0,
+      "file": "frame_0389_000941.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364d9bad2d2dafa9a92f8d31393ddf89894c8e31a92dadada9",
+      "sharpness": 353.446
+    },
+    {
+      "index": 389,
+      "timestamp_s": 583.0,
+      "file": "frame_0390_000943.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364f9bad2d2dafa9a12d8d31193ddf89890d9f31a92fadad89",
+      "sharpness": 348.421
+    },
+    {
+      "index": 390,
+      "timestamp_s": 584.0,
+      "file": "frame_0391_000944.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364fdbac2d2dafa9a92d8d31192ddf89890dcf31a92fada9a9",
+      "sharpness": 352.918
+    },
+    {
+      "index": 391,
+      "timestamp_s": 585.0,
+      "file": "frame_0392_000945.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364ddbac2d2dafa9a12fad31292dff89890d8f31a92fa9ada9",
+      "sharpness": 353.353
+    },
+    {
+      "index": 392,
+      "timestamp_s": 587.0,
+      "file": "frame_0393_000947.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364ddba52d2dafa9a92fad39392ddf89890e8f31a92da9ad89",
+      "sharpness": 350.357
+    },
+    {
+      "index": 393,
+      "timestamp_s": 588.0,
+      "file": "frame_0394_000948.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364d9ba52d2dafa9292fcd31392ddf89810e9f31a92fadada9",
+      "sharpness": 350.941
+    },
+    {
+      "index": 394,
+      "timestamp_s": 590.0,
+      "file": "frame_0395_000950.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364bdbad2d2dafa9a92dad31293dfd89894d9d31892fada989",
+      "sharpness": 348.81
+    },
+    {
+      "index": 395,
+      "timestamp_s": 591.0,
+      "file": "frame_0396_000951.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d252f272364d9bad2d2dafa9a92fad31392ddf89810ccf31a92dadada9",
+      "sharpness": 353.999
+    },
+    {
+      "index": 396,
+      "timestamp_s": 592.0,
+      "file": "frame_0397_000952.jpg",
+      "is_scene_cut": false,
+      "phash": "d00046d25af272364ddbad2d2dafa9292dcd31292dff89890e8f31a92eada9a9",
+      "sharpness": 356.728
+    },
+    {
+      "index": 397,
+      "timestamp_s": 594.0,
+      "file": "frame_0398_000954.jpg",
+      "is_scene_cut": false,
+      "phash": "c00058d252d656363ebfb22d39ada5292f6fad8b2dde199839998c890f9b86cd",
+      "sharpness": 298.5
+    },
+    {
+      "index": 398,
+      "timestamp_s": 595.0,
+      "file": "frame_0399_000955.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005a525ad652326eefa5a72f2da5a92d6fb5093ddf9c49399d88c929adac89",
+      "sharpness": 301.314
+    },
+    {
+      "index": 399,
+      "timestamp_s": 597.0,
+      "file": "frame_0400_000957.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005256527652c27bcf25252dafad212def8cc92ddb8d892d8fa58d2d8dadad",
+      "sharpness": 393.177
+    },
+    {
+      "index": 400,
+      "timestamp_s": 598.0,
+      "file": "frame_0401_000958.jpg",
+      "is_scene_cut": false,
+      "phash": "d000525a529e72724e3e21a72c6d8da52defac692dbf25c83dcb8ca12daface1",
+      "sharpness": 494.32
+    },
+    {
+      "index": 401,
+      "timestamp_s": 599.0,
+      "file": "frame_0402_000959.jpg",
+      "is_scene_cut": false,
+      "phash": "d00052565ef6721233bdad252dafa52d2dad8d292ddf0d893d9921892dafad89",
+      "sharpness": 331.411
+    },
+    {
+      "index": 402,
+      "timestamp_s": 603.0,
+      "file": "frame_0403_001003.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052f65af6729233bdad652defa5092ddd8d512ddf0d89299925892cafad89",
+      "sharpness": 334.24
+    },
+    {
+      "index": 403,
+      "timestamp_s": 604.0,
+      "file": "frame_0404_001004.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005ad65af662902bbdac252defa50d2dbd8d213ddd1d8d399d21892dafad89",
+      "sharpness": 328.195
+    },
+    {
+      "index": 404,
+      "timestamp_s": 606.0,
+      "file": "frame_0405_001006.jpg",
+      "is_scene_cut": false,
+      "phash": "c00052d272f652623b6fa3212dedac292defad0d2dbf8d982d9d2d992d8da5a1",
+      "sharpness": 347.063
+    },
+    {
+      "index": 405,
+      "timestamp_s": 607.0,
+      "file": "frame_0406_001007.jpg",
+      "is_scene_cut": false,
+      "phash": "d0005a525ade523267b7ada52dada5ad2dafad092dcd0d893d8ba9892d8dad89",
+      "sharpness": 248.963
+    },
+    {
+      "index": 406,
+      "timestamp_s": 608.0,
+      "file": "frame_0407_001008.jpg",
+      "is_scene_cut": false,
+      "phash": "d0005a525ade523267b7ada52dada5a92dafad092dcd8d892d8da9892d8dad8d",
+      "sharpness": 245.956
+    },
+    {
+      "index": 407,
+      "timestamp_s": 610.0,
+      "file": "frame_0408_001010.jpg",
+      "is_scene_cut": false,
+      "phash": "d4024a562ad5d2502bfdb5ab2dadb5292def25692b5d2b556ab21a8dd0a816ad",
+      "sharpness": 534.583
+    },
+    {
+      "index": 408,
+      "timestamp_s": 611.0,
+      "file": "frame_0409_001011.jpg",
+      "is_scene_cut": false,
+      "phash": "d4024a562b555a5438f795ab2fad95282d2d2de329e72f5d429838edd4a1c6ad",
+      "sharpness": 519.941
+    },
+    {
+      "index": 409,
+      "timestamp_s": 613.0,
+      "file": "frame_0410_001013.jpg",
+      "is_scene_cut": false,
+      "phash": "d4024a562b555a5038f795ab2fad95282d2d2de329e72f5f421a38edd4a1c6ad",
+      "sharpness": 516.265
+    },
+    {
+      "index": 410,
+      "timestamp_s": 614.0,
+      "file": "frame_0411_001014.jpg",
+      "is_scene_cut": false,
+      "phash": "d4024a562f555a5438f795ab2fad95282d2d2de329e72f5d429438cdd4a1c6ad",
+      "sharpness": 509.101
+    },
+    {
+      "index": 411,
+      "timestamp_s": 615.0,
+      "file": "frame_0412_001015.jpg",
+      "is_scene_cut": false,
+      "phash": "d0005a525ade523266b7ada52dada5a92dafad092dc98d893d9ba9892d8dad8d",
+      "sharpness": 247.589
+    },
+    {
+      "index": 412,
+      "timestamp_s": 617.0,
+      "file": "frame_0413_001017.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005a565ad652366777ada92dafa5a92daba5a93d8b0c8939bfa8892cada98d",
+      "sharpness": 242.422
+    },
+    {
+      "index": 413,
+      "timestamp_s": 618.0,
+      "file": "frame_0414_001018.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005a565ad652766777adad2dada5a92daba5293dcb0c8939afa8892cada8ad",
+      "sharpness": 250.779
+    },
+    {
+      "index": 414,
+      "timestamp_s": 620.0,
+      "file": "frame_0415_001020.jpg",
+      "is_scene_cut": false,
+      "phash": "c0005ad25ade523267b7ada52d2da50d2d3fa54d2ddd8d89299fa8892dadad89",
+      "sharpness": 256.372
+    },
+    {
+      "index": 415,
+      "timestamp_s": 621.0,
+      "file": "frame_0416_001021.jpg",
+      "is_scene_cut": true,
+      "phash": "ad52ad52a9520050d29456b55eb556b5df1d1d78ad482d68eba97aa972ad52a9",
+      "sharpness": 279.679
+    },
+    {
+      "index": 416,
+      "timestamp_s": 623.0,
+      "file": "frame_0417_001023.jpg",
+      "is_scene_cut": false,
+      "phash": "ad5aad52a9520052de9756b556b55695f5152541a9412d6babab1eab5aa95ea8",
+      "sharpness": 281.284
+    },
+    {
+      "index": 417,
+      "timestamp_s": 625.0,
+      "file": "frame_0418_001025.jpg",
+      "is_scene_cut": false,
+      "phash": "ad5aad5aad520550de165e965a9652b5da8550a1e0a925a9edab1fa97ea91ea8",
+      "sharpness": 277.427
+    },
+    {
+      "index": 418,
+      "timestamp_s": 626.0,
+      "file": "frame_0419_001026.jpg",
+      "is_scene_cut": false,
+      "phash": "ad50ad50a95005549e165ebe5ebe56acd2a950a9e0a924a9efa51fb57e951eb0",
+      "sharpness": 277.984
+    },
+    {
+      "index": 419,
+      "timestamp_s": 628.0,
+      "file": "frame_0420_001028.jpg",
+      "is_scene_cut": false,
+      "phash": "ad50ad50a9500556da965ebe5abe52adfaa52529a5292529ad2d1fab5eaa5ea0",
+      "sharpness": 278.883
+    },
+    {
+      "index": 420,
+      "timestamp_s": 629.0,
+      "file": "frame_0421_001029.jpg",
+      "is_scene_cut": false,
+      "phash": "ad54ad50a9500552deae56ae5eaf56adfa852005e9052945efad1ea95ea95ea8",
+      "sharpness": 275.663
+    },
+    {
+      "index": 421,
+      "timestamp_s": 630.0,
+      "file": "frame_0422_001030.jpg",
+      "is_scene_cut": false,
+      "phash": "ad50ad50a9500554de965ebe5ebe56a5f2a535a9e1292529ed2b1faa5ea41ea0",
+      "sharpness": 277.746
+    },
+    {
+      "index": 422,
+      "timestamp_s": 632.0,
+      "file": "frame_0423_001032.jpg",
+      "is_scene_cut": false,
+      "phash": "ad51ad51a9500152da9e5ebe5abe56a6f2852525a1052525efad1ea95eaa5eaa",
+      "sharpness": 281.627
+    },
+    {
+      "index": 423,
+      "timestamp_s": 633.0,
+      "file": "frame_0424_001033.jpg",
+      "is_scene_cut": false,
+      "phash": "ad52ad52ad520552de965ebf5ab652a5d2a550a1e0292529efad1fa95ea51ea0",
+      "sharpness": 282.077
+    },
+    {
+      "index": 424,
+      "timestamp_s": 635.0,
+      "file": "frame_0425_001035.jpg",
+      "is_scene_cut": false,
+      "phash": "ad68ad68ad480554de9656d65e9656d6d2566551a949a9a9aaab2aa97aad5aa8",
+      "sharpness": 281.69
+    },
+    {
+      "index": 425,
+      "timestamp_s": 636.0,
+      "file": "frame_0426_001036.jpg",
+      "is_scene_cut": false,
+      "phash": "ad68ad68ad480510de9e5eb75e9656d4d2547551e9412d4baf2b1eab5aa85aa8",
+      "sharpness": 285.501
+    },
+    {
+      "index": 426,
+      "timestamp_s": 637.0,
+      "file": "frame_0427_001037.jpg",
+      "is_scene_cut": false,
+      "phash": "ad6aa56aad420554da545ed55a955295fa8520aba8ab25abadab17a95ea55e94",
+      "sharpness": 284.191
+    },
+    {
+      "index": 427,
+      "timestamp_s": 641.0,
+      "file": "frame_0428_001041.jpg",
+      "is_scene_cut": false,
+      "phash": "ad52ad50ad520550da9656bf5aaf52a5faa52529ad092d2bff2b5eaa52a952a0",
+      "sharpness": 267.034
+    },
+    {
+      "index": 428,
+      "timestamp_s": 645.0,
+      "file": "frame_0429_001045.jpg",
+      "is_scene_cut": true,
+      "phash": "d0005a525ade523266b7ada52dada5ad2dafad092dc90d883d8bad892dadad8d",
+      "sharpness": 252.819
+    },
+    {
+      "index": 429,
+      "timestamp_s": 647.0,
+      "file": "frame_0430_001047.jpg",
+      "is_scene_cut": false,
+      "phash": "d0005a525ade52322777ada52dada5a92dafad892dcd0c893d8bad892d8dad8d",
+      "sharpness": 248.007
+    },
+    {
+      "index": 430,
+      "timestamp_s": 648.0,
+      "file": "frame_0431_001048.jpg",
+      "is_scene_cut": true,
+      "phash": "b5c0255ecf5e105acadd52ac72afdea9788f8d2921038d2be94958a8daaf12ad",
+      "sharpness": 1374.139
+    },
+    {
+      "index": 431,
+      "timestamp_s": 649.0,
+      "file": "frame_0432_001049.jpg",
+      "is_scene_cut": false,
+      "phash": "b5c0255ecf5e505aca5c52bc72bf9ea078cf8d29a1038d2be8c958a85aaf1aad",
+      "sharpness": 1374.532
+    },
+    {
+      "index": 432,
+      "timestamp_s": 652.0,
+      "file": "frame_0433_001052.jpg",
+      "is_scene_cut": false,
+      "phash": "af30ad5b39474758cb1c58f778c7463c728db9e320a98738d96359c3461c4e3c",
+      "sharpness": 1984.161
+    },
+    {
+      "index": 433,
+      "timestamp_s": 653.0,
+      "file": "frame_0434_001053.jpg",
+      "is_scene_cut": false,
+      "phash": "ae30ad5739474718cb1c58e750c7471c738db9e721898f38e9e338e346b84eb8",
+      "sharpness": 1986.325
+    },
+    {
+      "index": 434,
+      "timestamp_s": 655.0,
+      "file": "frame_0435_001055.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10ad57ab5f0152da4e56aa52a9dea870cb9569a8158e75e945caa5dab512ad",
+      "sharpness": 1885.709
+    },
+    {
+      "index": 435,
+      "timestamp_s": 656.0,
+      "file": "frame_0436_001056.jpg",
+      "is_scene_cut": false,
+      "phash": "af10ad57ab5d325ada5f56ae50ae54aa71ca9d28a9118e39e8412aa1cabd1abd",
+      "sharpness": 1877.855
+    },
+    {
+      "index": 436,
+      "timestamp_s": 657.0,
+      "file": "frame_0437_001057.jpg",
+      "is_scene_cut": false,
+      "phash": "ae30ab5aab5a22caca8e5eaa50ae54a071cd95798d158d7de8457aa1cabd1aad",
+      "sharpness": 1926.39
+    },
+    {
+      "index": 437,
+      "timestamp_s": 659.0,
+      "file": "frame_0438_001059.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10ad57eb5e1152735f56ae56ac5628728b9d29a9058ea9e8c958a9d8bf12ab",
+      "sharpness": 1953.989
+    },
+    {
+      "index": 438,
+      "timestamp_s": 660.0,
+      "file": "frame_0439_001100.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10ab5fab5d0a50ea1552bd52ad572071cd9d65a1558c6de80d7aa9d8ad1aad",
+      "sharpness": 1799.427
+    },
+    {
+      "index": 439,
+      "timestamp_s": 662.0,
+      "file": "frame_0440_001102.jpg",
+      "is_scene_cut": false,
+      "phash": "ad50ad57ab55325072cf56a852aa56aa50aa156a30cb8d6fe9558ab5cab53ab5",
+      "sharpness": 1827.632
+    },
+    {
+      "index": 440,
+      "timestamp_s": 663.0,
+      "file": "frame_0441_001103.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10ad5bab5e135a625554755735551571cd956d20c989abe98bcaaacaaa1aab",
+      "sharpness": 2039.073
+    },
+    {
+      "index": 441,
+      "timestamp_s": 664.0,
+      "file": "frame_0442_001104.jpg",
+      "is_scene_cut": false,
+      "phash": "ae30a95eab5e4e72724d56ed56bd562471cd9549a1458d2be809caa8daa91aad",
+      "sharpness": 2075.477
+    },
+    {
+      "index": 442,
+      "timestamp_s": 666.0,
+      "file": "frame_0443_001106.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10a55eeb5e0452dacf5eba52afdea072a9b52da1158d2dc94950a870af1eab",
+      "sharpness": 1858.18
+    },
+    {
+      "index": 443,
+      "timestamp_s": 667.0,
+      "file": "frame_0444_001107.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10a55eeb5e0652dacf5abd52ad9ea062e9b54da1558d6cc94150a972af1aad",
+      "sharpness": 1851.145
+    },
+    {
+      "index": 444,
+      "timestamp_s": 669.0,
+      "file": "frame_0445_001109.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255eeb5e4652facf5abd52ad9ea472a9b529a1518d6ac94950a870af1ead",
+      "sharpness": 1838.403
+    },
+    {
+      "index": 445,
+      "timestamp_s": 670.0,
+      "file": "frame_0446_001110.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f444bfacf5ab452afdea872a9b529a1518d6cc94950a872af1cad",
+      "sharpness": 1842.17
+    },
+    {
+      "index": 446,
+      "timestamp_s": 671.0,
+      "file": "frame_0447_001111.jpg",
+      "is_scene_cut": false,
+      "phash": "ac102556e95f444bfacf5aba52ae9ea87289b54da1558d6dc94550a872af1cad",
+      "sharpness": 1832.728
+    },
+    {
+      "index": 447,
+      "timestamp_s": 673.0,
+      "file": "frame_0448_001113.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10255eeb5d624bfacf5aba52ae9ea872a9b529a1158d2dc94950a870ae1caf",
+      "sharpness": 1829.725
+    },
+    {
+      "index": 448,
+      "timestamp_s": 674.0,
+      "file": "frame_0449_001114.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f244afacf5aba52af9ea872a9b529a1198d2ec94958a872af1aad",
+      "sharpness": 1836.818
+    },
+    {
+      "index": 449,
+      "timestamp_s": 676.0,
+      "file": "frame_0450_001116.jpg",
+      "is_scene_cut": false,
+      "phash": "d4024a562b555a5438f795ab2fad95282d2d2de729e72f5d421238cdd4a1c6af",
+      "sharpness": 517.806
+    },
+    {
+      "index": 450,
+      "timestamp_s": 677.0,
+      "file": "frame_0451_001117.jpg",
+      "is_scene_cut": false,
+      "phash": "d4004a562f555a5038ff95ab2fad95282dad2de329e72f5d429038edd4a1c6ad",
+      "sharpness": 553.677
+    },
+    {
+      "index": 451,
+      "timestamp_s": 678.0,
+      "file": "frame_0452_001118.jpg",
+      "is_scene_cut": false,
+      "phash": "d4024a562f555a5038f795ab2fad95282d2d2de329f72f5d429438cdd4a1c6ad",
+      "sharpness": 547.455
+    },
+    {
+      "index": 452,
+      "timestamp_s": 680.0,
+      "file": "frame_0453_001120.jpg",
+      "is_scene_cut": false,
+      "phash": "d4004a562f555a5438f795ab2fad95282d2b2de329e72f5d429438edd4a1c6ad",
+      "sharpness": 544.966
+    },
+    {
+      "index": 453,
+      "timestamp_s": 681.0,
+      "file": "frame_0454_001121.jpg",
+      "is_scene_cut": false,
+      "phash": "d4004a562f555a5438ff95ab2fad95282d2d2de329f52f5d421438cdd4a3c6ab",
+      "sharpness": 545.741
+    },
+    {
+      "index": 454,
+      "timestamp_s": 683.0,
+      "file": "frame_0455_001123.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10255ee95f444afacf5eba52af9ea86289b529a1558d6dc94950a870ae1ead",
+      "sharpness": 1841.348
+    },
+    {
+      "index": 455,
+      "timestamp_s": 684.0,
+      "file": "frame_0456_001124.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10a55aed5f244afad75ab65abcdaa4728531ada0898d2be94b552a70aa1ced",
+      "sharpness": 1840.126
+    },
+    {
+      "index": 456,
+      "timestamp_s": 685.0,
+      "file": "frame_0457_001125.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f644afacf5aba52af9ea872a9b529a1118d2dc9495aa872ae1aad",
+      "sharpness": 1841.869
+    },
+    {
+      "index": 457,
+      "timestamp_s": 687.0,
+      "file": "frame_0458_001127.jpg",
+      "is_scene_cut": false,
+      "phash": "ac102556e95d464bfacf5ab852af9ea872abb528a1598d6ac9495aa872af1aa5",
+      "sharpness": 1843.007
+    },
+    {
+      "index": 458,
+      "timestamp_s": 688.0,
+      "file": "frame_0459_001128.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f444bfacd5ab552af9ea872abb528a1598d6ac9415aa872af1aa5",
+      "sharpness": 1840.653
+    },
+    {
+      "index": 459,
+      "timestamp_s": 690.0,
+      "file": "frame_0460_001130.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f464bfadd5ab552ad9ea872abb528a1598d6ac94958a870af1aa5",
+      "sharpness": 1842.258
+    },
+    {
+      "index": 460,
+      "timestamp_s": 691.0,
+      "file": "frame_0461_001131.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ae95f464bfadd5ab552ad9ea562abb568a1598d6ac94950a870af1ea5",
+      "sharpness": 1855.254
+    },
+    {
+      "index": 461,
+      "timestamp_s": 692.0,
+      "file": "frame_0462_001132.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f424b7ad55ab45aaedea872abb568a5498d6ae94950a872af1aa5",
+      "sharpness": 1852.379
+    },
+    {
+      "index": 462,
+      "timestamp_s": 694.0,
+      "file": "frame_0463_001134.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f424b7ad75ab65aae9ea072c9b569a5498d69e94958a872ae1aa5",
+      "sharpness": 1852.451
+    },
+    {
+      "index": 463,
+      "timestamp_s": 695.0,
+      "file": "frame_0464_001135.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f464b7ad75ab452afdea07289b569a5498d6ae94950a872af1aa5",
+      "sharpness": 1851.983
+    },
+    {
+      "index": 464,
+      "timestamp_s": 697.0,
+      "file": "frame_0465_001137.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95d444bfacf5aba52afdea87289b548a1558d6ce94958a870af1cad",
+      "sharpness": 1847.881
+    },
+    {
+      "index": 465,
+      "timestamp_s": 698.0,
+      "file": "frame_0466_001138.jpg",
+      "is_scene_cut": false,
+      "phash": "ae102557eb5d644bfacf5eba52ae9ea8728bb50ca1558d6cc94558a870ae1ca9",
+      "sharpness": 1849.487
+    },
+    {
+      "index": 466,
+      "timestamp_s": 699.0,
+      "file": "frame_0467_001139.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10a55feb5d464b5acf52b252aede20724bb548a1518d6de9414aa972af1aad",
+      "sharpness": 1847.963
+    },
+    {
+      "index": 467,
+      "timestamp_s": 701.0,
+      "file": "frame_0468_001141.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10a55ee95f444a5adf56b552bddea462a9b529a1098d2ae94b5aa852af5aa5",
+      "sharpness": 1845.499
+    },
+    {
+      "index": 468,
+      "timestamp_s": 702.0,
+      "file": "frame_0469_001142.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10255eeb5f444b5acd56b552addea072c9b548a1518d6ae9495aa872af1aad",
+      "sharpness": 1842.559
+    },
+    {
+      "index": 469,
+      "timestamp_s": 704.0,
+      "file": "frame_0470_001144.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10255ee95f444bdadf56b552addea472a9b129a0998d2ae94b50a870af1cad",
+      "sharpness": 1840.8
+    },
+    {
+      "index": 470,
+      "timestamp_s": 705.0,
+      "file": "frame_0471_001145.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10255eeb5f444afacf56ba52af9ea862a9b54da1558d6cc94158a870ae1cad",
+      "sharpness": 1841.762
+    },
+    {
+      "index": 471,
+      "timestamp_s": 706.0,
+      "file": "frame_0472_001146.jpg",
+      "is_scene_cut": false,
+      "phash": "ae10255ee95f464bfadf5ab652ae9ea872abb529a1098d6cc9415a88729e1aa5",
+      "sharpness": 1839.546
+    },
+    {
+      "index": 472,
+      "timestamp_s": 708.0,
+      "file": "frame_0473_001148.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f464bfacd5ab552ad9ea862cbb548a1518d6ae94958a872af1aad",
+      "sharpness": 1841.878
+    },
+    {
+      "index": 473,
+      "timestamp_s": 709.0,
+      "file": "frame_0474_001149.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f464b7acd5ab552ad9ea862cbb54aa15b8d6ac9495aa852af1aa5",
+      "sharpness": 1842.774
+    },
+    {
+      "index": 474,
+      "timestamp_s": 711.0,
+      "file": "frame_0475_001151.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f464bfacd5ab552ad9ea862cbb54aa15b8d6ac94958a872ad1aa5",
+      "sharpness": 1840.162
+    },
+    {
+      "index": 475,
+      "timestamp_s": 712.0,
+      "file": "frame_0476_001152.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f464bfacd5ab552ad9ea072cbb568a1598d6ac94958a872af1aa5",
+      "sharpness": 1838.285
+    },
+    {
+      "index": 476,
+      "timestamp_s": 713.0,
+      "file": "frame_0477_001153.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ae95f464bfacd5ab552ad9ea572c9b548a1598d6ac94958a872af1aad",
+      "sharpness": 1839.366
+    },
+    {
+      "index": 477,
+      "timestamp_s": 715.0,
+      "file": "frame_0478_001155.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ae95f464bfacd5ab552ad9ea562cdb548a1518d6ec94958a872af1aad",
+      "sharpness": 1846.021
+    },
+    {
+      "index": 478,
+      "timestamp_s": 716.0,
+      "file": "frame_0479_001156.jpg",
+      "is_scene_cut": false,
+      "phash": "ac10255ee95f644bfacd5ab552ad9ea872abb548a1598d6ac94950a872af1aad",
+      "sharpness": 1845.425
+    },
+    {
+      "index": 479,
+      "timestamp_s": 718.0,
+      "file": "frame_0480_001158.jpg",
+      "is_scene_cut": false,
+      "phash": "ad10255aeb5e0652facf5ab552ad9ea562a9b548a1538d6ac94b50a972af1aad",
+      "sharpness": 1812.741
+    }
+  ],
+  "curation": {
+    "candidate_count": 719,
+    "window_count": 687,
+    "window_size": 1,
+    "selected_count": 671,
+    "dedup_dropped": 191,
+    "kept_count": 480,
+    "dedup_reduction": 0.2846
+  },
+  "segments": [
+    {
+      "index": 0,
+      "start_s": 0.715,
+      "end_s": 4.358,
+      "speaker": null,
+      "text": "Okay, so this video is going to be relatively quick, but kind of interesting.",
+      "frame_index": 2
+    },
+    {
+      "index": 1,
+      "start_s": 4.478,
+      "end_s": 7.26,
+      "speaker": null,
+      "text": "My buddy needed a website for his storyboard he made.",
+      "frame_index": 5
+    },
+    {
+      "index": 2,
+      "start_s": 7.32,
+      "end_s": 11.644,
+      "speaker": null,
+      "text": "He also wanted custom animated characters that looked like this built into the website.",
+      "frame_index": 7
+    },
+    {
+      "index": 3,
+      "start_s": 12.205,
+      "end_s": 13.946,
+      "speaker": null,
+      "text": "So as you're scrolling, it looks all nice.",
+      "frame_index": 9
+    },
+    {
+      "index": 4,
+      "start_s": 14.266,
+      "end_s": 22.853,
+      "speaker": null,
+      "text": "He's telling his storyboard, but also scattered throughout it, you have these characters that you get to jump into and that they have these little animations, micro expressions.",
+      "frame_index": 13
+    },
+    {
+      "index": 5,
+      "start_s": 22.873,
+      "end_s": 24.715,
+      "speaker": null,
+      "text": "They're kind of hanging out with each other, right?",
+      "frame_index": 17
+    },
+    {
+      "index": 6,
+      "start_s": 25.035,
+      "end_s": 27.616,
+      "speaker": null,
+      "text": "They're able to almost react to each other in their own way.",
+      "frame_index": 18
+    },
+    {
+      "index": 7,
+      "start_s": 27.976,
+      "end_s": 36.619,
+      "speaker": null,
+      "text": "And then he also wanted to be able to have a full video embedded into the website where he can actually go through and show each of these characters in their own animated way.",
+      "frame_index": 23
+    },
+    {
+      "index": 8,
+      "start_s": 36.659,
+      "end_s": 38.62,
+      "speaker": null,
+      "text": "And there's, of course, quite a few here.",
+      "frame_index": 26
+    },
+    {
+      "index": 9,
+      "start_s": 38.82,
+      "end_s": 41.481,
+      "speaker": null,
+      "text": "He also had a professor who he was doing this for.",
+      "frame_index": 28
+    },
+    {
+      "index": 10,
+      "start_s": 41.521,
+      "end_s": 47.083,
+      "speaker": null,
+      "text": "This is for schoolwork that wanted to know if there were ways in which AI could automate some of these processes.",
+      "frame_index": 31
+    },
+    {
+      "index": 11,
+      "start_s": 47.163,
+      "end_s": 50.305,
+      "speaker": null,
+      "text": "Because the professor's not against AI, but he also really loves design.",
+      "frame_index": 34
+    },
+    {
+      "index": 12,
+      "start_s": 50.585,
+      "end_s": 63.353,
+      "speaker": null,
+      "text": "And he didn't really believe you could have AI generate these type of editable animations that were something that you could iterate on, that you could organize and really create something clean based off of original Adobe Illustrator files.",
+      "frame_index": 40
+    },
+    {
+      "index": 13,
+      "start_s": 63.593,
+      "end_s": 64.994,
+      "speaker": null,
+      "text": "I obviously took that as a challenge.",
+      "frame_index": 45
+    },
+    {
+      "index": 14,
+      "start_s": 65.354,
+      "end_s": 67.455,
+      "speaker": null,
+      "text": "And here's essentially how I did it.",
+      "frame_index": 46
+    },
+    {
+      "index": 15,
+      "start_s": 68.316,
+      "end_s": 73.639,
+      "speaker": null,
+      "text": "Both I'm going to show you what I used and then dive into the actual process and why I did it.",
+      "frame_index": 50
+    },
+    {
+      "index": 16,
+      "start_s": 74.019,
+      "end_s": 80.508,
+      "speaker": null,
+      "text": "Now, this all started with my buddy's Adobe Illustrator actual storyboard that he was doing for class.",
+      "frame_index": 54
+    },
+    {
+      "index": 17,
+      "start_s": 80.548,
+      "end_s": 86.056,
+      "speaker": null,
+      "text": "And he actually went through and hand designed all of these, placed them, did all the, you know, specific designs for it.",
+      "frame_index": 58
+    },
+    {
+      "index": 18,
+      "start_s": 86.676,
+      "end_s": 90.362,
+      "speaker": null,
+      "text": "And he sent me the file and was like, Hey, you know, can you animate these?",
+      "frame_index": 62
+    },
+    {
+      "index": 19,
+      "start_s": 90.402,
+      "end_s": 91.263,
+      "speaker": null,
+      "text": "And I'm like, Heck, yeah.",
+      "frame_index": 63
+    },
+    {
+      "index": 20,
+      "start_s": 91.543,
+      "end_s": 92.583,
+      "speaker": null,
+      "text": "I would love to animate this.",
+      "frame_index": 64
+    },
+    {
+      "index": 21,
+      "start_s": 92.663,
+      "end_s": 95.404,
+      "speaker": null,
+      "text": "And then he came over to my house and we ended up working together on it.",
+      "frame_index": 66
+    },
+    {
+      "index": 22,
+      "start_s": 95.984,
+      "end_s": 98.105,
+      "speaker": null,
+      "text": "We had to kind of relabel some of this stuff.",
+      "frame_index": 67
+    },
+    {
+      "index": 23,
+      "start_s": 98.125,
+      "end_s": 112.128,
+      "speaker": null,
+      "text": "So we had to come in and actually label left iris, right iris, left eye, right eye, eyebrow left, eyebrow right, because I knew that the AI was going to look for those specific indicators without knowing",
+      "frame_index": 68
+    },
+    {
+      "index": 24,
+      "start_s": 112.488,
+      "end_s": 135.935,
+      "speaker": null,
+      "text": "you know it's not necessarily going to see the image all the time so it's able to do that right it can take screenshots but that's just a step i didn't want it to take i wanted it to know right away which character was which where the svg was in that you know aspect and then i also downloaded the entire storyboard as a uh svg so that we could you know access it and whatnot which you can actually see right here right um so it's just a big you know",
+      "frame_index": 79
+    },
+    {
+      "index": 25,
+      "start_s": 136.475,
+      "end_s": 137.836,
+      "speaker": null,
+      "text": "essentially HTML file.",
+      "frame_index": 87
+    },
+    {
+      "index": 26,
+      "start_s": 137.876,
+      "end_s": 143.518,
+      "speaker": null,
+      "text": "This is an SVG file, but same, same, but different, so that it was easier for the AI to work with as well.",
+      "frame_index": 90
+    },
+    {
+      "index": 27,
+      "start_s": 144.038,
+      "end_s": 148.901,
+      "speaker": null,
+      "text": "So first things first, I needed to go ahead and get two different GitHub libraries.",
+      "frame_index": 93
+    },
+    {
+      "index": 28,
+      "start_s": 148.921,
+      "end_s": 150.741,
+      "speaker": null,
+      "text": "The first one is Remotion.",
+      "frame_index": 95
+    },
+    {
+      "index": 29,
+      "start_s": 154.843,
+      "end_s": 166.146,
+      "speaker": null,
+      "text": "skill, which is basically Remotion is a library that allows you to create react animations programmatically, right?",
+      "frame_index": 101
+    },
+    {
+      "index": 30,
+      "start_s": 166.206,
+      "end_s": 171.468,
+      "speaker": null,
+      "text": "They came out with a kind of process that allows you to create animations in different ways.",
+      "frame_index": 107
+    },
+    {
+      "index": 31,
+      "start_s": 171.488,
+      "end_s": 175.149,
+      "speaker": null,
+      "text": "And if you've seen any of my other videos, you know, I use this library a lot.",
+      "frame_index": 110
+    },
+    {
+      "index": 32,
+      "start_s": 175.229,
+      "end_s": 176.209,
+      "speaker": null,
+      "text": "It's very useful.",
+      "frame_index": 112
+    },
+    {
+      "index": 33,
+      "start_s": 176.529,
+      "end_s": 179.89,
+      "speaker": null,
+      "text": "You can create JavaScript and react things to create pretty amazing",
+      "frame_index": 113
+    },
+    {
+      "index": 34,
+      "start_s": 180.27,
+      "end_s": 181.472,
+      "speaker": null,
+      "text": "animations, right?",
+      "frame_index": 116
+    },
+    {
+      "index": 35,
+      "start_s": 181.512,
+      "end_s": 185.398,
+      "speaker": null,
+      "text": "That's how we actually created all of these, which I'll go into detail here shortly.",
+      "frame_index": 117
+    },
+    {
+      "index": 36,
+      "start_s": 185.838,
+      "end_s": 187.841,
+      "speaker": null,
+      "text": "And it can do a lot more than just those animations.",
+      "frame_index": 120
+    },
+    {
+      "index": 37,
+      "start_s": 187.881,
+      "end_s": 195.112,
+      "speaker": null,
+      "text": "It can do whole scenes and whatnot programmatically using front end code, which AI is very good at writing, right?",
+      "frame_index": 123
+    },
+    {
+      "index": 38,
+      "start_s": 195.833,
+      "end_s": 208.899,
+      "speaker": null,
+      "text": "So the way in which I actually decided to build on that and make it cleaner so that it would be a clean website and rather not look as crazy or vibe coded, or at least just really amplify his storyboard that he has here.",
+      "frame_index": 131
+    },
+    {
+      "index": 39,
+      "start_s": 208.979,
+      "end_s": 212.041,
+      "speaker": null,
+      "text": "This looks a little bit vibe coded, so I'm going to change some of the fonts and stuff.",
+      "frame_index": 137
+    },
+    {
+      "index": 40,
+      "start_s": 213.561,
+      "end_s": 218.583,
+      "speaker": null,
+      "text": "is something called the UI UX Pro skill.",
+      "frame_index": 141
+    },
+    {
+      "index": 41,
+      "start_s": 219.443,
+      "end_s": 224.705,
+      "speaker": null,
+      "text": "This is an amazing library skill that I think everyone needs to get for their cloud.",
+      "frame_index": 145
+    },
+    {
+      "index": 42,
+      "start_s": 225.365,
+      "end_s": 230.067,
+      "speaker": null,
+      "text": "Basically, it's a skill that helps it design what the front end should look like, what a website should look like.",
+      "frame_index": 148
+    },
+    {
+      "index": 43,
+      "start_s": 230.087,
+      "end_s": 231.387,
+      "speaker": null,
+      "text": "It goes through a whole process.",
+      "frame_index": 150
+    },
+    {
+      "index": 44,
+      "start_s": 231.707,
+      "end_s": 252.84,
+      "speaker": null,
+      "text": "they have it all built in here and it's quite nice i use it a lot um it's just it's just easier to catch it up and use this skill rather than have to prompt cod so much to get it even close to what i want uh this really gets it closer there so these two uh github repos are a requirement obviously um you're gonna want claude you can use claude code inside of the app",
+      "frame_index": 158
+    },
+    {
+      "index": 45,
+      "start_s": 253.34,
+      "end_s": 257.661,
+      "speaker": null,
+      "text": "Personally, for me, I really love Claude inside of VS Code.",
+      "frame_index": 168
+    },
+    {
+      "index": 46,
+      "start_s": 258.922,
+      "end_s": 266.364,
+      "speaker": null,
+      "text": "Just being able to sit here, I can actually go through and let's say we're looking at these characters.",
+      "frame_index": 172
+    },
+    {
+      "index": 47,
+      "start_s": 266.744,
+      "end_s": 268.464,
+      "speaker": null,
+      "text": "I can click and see them right there.",
+      "frame_index": 175
+    },
+    {
+      "index": 48,
+      "start_s": 268.504,
+      "end_s": 270.305,
+      "speaker": null,
+      "text": "These are the SVGs we downloaded.",
+      "frame_index": 176
+    },
+    {
+      "index": 49,
+      "start_s": 270.625,
+      "end_s": 273.146,
+      "speaker": null,
+      "text": "from his Adobe Illustrator, which I'll show in a second.",
+      "frame_index": 178
+    },
+    {
+      "index": 50,
+      "start_s": 273.506,
+      "end_s": 285.388,
+      "speaker": null,
+      "text": "And it just becomes easier to actually talk with and work with the AI on building things and actually asking like, okay, like here I'm specifically saying, use the UI UX skill to redesign.",
+      "frame_index": 184
+    },
+    {
+      "index": 51,
+      "start_s": 285.468,
+      "end_s": 288.589,
+      "speaker": null,
+      "text": "I had made a version of the website myself before.",
+      "frame_index": 186
+    },
+    {
+      "index": 52,
+      "start_s": 289.349,
+      "end_s": 290.309,
+      "speaker": null,
+      "text": "You can have Claude do it.",
+      "frame_index": 188
+    },
+    {
+      "index": 53,
+      "start_s": 290.669,
+      "end_s": 293.69,
+      "speaker": null,
+      "text": "And I wanted the UI UX to kind of redesign what it was.",
+      "frame_index": 190
+    },
+    {
+      "index": 54,
+      "start_s": 294.09,
+      "end_s": 297.712,
+      "speaker": null,
+      "text": "But again, you don't have to use this IDE.",
+      "frame_index": 193
+    },
+    {
+      "index": 55,
+      "start_s": 297.832,
+      "end_s": 299.192,
+      "speaker": null,
+      "text": "You don't have to use VS Code.",
+      "frame_index": 195
+    },
+    {
+      "index": 56,
+      "start_s": 299.272,
+      "end_s": 302.934,
+      "speaker": null,
+      "text": "Again, I have installation instructions on how to use Cloud Code with this.",
+      "frame_index": 196
+    },
+    {
+      "index": 57,
+      "start_s": 303.274,
+      "end_s": 304.295,
+      "speaker": null,
+      "text": "Go check that video out.",
+      "frame_index": 198
+    },
+    {
+      "index": 58,
+      "start_s": 304.555,
+      "end_s": 305.595,
+      "speaker": null,
+      "text": "But I just wanted to share that.",
+      "frame_index": 199
+    },
+    {
+      "index": 59,
+      "start_s": 306.075,
+      "end_s": 308.657,
+      "speaker": null,
+      "text": "From there, I just had a whole bunch of conversations with it.",
+      "frame_index": 200
+    },
+    {
+      "index": 60,
+      "start_s": 309.577,
+      "end_s": 314.779,
+      "speaker": null,
+      "text": "I kept saying, hey, let's take these individual SVGs and create some animations out of it.",
+      "frame_index": 204
+    },
+    {
+      "index": 61,
+      "start_s": 315.079,
+      "end_s": 316.64,
+      "speaker": null,
+      "text": "We kind of worked back and forth.",
+      "frame_index": 206
+    },
+    {
+      "index": 62,
+      "start_s": 316.96,
+      "end_s": 321.161,
+      "speaker": null,
+      "text": "We made a couple little designs here or there, just a really long conversation.",
+      "frame_index": 209
+    },
+    {
+      "index": 63,
+      "start_s": 321.561,
+      "end_s": 324.843,
+      "speaker": null,
+      "text": "And then what I did like, what I didn't like, and it's just editing it.",
+      "frame_index": 211
+    },
+    {
+      "index": 64,
+      "start_s": 324.923,
+      "end_s": 333.526,
+      "speaker": null,
+      "text": "And what it's doing is it's taking these SVGs and it's actually adding them because of the Remotion skill and how Remotion works.",
+      "frame_index": 216
+    },
+    {
+      "index": 65,
+      "start_s": 334.126,
+      "end_s": 338.368,
+      "speaker": null,
+      "text": "into these components and these processes.",
+      "frame_index": 221
+    },
+    {
+      "index": 66,
+      "start_s": 338.428,
+      "end_s": 351.653,
+      "speaker": null,
+      "text": "The scene for the emotions showcase that you see here, this scene is all React and front-end code.",
+      "frame_index": 226
+    },
+    {
+      "index": 67,
+      "start_s": 351.733,
+      "end_s": 354.014,
+      "speaker": null,
+      "text": "That's how it's being built and it's all right here.",
+      "frame_index": 231
+    },
+    {
+      "index": 68,
+      "start_s": 354.334,
+      "end_s": 356.475,
+      "speaker": null,
+      "text": "But the scene is also referencing",
+      "frame_index": 233
+    },
+    {
+      "index": 69,
+      "start_s": 357.195,
+      "end_s": 358.937,
+      "speaker": null,
+      "text": "other emotions and data, right?",
+      "frame_index": 235
+    },
+    {
+      "index": 70,
+      "start_s": 358.957,
+      "end_s": 366.082,
+      "speaker": null,
+      "text": "So like when it references a certain character or it's pulling in a character, it's actually pulling them from components, right?",
+      "frame_index": 238
+    },
+    {
+      "index": 71,
+      "start_s": 366.122,
+      "end_s": 367.223,
+      "speaker": null,
+      "text": "Like our characters.",
+      "frame_index": 241
+    },
+    {
+      "index": 72,
+      "start_s": 367.603,
+      "end_s": 370.105,
+      "speaker": null,
+      "text": "So like what is the head and the colors of each one?",
+      "frame_index": 243
+    },
+    {
+      "index": 73,
+      "start_s": 370.366,
+      "end_s": 371.747,
+      "speaker": null,
+      "text": "What are the emotion profiles?",
+      "frame_index": 244
+    },
+    {
+      "index": 74,
+      "start_s": 371.807,
+      "end_s": 372.828,
+      "speaker": null,
+      "text": "When are they blinking?",
+      "frame_index": 245
+    },
+    {
+      "index": 75,
+      "start_s": 373.208,
+      "end_s": 375.39,
+      "speaker": null,
+      "text": "What is the iris speed for each one, right?",
+      "frame_index": 246
+    },
+    {
+      "index": 76,
+      "start_s": 375.41,
+      "end_s": 377.131,
+      "speaker": null,
+      "text": "Here's the joy, here's the smooth.",
+      "frame_index": 248
+    },
+    {
+      "index": 77,
+      "start_s": 377.431,
+      "end_s": 379.073,
+      "speaker": null,
+      "text": "So all of this stays editable.",
+      "frame_index": 249
+    },
+    {
+      "index": 78,
+      "start_s": 379.093,
+      "end_s": 380.534,
+      "speaker": null,
+      "text": "And this is the most important part.",
+      "frame_index": 250
+    },
+    {
+      "index": 79,
+      "start_s": 380.974,
+      "end_s": 385.238,
+      "speaker": null,
+      "text": "This entire folder structure now becomes my app",
+      "frame_index": 253
+    },
+    {
+      "index": 80,
+      "start_s": 385.718,
+      "end_s": 387.119,
+      "speaker": null,
+      "text": "for editing videos.",
+      "frame_index": 255
+    },
+    {
+      "index": 81,
+      "start_s": 387.239,
+      "end_s": 395.462,
+      "speaker": null,
+      "text": "I was able to pull out of Adobe Illustrator or any of these apps and start editing videos or websites or anything like that.",
+      "frame_index": 259
+    },
+    {
+      "index": 82,
+      "start_s": 396.582,
+      "end_s": 397.523,
+      "speaker": null,
+      "text": "Gosh, I have so many tabs.",
+      "frame_index": 263
+    },
+    {
+      "index": 83,
+      "start_s": 397.563,
+      "end_s": 398.503,
+      "speaker": null,
+      "text": "I'm so sorry, everyone.",
+      "frame_index": 264
+    },
+    {
+      "index": 84,
+      "start_s": 398.803,
+      "end_s": 399.763,
+      "speaker": null,
+      "text": "This is all over the place.",
+      "frame_index": 264
+    },
+    {
+      "index": 85,
+      "start_s": 402.445,
+      "end_s": 407.226,
+      "speaker": null,
+      "text": "I'm able to edit these things using natural language.",
+      "frame_index": 268
+    },
+    {
+      "index": 86,
+      "start_s": 407.266,
+      "end_s": 410.268,
+      "speaker": null,
+      "text": "I'm able to sit there and actually come in and say, hey,",
+      "frame_index": 270
+    },
+    {
+      "index": 87,
+      "start_s": 412.142,
+      "end_s": 414.823,
+      "speaker": null,
+      "text": "And I have two monitors, so usually I don't have to dip between these.",
+      "frame_index": 273
+    },
+    {
+      "index": 88,
+      "start_s": 415.524,
+      "end_s": 417.465,
+      "speaker": null,
+      "text": "I don't like the eyes on sadness.",
+      "frame_index": 275
+    },
+    {
+      "index": 89,
+      "start_s": 418.045,
+      "end_s": 421.287,
+      "speaker": null,
+      "text": "I don't like the eyes on sadness.",
+      "frame_index": 276
+    },
+    {
+      "index": 90,
+      "start_s": 422.107,
+      "end_s": 423.368,
+      "speaker": null,
+      "text": "What can I do?",
+      "frame_index": 278
+    },
+    {
+      "index": 91,
+      "start_s": 423.468,
+      "end_s": 426.989,
+      "speaker": null,
+      "text": "And when I send that, it's not just reading the whole motion base.",
+      "frame_index": 280
+    },
+    {
+      "index": 92,
+      "start_s": 427.33,
+      "end_s": 430.591,
+      "speaker": null,
+      "text": "I have a project MD, which is being read as ClaudeMD.",
+      "frame_index": 283
+    },
+    {
+      "index": 93,
+      "start_s": 430.611,
+      "end_s": 433.733,
+      "speaker": null,
+      "text": "I actually need to change that to say ClaudeMD so it knows to always read it.",
+      "frame_index": 285
+    },
+    {
+      "index": 94,
+      "start_s": 435.034,
+      "end_s": 439.998,
+      "speaker": null,
+      "text": "that shows where to go for certain folders, where to get the original SVG.",
+      "frame_index": 289
+    },
+    {
+      "index": 95,
+      "start_s": 440.038,
+      "end_s": 447.424,
+      "speaker": null,
+      "text": "So instead of having to sit here and read through the whole code base, read through everything, it already has built-in context of where it needs to go.",
+      "frame_index": 293
+    },
+    {
+      "index": 96,
+      "start_s": 447.765,
+      "end_s": 452.569,
+      "speaker": null,
+      "text": "I'm able to edit these things using natural language, right?",
+      "frame_index": 298
+    },
+    {
+      "index": 97,
+      "start_s": 452.589,
+      "end_s": 455.611,
+      "speaker": null,
+      "text": "I'm able to sit there and actually come in and say, hey,",
+      "frame_index": 300
+    },
+    {
+      "index": 98,
+      "start_s": 457.465,
+      "end_s": 460.147,
+      "speaker": null,
+      "text": "And I have two monitors, so usually I don't have to dip between these.",
+      "frame_index": 304
+    },
+    {
+      "index": 99,
+      "start_s": 460.847,
+      "end_s": 462.808,
+      "speaker": null,
+      "text": "I don't like the eyes on sadness.",
+      "frame_index": 305
+    },
+    {
+      "index": 100,
+      "start_s": 463.369,
+      "end_s": 466.611,
+      "speaker": null,
+      "text": "I don't like the eyes on sadness.",
+      "frame_index": 306
+    },
+    {
+      "index": 101,
+      "start_s": 467.451,
+      "end_s": 468.692,
+      "speaker": null,
+      "text": "What can I do?",
+      "frame_index": 309
+    },
+    {
+      "index": 102,
+      "start_s": 468.812,
+      "end_s": 472.314,
+      "speaker": null,
+      "text": "And when I send that, it's not just reading the whole motion base.",
+      "frame_index": 310
+    },
+    {
+      "index": 103,
+      "start_s": 472.655,
+      "end_s": 475.917,
+      "speaker": null,
+      "text": "I have a project MD, which is being read as Claude MD.",
+      "frame_index": 313
+    },
+    {
+      "index": 104,
+      "start_s": 475.957,
+      "end_s": 479.059,
+      "speaker": null,
+      "text": "I actually need to change that to say Claude MD so it knows to always read it.",
+      "frame_index": 315
+    },
+    {
+      "index": 105,
+      "start_s": 480.36,
+      "end_s": 485.324,
+      "speaker": null,
+      "text": "that shows where to go for certain folders, where to get the original SVG.",
+      "frame_index": 319
+    },
+    {
+      "index": 106,
+      "start_s": 485.364,
+      "end_s": 492.751,
+      "speaker": null,
+      "text": "So instead of having to sit here and read through the whole code base, read through everything, it already has built-in context of where it needs to go.",
+      "frame_index": 324
+    },
+    {
+      "index": 107,
+      "start_s": 493.171,
+      "end_s": 500.037,
+      "speaker": null,
+      "text": "So then I can just sit there and edit fine details with other AI image systems and things like that.",
+      "frame_index": 329
+    },
+    {
+      "index": 108,
+      "start_s": 500.357,
+      "end_s": 505.999,
+      "speaker": null,
+      "text": "you have to constantly redo the entire video or sections of it or destroys half of what you're trying to do.",
+      "frame_index": 334
+    },
+    {
+      "index": 109,
+      "start_s": 506.379,
+      "end_s": 511.582,
+      "speaker": null,
+      "text": "Versus here, when I say I want to edit the eye, it's literally only going to go in.",
+      "frame_index": 338
+    },
+    {
+      "index": 110,
+      "start_s": 511.842,
+      "end_s": 512.542,
+      "speaker": null,
+      "text": "Oops, wrong one.",
+      "frame_index": 340
+    },
+    {
+      "index": 111,
+      "start_s": 512.882,
+      "end_s": 513.983,
+      "speaker": null,
+      "text": "It's only going to go in.",
+      "frame_index": 341
+    },
+    {
+      "index": 112,
+      "start_s": 514.283,
+      "end_s": 517.344,
+      "speaker": null,
+      "text": "It's going to find the specific component",
+      "frame_index": 343
+    },
+    {
+      "index": 113,
+      "start_s": 517.784,
+      "end_s": 539.83,
+      "speaker": null,
+      "text": "for that character it's gonna look oh you mean the iris speed for joy or for fear maybe the pattern that's looking and that's what it's going to sign it's going to assign the speeds it's going to sign the movements of it right is there certain things it's creating the variables that i need to be able to edit all these right all of these all of this code i can come in and edit if i'd like or",
+      "frame_index": 351
+    },
+    {
+      "index": 114,
+      "start_s": 540.05,
+      "end_s": 552.413,
+      "speaker": null,
+      "text": "or because the AI is really good at it, it can edit small parts of it without messing up the rest of the code base, allowing for really refined edits of each character in scenes or in places.",
+      "frame_index": 364
+    },
+    {
+      "index": 115,
+      "start_s": 552.453,
+      "end_s": 566.096,
+      "speaker": null,
+      "text": "Then when I'm done editing it in the scene, I can take that character of this scene, one that I really like, and say, hey, can we throw that into my React front-end website, which is exactly what we did here.",
+      "frame_index": 373
+    },
+    {
+      "index": 116,
+      "start_s": 566.836,
+      "end_s": 569.657,
+      "speaker": null,
+      "text": "We had the website, it had the storyboards with the normal SFV,",
+      "frame_index": 379
+    },
+    {
+      "index": 117,
+      "start_s": 570.117,
+      "end_s": 592.749,
+      "speaker": null,
+      "text": "it took that character and added them in now i understand some of this may still be very confusing and there's a lot to dive into i'm making much more structured courses on svgs on react on front end on software fundamentals because people are starting to discover now people with software fundamentals and understanding ai fundamentals and design fundamentals become like",
+      "frame_index": 388
+    },
+    {
+      "index": 118,
+      "start_s": 593.149,
+      "end_s": 594.81,
+      "speaker": null,
+      "text": "powerhouses in today's world.",
+      "frame_index": 397
+    },
+    {
+      "index": 119,
+      "start_s": 594.83,
+      "end_s": 597.43,
+      "speaker": null,
+      "text": "I mean, I was able to design this in three hours, right?",
+      "frame_index": 399
+    },
+    {
+      "index": 120,
+      "start_s": 597.731,
+      "end_s": 607.734,
+      "speaker": null,
+      "text": "This would have taken me weeks before if I was doing it manually, but the information, the understanding of design, the small nuances still existed, still were required.",
+      "frame_index": 402
+    },
+    {
+      "index": 121,
+      "start_s": 608.194,
+      "end_s": 611.255,
+      "speaker": null,
+      "text": "The base of Adobe Illustrator was still there.",
+      "frame_index": 407
+    },
+    {
+      "index": 122,
+      "start_s": 611.315,
+      "end_s": 613.616,
+      "speaker": null,
+      "text": "This was the start of all of this, right?",
+      "frame_index": 409
+    },
+    {
+      "index": 123,
+      "start_s": 613.956,
+      "end_s": 616.899,
+      "speaker": null,
+      "text": "And this is the whole idea behind my idea of pushing.",
+      "frame_index": 411
+    },
+    {
+      "index": 124,
+      "start_s": 616.919,
+      "end_s": 617.98,
+      "speaker": null,
+      "text": "We don't need agents.",
+      "frame_index": 412
+    },
+    {
+      "index": 125,
+      "start_s": 618.26,
+      "end_s": 619.641,
+      "speaker": null,
+      "text": "We need file structures.",
+      "frame_index": 413
+    },
+    {
+      "index": 126,
+      "start_s": 620.041,
+      "end_s": 627.048,
+      "speaker": null,
+      "text": "This file structure allows me to do all this editing, everything you see in front of you without a single app.",
+      "frame_index": 416
+    },
+    {
+      "index": 127,
+      "start_s": 627.448,
+      "end_s": 633.073,
+      "speaker": null,
+      "text": "No app is needed other than Claude or an agent or an AI, which I guess counts as an app.",
+      "frame_index": 421
+    },
+    {
+      "index": 128,
+      "start_s": 633.113,
+      "end_s": 634.155,
+      "speaker": null,
+      "text": "But you see what I'm saying?",
+      "frame_index": 423
+    },
+    {
+      "index": 129,
+      "start_s": 634.175,
+      "end_s": 636.238,
+      "speaker": null,
+      "text": "I don't need Adobe Illustrator and all these things.",
+      "frame_index": 424
+    },
+    {
+      "index": 130,
+      "start_s": 636.578,
+      "end_s": 639.483,
+      "speaker": null,
+      "text": "I could do all of this work inside of a folder.",
+      "frame_index": 426
+    },
+    {
+      "index": 131,
+      "start_s": 639.803,
+      "end_s": 642.207,
+      "speaker": null,
+      "text": "App-less work is now possible.",
+      "frame_index": 427
+    },
+    {
+      "index": 132,
+      "start_s": 642.247,
+      "end_s": 646.854,
+      "speaker": null,
+      "text": "We're entering a different abstraction to get the work done in a different way using",
+      "frame_index": 428
+    },
+    {
+      "index": 133,
+      "start_s": 648.638,
+      "end_s": 651.661,
+      "speaker": null,
+      "text": "Natural language, just natural language.",
+      "frame_index": 432
+    },
+    {
+      "index": 134,
+      "start_s": 651.682,
+      "end_s": 655.406,
+      "speaker": null,
+      "text": "Instead of me having to click through all these UI and stuff, I can say, I don't really like that.",
+      "frame_index": 433
+    },
+    {
+      "index": 135,
+      "start_s": 655.426,
+      "end_s": 656.167,
+      "speaker": null,
+      "text": "Do this instead.",
+      "frame_index": 435
+    },
+    {
+      "index": 136,
+      "start_s": 656.667,
+      "end_s": 657.388,
+      "speaker": null,
+      "text": "Ah, crazy question.",
+      "frame_index": 436
+    },
+    {
+      "index": 137,
+      "start_s": 657.408,
+      "end_s": 659.591,
+      "speaker": null,
+      "text": "Are we able to convert that into our own HTML slider?",
+      "frame_index": 437
+    },
+    {
+      "index": 138,
+      "start_s": 659.931,
+      "end_s": 660.792,
+      "speaker": null,
+      "text": "Hey, that's fine.",
+      "frame_index": 438
+    },
+    {
+      "index": 139,
+      "start_s": 660.812,
+      "end_s": 662.794,
+      "speaker": null,
+      "text": "I want more slides than anything else, right?",
+      "frame_index": 439
+    },
+    {
+      "index": 140,
+      "start_s": 662.814,
+      "end_s": 665.678,
+      "speaker": null,
+      "text": "I'm able to work with the program and capture my intention",
+      "frame_index": 441
+    },
+    {
+      "index": 141,
+      "start_s": 665.958,
+      "end_s": 671.964,
+      "speaker": null,
+      "text": "through natural language while still not sacrificing the minute editability.",
+      "frame_index": 444
+    },
+    {
+      "index": 142,
+      "start_s": 672.204,
+      "end_s": 677.709,
+      "speaker": null,
+      "text": "Now, there's certain things that you might want to still edit inside of Adobe Illustrator or something like that, right?",
+      "frame_index": 449
+    },
+    {
+      "index": 143,
+      "start_s": 677.729,
+      "end_s": 679.351,
+      "speaker": null,
+      "text": "That might be able to do faster.",
+      "frame_index": 451
+    },
+    {
+      "index": 144,
+      "start_s": 679.731,
+      "end_s": 683.555,
+      "speaker": null,
+      "text": "But there's also other things you don't want to edit, especially once the scenes are put together.",
+      "frame_index": 453
+    },
+    {
+      "index": 145,
+      "start_s": 683.835,
+      "end_s": 685.515,
+      "speaker": null,
+      "text": "So you're just balancing where the human is.",
+      "frame_index": 456
+    },
+    {
+      "index": 146,
+      "start_s": 686.176,
+      "end_s": 686.676,
+      "speaker": null,
+      "text": "Well, that's it.",
+      "frame_index": 457
+    },
+    {
+      "index": 147,
+      "start_s": 686.796,
+      "end_s": 689.116,
+      "speaker": null,
+      "text": "I just wanted to make a quick video on this today, everyone.",
+      "frame_index": 458
+    },
+    {
+      "index": 148,
+      "start_s": 689.637,
+      "end_s": 695.578,
+      "speaker": null,
+      "text": "Other than that, if you have any questions, comments, concerns, obviously, you know, you're probably watching this from my community right now.",
+      "frame_index": 461
+    },
+    {
+      "index": 149,
+      "start_s": 695.678,
+      "end_s": 709.942,
+      "speaker": null,
+      "text": "If you're not in my community and this is a YouTube video, go ahead and click the link in the description to go come check out all my tutorials and become part of a community that's building real stuff that's going to last 10 years, not just some random AI guru crap.",
+      "frame_index": 468
+    },
+    {
+      "index": 150,
+      "start_s": 710.934,
+      "end_s": 712.798,
+      "speaker": null,
+      "text": "I'm sorry to say crap, but you know what I mean.",
+      "frame_index": 475
+    },
+    {
+      "index": 151,
+      "start_s": 713.099,
+      "end_s": 713.64,
+      "speaker": null,
+      "text": "In that world.",
+      "frame_index": 476
+    },
+    {
+      "index": 152,
+      "start_s": 713.921,
+      "end_s": 715.343,
+      "speaker": null,
+      "text": "Anyway, much love everyone.",
+      "frame_index": 477
+    },
+    {
+      "index": 153,
+      "start_s": 715.504,
+      "end_s": 716.285,
+      "speaker": null,
+      "text": "I'll see you around.",
+      "frame_index": 478
+    },
+    {
+      "index": 154,
+      "start_s": 716.486,
+      "end_s": 718.209,
+      "speaker": null,
+      "text": "Until next time, happy learning.",
+      "frame_index": 479
+    }
+  ],
+  "alignment": {
+    "mode": "joint",
+    "anchor_counts": {
+      "scene_cuts": 41,
+      "speaker_turns": 0,
+      "silence_gaps": 39,
+      "caption_cues": 0
+    }
+  },
+  "artifacts": {
+    "manifest_json": "izmbiwg3l24_manifest.json",
+    "frames_dir": "illustrator-to-web-animations_frames",
+    "transcript_txt": "izmbiwg3l24_transcript.txt",
+    "contactsheet_jpg": "izmbiwg3l24_contactsheet.jpg",
+    "frames_index_md": "izmbiwg3l24_frames.md"
+  }
+}

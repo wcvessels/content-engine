@@ -1,0 +1,113 @@
+{
+  "schema": "docmodel-1.0",
+  "meta": {
+    "title": "render-doc Self-Test Guide",
+    "subtitle": "Proves HTML and PDF render from a synthetic doc-model.",
+    "doc_type": "guide",
+    "audience": "the render-core builder",
+    "author": "Will Vessels",
+    "date": "2026-06-27",
+    "reading_time_min": 2,
+    "learning_objectives": [
+      "Confirm prose, callout, list, and screenshot blocks render.",
+      "Confirm the **crop** box is applied to a screenshot."
+    ],
+    "source": {
+      "video_title": null,
+      "manifest": "selftest"
+    }
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "heading": "Overview",
+      "level": 1,
+      "kind": "intro",
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "This is a *synthetic* guide. It uses **inline markdown**, a `code span`, and a [link](https://example.com)."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "Callouts render with a colored rail and a label."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "First step.",
+            "Second step with **bold**.",
+            "Third."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shots",
+      "heading": "Screenshots and cropping",
+      "level": 1,
+      "kind": "concept",
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The frame below is cropped to drop the webcam strip on the right (kept box = left 78%)."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 1,
+          "caption": "Cropped: webcam strip removed.",
+          "alt": "Content panel only.",
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.78,
+            "h": 1.0
+          },
+          "crop_reason": "Removed the webcam strip on the right; content kept whole."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 1,
+          "caption": "Full frame (no crop).",
+          "alt": "Content plus webcam strip.",
+          "crop": null,
+          "crop_reason": "Full frame kept for comparison."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 999,
+          "caption": "This frame is missing on purpose.",
+          "crop": null,
+          "crop_reason": "N/A"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "md": "The missing frame above must render a placeholder, not crash."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "heading": "Summary",
+      "level": 2,
+      "kind": "summary",
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "If you can read this, sections rendered in order."
+        },
+        {
+          "type": "unknown_future_type",
+          "md": "Unknown block type degrades to prose."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "disclaimer": "Synthetic self-test output. Not a real guide.",
+    "confidentiality": "Internal use only"
+  }
+}

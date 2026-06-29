@@ -1,0 +1,155 @@
+Okay, so this video is going to be relatively quick, but kind of interesting.
+My buddy needed a website for his storyboard he made.
+He also wanted custom animated characters that looked like this built into the website.
+So as you're scrolling, it looks all nice.
+He's telling his storyboard, but also scattered throughout it, you have these characters that you get to jump into and that they have these little animations, micro expressions.
+They're kind of hanging out with each other, right?
+They're able to almost react to each other in their own way.
+And then he also wanted to be able to have a full video embedded into the website where he can actually go through and show each of these characters in their own animated way.
+And there's, of course, quite a few here.
+He also had a professor who he was doing this for.
+This is for schoolwork that wanted to know if there were ways in which AI could automate some of these processes.
+Because the professor's not against AI, but he also really loves design.
+And he didn't really believe you could have AI generate these type of editable animations that were something that you could iterate on, that you could organize and really create something clean based off of original Adobe Illustrator files.
+I obviously took that as a challenge.
+And here's essentially how I did it.
+Both I'm going to show you what I used and then dive into the actual process and why I did it.
+Now, this all started with my buddy's Adobe Illustrator actual storyboard that he was doing for class.
+And he actually went through and hand designed all of these, placed them, did all the, you know, specific designs for it.
+And he sent me the file and was like, Hey, you know, can you animate these?
+And I'm like, Heck, yeah.
+I would love to animate this.
+And then he came over to my house and we ended up working together on it.
+We had to kind of relabel some of this stuff.
+So we had to come in and actually label left iris, right iris, left eye, right eye, eyebrow left, eyebrow right, because I knew that the AI was going to look for those specific indicators without knowing
+you know it's not necessarily going to see the image all the time so it's able to do that right it can take screenshots but that's just a step i didn't want it to take i wanted it to know right away which character was which where the svg was in that you know aspect and then i also downloaded the entire storyboard as a uh svg so that we could you know access it and whatnot which you can actually see right here right um so it's just a big you know
+essentially HTML file.
+This is an SVG file, but same, same, but different, so that it was easier for the AI to work with as well.
+So first things first, I needed to go ahead and get two different GitHub libraries.
+The first one is Remotion.
+skill, which is basically Remotion is a library that allows you to create react animations programmatically, right?
+They came out with a kind of process that allows you to create animations in different ways.
+And if you've seen any of my other videos, you know, I use this library a lot.
+It's very useful.
+You can create JavaScript and react things to create pretty amazing
+animations, right?
+That's how we actually created all of these, which I'll go into detail here shortly.
+And it can do a lot more than just those animations.
+It can do whole scenes and whatnot programmatically using front end code, which AI is very good at writing, right?
+So the way in which I actually decided to build on that and make it cleaner so that it would be a clean website and rather not look as crazy or vibe coded, or at least just really amplify his storyboard that he has here.
+This looks a little bit vibe coded, so I'm going to change some of the fonts and stuff.
+is something called the UI UX Pro skill.
+This is an amazing library skill that I think everyone needs to get for their cloud.
+Basically, it's a skill that helps it design what the front end should look like, what a website should look like.
+It goes through a whole process.
+they have it all built in here and it's quite nice i use it a lot um it's just it's just easier to catch it up and use this skill rather than have to prompt cod so much to get it even close to what i want uh this really gets it closer there so these two uh github repos are a requirement obviously um you're gonna want claude you can use claude code inside of the app
+Personally, for me, I really love Claude inside of VS Code.
+Just being able to sit here, I can actually go through and let's say we're looking at these characters.
+I can click and see them right there.
+These are the SVGs we downloaded.
+from his Adobe Illustrator, which I'll show in a second.
+And it just becomes easier to actually talk with and work with the AI on building things and actually asking like, okay, like here I'm specifically saying, use the UI UX skill to redesign.
+I had made a version of the website myself before.
+You can have Claude do it.
+And I wanted the UI UX to kind of redesign what it was.
+But again, you don't have to use this IDE.
+You don't have to use VS Code.
+Again, I have installation instructions on how to use Cloud Code with this.
+Go check that video out.
+But I just wanted to share that.
+From there, I just had a whole bunch of conversations with it.
+I kept saying, hey, let's take these individual SVGs and create some animations out of it.
+We kind of worked back and forth.
+We made a couple little designs here or there, just a really long conversation.
+And then what I did like, what I didn't like, and it's just editing it.
+And what it's doing is it's taking these SVGs and it's actually adding them because of the Remotion skill and how Remotion works.
+into these components and these processes.
+The scene for the emotions showcase that you see here, this scene is all React and front-end code.
+That's how it's being built and it's all right here.
+But the scene is also referencing
+other emotions and data, right?
+So like when it references a certain character or it's pulling in a character, it's actually pulling them from components, right?
+Like our characters.
+So like what is the head and the colors of each one?
+What are the emotion profiles?
+When are they blinking?
+What is the iris speed for each one, right?
+Here's the joy, here's the smooth.
+So all of this stays editable.
+And this is the most important part.
+This entire folder structure now becomes my app
+for editing videos.
+I was able to pull out of Adobe Illustrator or any of these apps and start editing videos or websites or anything like that.
+Gosh, I have so many tabs.
+I'm so sorry, everyone.
+This is all over the place.
+I'm able to edit these things using natural language.
+I'm able to sit there and actually come in and say, hey,
+And I have two monitors, so usually I don't have to dip between these.
+I don't like the eyes on sadness.
+I don't like the eyes on sadness.
+What can I do?
+And when I send that, it's not just reading the whole motion base.
+I have a project MD, which is being read as ClaudeMD.
+I actually need to change that to say ClaudeMD so it knows to always read it.
+that shows where to go for certain folders, where to get the original SVG.
+So instead of having to sit here and read through the whole code base, read through everything, it already has built-in context of where it needs to go.
+I'm able to edit these things using natural language, right?
+I'm able to sit there and actually come in and say, hey,
+And I have two monitors, so usually I don't have to dip between these.
+I don't like the eyes on sadness.
+I don't like the eyes on sadness.
+What can I do?
+And when I send that, it's not just reading the whole motion base.
+I have a project MD, which is being read as Claude MD.
+I actually need to change that to say Claude MD so it knows to always read it.
+that shows where to go for certain folders, where to get the original SVG.
+So instead of having to sit here and read through the whole code base, read through everything, it already has built-in context of where it needs to go.
+So then I can just sit there and edit fine details with other AI image systems and things like that.
+you have to constantly redo the entire video or sections of it or destroys half of what you're trying to do.
+Versus here, when I say I want to edit the eye, it's literally only going to go in.
+Oops, wrong one.
+It's only going to go in.
+It's going to find the specific component
+for that character it's gonna look oh you mean the iris speed for joy or for fear maybe the pattern that's looking and that's what it's going to sign it's going to assign the speeds it's going to sign the movements of it right is there certain things it's creating the variables that i need to be able to edit all these right all of these all of this code i can come in and edit if i'd like or
+or because the AI is really good at it, it can edit small parts of it without messing up the rest of the code base, allowing for really refined edits of each character in scenes or in places.
+Then when I'm done editing it in the scene, I can take that character of this scene, one that I really like, and say, hey, can we throw that into my React front-end website, which is exactly what we did here.
+We had the website, it had the storyboards with the normal SFV,
+it took that character and added them in now i understand some of this may still be very confusing and there's a lot to dive into i'm making much more structured courses on svgs on react on front end on software fundamentals because people are starting to discover now people with software fundamentals and understanding ai fundamentals and design fundamentals become like
+powerhouses in today's world.
+I mean, I was able to design this in three hours, right?
+This would have taken me weeks before if I was doing it manually, but the information, the understanding of design, the small nuances still existed, still were required.
+The base of Adobe Illustrator was still there.
+This was the start of all of this, right?
+And this is the whole idea behind my idea of pushing.
+We don't need agents.
+We need file structures.
+This file structure allows me to do all this editing, everything you see in front of you without a single app.
+No app is needed other than Claude or an agent or an AI, which I guess counts as an app.
+But you see what I'm saying?
+I don't need Adobe Illustrator and all these things.
+I could do all of this work inside of a folder.
+App-less work is now possible.
+We're entering a different abstraction to get the work done in a different way using
+Natural language, just natural language.
+Instead of me having to click through all these UI and stuff, I can say, I don't really like that.
+Do this instead.
+Ah, crazy question.
+Are we able to convert that into our own HTML slider?
+Hey, that's fine.
+I want more slides than anything else, right?
+I'm able to work with the program and capture my intention
+through natural language while still not sacrificing the minute editability.
+Now, there's certain things that you might want to still edit inside of Adobe Illustrator or something like that, right?
+That might be able to do faster.
+But there's also other things you don't want to edit, especially once the scenes are put together.
+So you're just balancing where the human is.
+Well, that's it.
+I just wanted to make a quick video on this today, everyone.
+Other than that, if you have any questions, comments, concerns, obviously, you know, you're probably watching this from my community right now.
+If you're not in my community and this is a YouTube video, go ahead and click the link in the description to go come check out all my tutorials and become part of a community that's building real stuff that's going to last 10 years, not just some random AI guru crap.
+I'm sorry to say crap, but you know what I mean.
+In that world.
+Anyway, much love everyone.
+I'll see you around.
+Until next time, happy learning.

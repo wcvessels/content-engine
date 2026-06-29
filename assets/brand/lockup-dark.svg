@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="449" height="72" viewBox="0 0 449 72" role="img" aria-label="content-engine">
+  <g transform="translate(0,8) scale(1.75)">
+    <rect x="13" y="3.5" width="15" height="19" rx="2" fill="none" stroke="#8693DB" stroke-width="1.7"></rect>
+    <rect x="4.5" y="8" width="17" height="20.5" rx="2.2" fill="#14171F" stroke="#8693DB" stroke-width="1.7"></rect>
+    <rect x="8" y="12" width="8" height="1.7" rx="0.85" fill="#F4F5F8"></rect>
+    <rect x="8" y="15.2" width="10.5" height="1.7" rx="0.85" fill="#F4F5F8"></rect>
+    <rect x="8" y="18.8" width="10.5" height="6" rx="1.2" fill="#E8A33D"></rect>
+  </g>
+  <text x="78" y="49" font-family="&#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif" font-size="50" font-weight="600" fill="#F4F5F8">content<tspan fill="#8693DB">-</tspan>engine</text>
+</svg>

@@ -1,0 +1,272 @@
+Hi everyone.
+In this video, we're going to dive into my concepts around folder as a workspace and architecture.
+What it means to use AI in a way that will actually probably last the next decade and what I think the industry is actually moving towards.
+Now, if you've seen any of my other videos, I'm sure you've seen screenshots or snippets of crazy folder structure I'm doing, where I'm routing Claude to different folders, my markdown files, using skills at certain times.
+creating animations or code with it.
+I have all sorts of different ways I'm doing it, but I don't think I have a video out there that really dives into how I structure it and teaching you to do that.
+And I decided to go ahead and create a kind of template folder to walk you through all of this.
+This is something you could use to be able to apply to any of your workflows, build through it, understand it and kind of explore, you know, building your own version of this.
+Now, throughout this video, I'm actually going to teach some concepts along the way for people who are not familiar with maybe VS code, which is the workspace I'm working in.
+Don't worry, you don't need VS code to do the things I'm showing you.
+You can do it within Claude, but I just want to describe like what Markdown is, what
+it means to have an ide all of these things and if you are familiar with these you're a software engineer you probably are don't worry i'm still going to be diving into the specifics and i think you're going to get a lot of out of this either way however sometimes it's also nice to just dive back into the fundamentals
+So let me paint a little scene for you.
+Right now, most people, if they are even using AI, which fun fact, about 84% of the nation is still not fully using it, but log in and use Claude or ChatGPT or Gemini, and they're typing things, they're diving in.
+Maybe they get something back, they start another conversation, start over, and sometimes they're able to share context between conversations, right?
+Like ChatGPT and Claude can do that.
+I can say,
+you know tell me a software stack for vigilore which is a software that i was working on for another company and it's able to go and look through our older conversations which is nice that's a little bit of extra there but it's still not you know it's not able to look at files have persistence things like that and you're constantly having to make these huge prompts maybe you have some sort of prompts that you save and throw in or documents
+and you're throwing it in, and then you have to start a new conversation.
+Throw it in, start a new conversation, you hit a wall, there's too many tokens, right?
+All sorts of problems there.
+And don't get me wrong, there's some really good prompt engineering techniques out there, but at the end of the day, AI can only hold so much in a single information or chat area.
+And even further, that's not your workflow.
+Having to have it create a whole bunch of stuff and then re-edit it again, it's not sustainable, it's not scalable.
+Now, for those of you who don't understand why they struggle so much, essentially, AI reads everything, all of your sentence, and measures it by something called tokens.
+A token is roughly three quarters of a word or a single word sometimes.
+The word hamburger could be three tokens.
+Ham-bur-ger.
+Hamburger.
+The term comes from NLP research in the 90s.
+A bunch of researchers needed a unit smaller than a word because language doesn't all break the same way, right?
+So they borrowed token from linguistics, which borrowed it from Old English takken,
+which means a sign or a symbol.
+A token is just the smallest meaningful chunk of a sentence or a word.
+There's only so much tokens an AI can have in its context window before it starts failing.
+When people say context window, they mean how many tokens the AI can see at once.
+And that window is in fact finite.
+So if you dump everything into one file, an AI writing a blog post is also reading your video production notes.
+You're burning tokens on stuff that doesn't matter.
+So instead of building one big file, you want to separate your thoughts, your ideas, your work into separate areas.
+This is something I created for all of us.
+It's called a workspace blueprint.
+Here you have three workspaces.
+And again, this is an example.
+You don't always have to do this, but each one handles a different kind of work.
+One for the community, right?
+Maybe I have this one for working on content and docs in the community.
+Production, right?
+What am I building?
+What are scripts?
+Maybe I'm creating animations.
+writing room maybe i need to have some sort of process of thinking or i have a client list or insert as many things as i have there we're going to dive deeper into it this is a space that does the job well because you can circumnavigate an ai seeing everything and only direct it to what you want
+Let me explain how that actually works though.
+So I'm going to show you inside of VS Code, which is an IDE, basically a developer environment that allows people to kind of look at folders in a different way.
+So instead of having to click into the folders like you just saw here, I can just open the folders and see everything and open the files without having to double click the files, right?
+So instead of having to double click this text document and opens another window, I can just bounce between them.
+It's much cleaner, much easier.
+Even if you're not into code, it looks overwhelming.
+I promise you all of this is just natural language.
+This literally reads like a document.
+So this is a Markdown file.
+If you haven't seen them before, Markdown is just a text file with some lightweight formatting, right?
+You have dashes for bullets.
+You have hashtags or pound symbols.
+if everyone else remembers when they were just called that, for headers.
+You have all sorts of stuff like asterisks for bolding or doing things in that way.
+And there's a lot of programs that can actually run this to look a certain way.
+In fact, your cloud does exactly that.
+If you look, when you're talking to an AI, it's writing in Markdown already.
+These boldings, these lines, all of these things, watch what happens when I copy this.
+All of that formatting disappears when I paste it into here and it turns into Markdown because that's how it's making it look like that.
+Markdown is just a good way to format text.
+If you're curious, there's a man named John Gruber.
+He actually created this in 2004.
+The whole idea was write something that's readable as plain text, but can also render into a formatted document.
+He named it Markdown as a play on markup language.
+which is the same stuff that HTML, right?
+The stuff that builds websites, hypertext markdown language.
+And all it does is mark stuff down with tags.
+Markdown strips all the tags and absurdity away and makes it look like something simple like this.
+But again, you're probably not here for this.
+You're here for the file system.
+So let's move on to that next step.
+So in this specific folder, which is an example, it runs on essentially three layers, and there's a reason for each one.
+If you look at my Claude MD, my Claude Markdown file, this is something that my AI will read every time it's in any one of these folders.
+So this is something that the AI will always have and always reads.
+Imagine
+You're just copying and pasting this into Claude code or into Claude every time you open it.
+Now, you can actually just type in to Claude, read the Claude.md.
+In this case, it's Claude code.
+You could be working inside of Claude co-work as well, which is, again, a video I have on how to install, and it can operate inside of folders in case the
+VS Code is too much for you.
+But just read the clod.md and tell me what this is.
+Before, you had to copy and paste, do all these things.
+It had to read every file that's in here.
+In this case, it reads the clod.md and immediately, without having to read everything else, understands the product, the process.
+what's going on my writing room my production my community it knows where to find it what the file names are all from just a single text prompt that allows it to understand where to go what to do what are these areas but let me describe this a little simpler for those of you who might
+you know feel like this is a bit overwhelming layer one in this is the map this is what loads automatically right it's looking at it so you put the stuff the agent always needs to think about folder structure naming conventions where files go think of this as the floor plan you walk into any room the floor plan is on the wall and the agent knows where to
+Go now layer two is where the floor pan tells you to go.
+It's the actual rooms.
+What is your task?
+Go here.
+I want to write a blog post.
+Well, then you need to go to here and read this context or this Markdown file.
+If you want to build a demo or a video, you need to go here and read this context or Markdown file.
+and this could be one that you wrote by hand or it could be one that you told claude to wrote and we're going to dive into that here shortly layer 3 is the actual workspace itself where do you want your files going what content are you doing if you're writing stuff where do you want the events to be where do you want newsletters to be where do you want social to be
+And it's just a file system.
+Again, if you don't want to work inside of here, you can actually just go straight into the folder and just create new folders, new text document.
+That can be a prompt that can be a context, right?
+It's that simple.
+And you can just, you can just edit it without any of this.
+Look, my, uh, my Claude dot MD.
+This is what it looks like in, if you open up notepad, same thing and nothing breaks when you edit it, you can type whatever you want in here.
+It's just English.
+now it's good to have it uniform and well but that's the idea here most people are only doing one of these layers maybe two the reason you want to actually have these three layers is it stops the narrow funnel of ai doing too much all at once without allowing you to edit every single part but still give you the ability to automate the entire process
+So again, the router, the initial Clauda MD or whatever you're naming it, is loaded when you start any task.
+The workspace is loaded when you're in the workspace.
+When you want to do production, it's only reading stuff that's in production as it needs to.
+When you're doing stuff in the writing room, it's only writing it when you're in the writing room.
+For example, go to writing room.
+Let's start making something.
+Very little prompting, almost terrible prompting.
+Yet the agent, without wasting a whole bunch of kokens and going through everything, immediately goes to the context file that I have in writing room that describes what it is, describes what to load and what not to load, and just describes the folder structure and what the process is.
+First I understand the topic, then I find the angle, then I write it, then I catch problems.
+You can also incorporate skills into this, right?
+So you can download the humanizer skill, which is an actual GitHub.
+I recommend you all check out or like doc co-authoring skill, which is another set of markdown files or even Python scripts.
+and tutorials that someone else build to do a certain task.
+And this is where this whole process is different than just running skills.
+You're putting skills inside of a thought process.
+And as you can see right here, we're in the writing room.
+Clean slate, no drafts in progress.
+Voice is loaded, style is blog post.
+What do you want me to make?
+From one single prompt, we've gotten it in there.
+But while that's going on, I can open up another cloud and I can say, hey, I want to do some work in production.
+And it's going to go in there and I can do whatever work I want to do in production, right?
+I want to maybe make some designs.
+I want to create some sort of code for workflows in there.
+But the real fun happens is when you're building stuff in production with one of your Cloud Code instances, you're writing a script and you can say, hey, take the script.
+from writing room and let's make an animation out of it in production.
+It's moving that file.
+It's going to go there.
+Now, it's going to notice that I don't have any scripts in there when I send this out.
+But if I did have a final in there, it's going to go look for it, right?
+There's no scripts.
+Boom.
+It didn't waste a whole bunch of tokens.
+It didn't do anything, but it immediately knew, oh, well, we have to write a script first.
+Or if you have a script somewhere else, you can upload it.
+You see, most apps or frameworks or agentic things require you to build an agent for each of these.
+I need a writing room agent.
+I need this agent.
+I need this agent.
+But the way in which you approach each task is always different.
+Why not just have Claude Code become the agent you need when you're working in the workspace?
+And you see from there, you
+get the most important part of this process is just good routing in english language again this is all just english right file folder names titles it's describing what you want right this right here is the most important pattern in the whole system it's just a simple table that tells the ai for this task read these files
+skip those files, you might need these skills.
+Without this, the AI either reads everything and runs out of the room and just does all sorts of stuff you don't want it to do using way too many tokens, or it guesses wrong about what matters or just doesn't hit what you need,
+or you can't edit what it creates along the process.
+This table eliminates all of those problems.
+This system here gets rid of all of that.
+Now let's go ahead and zoom in a little bit here and actually really look at this kind of folder structure.
+Walk through this pipeline.
+Imagine you're sitting here and you open up production and you go to workflows, right?
+So you know you're doing some sort of
+animation production or insert whatever it is that this folder is as a separate workspace as part of a larger tasks flow that you're doing production has a pipeline in itself as well four stages you have to do a brief you need a spec with a specification a build and an output i have a brief some sort of script that i want to do i have a spec that's generated from that brief and then it goes into the builds and it builds out the animations and then finally you have the output
+More importantly, this allows me to have one MD file.
+So for my production, I can have a context for this file system that is generating different types of subagents or ways to look at it.
+Again, I'm not even worried about agents.
+I'm just worried about what the workspace is, what I want to do in these workspaces.
+If I want to understand, look up technical standards, look up design rules, I can find that because I might have that in a doc.
+Right?
+So I have components or maybe some way I like to design these systems with my color designs, my headers, my quality.
+And again, these are all just generated from English, super short docs.
+These are visual philosophy or what type of tech you want to use.
+And it doesn't always have to read that, but maybe during the brief stage, it does right.
+When you're sitting there and you're going through and you're looting the brief.
+Well, I need to make sure you look at this tech standards when you're making the brief.
+If it's loading the spec, I need to make sure it looks at the design system and our component library, and then maybe it does need to load the deck as well.
+And you can swap this around super easily just by looking at it.
+This is traditional function calling software routing.
+This has existed.
+for decades and decades, but now it gets to be natural language, English.
+Now, at this point, many of you are like, oh, well, you're just making a bunch of skills.
+Technically, yes.
+Now, for those of you who don't know what skills are, again, I mentioned them earlier.
+I talked about this idea that you can download them from everywhere.
+There's PowerPoint skills, and I have other videos on this.
+But at the end of the day, skills are a process that someone else figured out and designed a set of packages or folders, just like I'm doing here to tell Claude how to do something.
+The thing is, skills aren't just markdown files with instructions.
+Some are just that.
+But skills work best when they're wired into a system.
+One important note, too, is this is where the difference between it's just skills we're creating here and it's a system.
+You're actually putting skills inside of your MD.
+So in this case, I have in my context for production, I have the Fire Outlook, what I want to do, but also, right,
+This is where you can call to call skills or MCP servers.
+If you don't know what an MCP model context protocol, I think that deserves an entire video in itself, but just think of it as a way that the AI can talk to other apps and services easier.
+It's designed to just kind of plug and play it in.
+rather than you have to create all these custom integrations.
+At certain points, we might want the front end design skill or a web app testing skill or PDF skill.
+Or I might want to give Claude the opportunity to look up a skill, find a new skill, or even possibly create one.
+You can wire up to 15 skills, 20 skills, 100 skills into a workspace.
+or you can perfectly add the skills where you would need them inside the workspace rather than having them loaded at all times.
+That's the whole idea here is about plug and play and routing.
+One other sneaky thing I do to completely ignore databases or anything like that, in my CloudMD, the main file at the beginning that shows every AI or every agent that comes into this workspace can see my entire folder structure and navigation,
+i just add naming conventions right so if a file is going to be outputted a certain way it needs to name it for blog drafts it needs to be like file name where it's at is it draft is it v2 is it v3 example api auth guide draft right or same for newsletters here's the year and day and then here's what it kind of is right 2026 03 launch week dot md
+So the AI knows to organize and move stuff, which comes in handy when instead of having to navigate through these files or have an agent that's connected to some sort of SQL database or vector database or query or Postgres or anything like that, I could just say, hey, pull my auth demo.
+Demo v2 and build a spec from it.
+It immediately knows without me doing anything to look where that v2 demo script would be because it knows how to find it.
+It knows to pull it.
+Then it knows to read the docs associated with specs and then start building it.
+I have zero code, technically speaking, running any sort of Python injection or framework or database.
+This is tools that people are building right now.
+They're building apps and crazy Python stuff, which in some very bespoke cases might be useful.
+But most of the time for most people, you don't need all that extra stuff to get the process and the job done.
+The job to be done is more important
+than this kind of rigid architecture that so many people are building.
+You see, the folder becomes your app.
+This is your UI.
+What's simpler UI than a folder?
+And the best part is I don't even need to technically click on anything.
+I could just talk with my voice to AI, have it do all the text work for me.
+The next stage of this, I promise you within six months, everyone's going to be doing this, is just talking to your folder setup.
+it's going to be designed and set up to be this way it's going to be around yours which leads into a good final point how do you make this yours this template uses a fake idea with fake process right fake blog posts and demos if you're a content creator writing room might become your script lab production becomes your edit bay uh whatever community becomes a distribution hub
+and you're gonna remove and change these rules to edit your platform maybe your tone and voice inside of these right so what is your audience that's what you want to hear it's working developers two to eight years of experience technical decision makers developer advocates it might be something completely different you might be in construction or real estate but this is roughly what you would be doing across
+All of them.
+And the best part is, all you need is one subscription to Cloud Code and you can generate 100 quote unquote apps that are just folders creating what you need.
+Obviously, it's much more complicated once you get into breaking down your workflow.
+but if you're a developer if you're a freelancer right just swap design for engineering and docs or intake and production and delivery right this workspace changes lightly but the three layer routing system the idea that you go from hey
+look at this area, this is what you're going to, to lower level context ones, to lower level skills is the idea here.
+It's just layered.
+This isn't a prompt tricked.
+This isn't some sort of crazy infrastructure.
+It's folders and markdown files with the understanding of advanced software engineering.
+Every conversation after that, the AI knows where it is, what to load, what tools to use, and where to put the work in.
+Now, there is a lot of history behind my thinking.
+I didn't just randomly come up with this, and there's a lot of people who are already doing this, and the reason they're doing this is because it works.
+I'm writing a very large research paper right now that goes into the history of programming, rules of transparency, rules of composition, all the way back down to 1972, and then I'm bringing it forward and applying all this stuff
+to modern day AI, what it means to have humans in it.
+And I specifically talk about the layers that we could actually have.
+And I actually go into a five layer architecture in the paper.
+But realistically, most of you just need to understand the three main layers that we talked about here.
+I will be making videos on this.
+However, it is in the main chat.
+If you want to download this and give it to Claude so that it can tell you about it rather than having to read through it, I highly recommend that.
+In fact, I urge you to do it because some of this is kind of technical information.
+I'm being nerdy.
+I'm being structured in it.
+But this is layering out what the next decade is looking like.
+And this isn't because I'm predicting the future.
+It's because I'm learning from the past, from the last 200 years of software engineering.
+And I mean 200 when I say that.
+and applying it to AI.
+I want to teach the concepts that last, not the concepts that are replaced next month.
+I understand that some of this might be in a little fast.
+It might be a little confusing.
+I'll keep making deeper dives.
+Give me feedback on what you didn't understand.
+How did I move too fast?
+I want to make these better every day.
+Again, I'm making these on my own.
+Hopefully, this all gave you a good idea.
+If you do want access to any of these files or worker templates, I am giving them already to my VIP and my premium accounts.
+It's my one way of the work to be able to support this.
+If you're able to subscribe, amazing.
+If it actually is that much of a financial challenge, please reach out to me.
+I can try to see if I can get you something quick and easy for you.
+But at the end of the day, go check it out.
+Go check out all my other courses that I'll be doing.
+And again, as always, happy learning.

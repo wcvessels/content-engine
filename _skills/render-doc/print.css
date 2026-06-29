@@ -1,0 +1,103 @@
+/* render-doc print stylesheet (@media print only).
+ *
+ * The PDF target is the SAME self-contained HTML build_html() produces, run
+ * through headless Chrome/Edge --print-to-pdf. These rules are injected inline
+ * by build_html(print_css=...) so the PDF path needs no external file.
+ *
+ * Decision D4: a STATIC disclaimer footer only. NO page numbers, NO print TOC.
+ * The HTML sticky <nav> covers navigation; page numbers are deliberately cut.
+ *
+ * House rule: zero em dash characters.
+ */
+
+@media print {
+
+  @page {
+    size: Letter;
+    margin: 1in;
+  }
+
+  /* Letter geometry; let the browser paginate the body. */
+  html, body {
+    background: #ffffff;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* The screen layout is a 2-column grid (TOC + content). For print we drop
+   * the sticky sidebar TOC entirely and let the body flow full width. The
+   * @media-print HTML TOC is redundant on paper and page numbers are cut. */
+  .layout {
+    display: block;
+    max-width: none;
+    margin: 0;
+  }
+  .toc {
+    display: none;
+  }
+  .content {
+    padding: 0;
+  }
+
+  /* Title page is its own sheet. */
+  .title-page {
+    break-after: page;
+    page-break-after: always;
+    border-bottom: none;
+    padding-top: 0.5in;
+    min-height: 7in;
+  }
+  .doc-title {
+    font-size: 28pt;
+  }
+
+  /* Let sections flow across page boundaries so pages fill. Avoiding a break
+   * on the whole section bumped any section with a screenshot to the next
+   * page, wasting 40-65% of several sheets. The atomic units below (heading
+   * kept with its first lines, screenshots, callouts) still never split. */
+  .section-heading {
+    break-after: avoid-page;
+  }
+  /* But a long section MUST be allowed to break, so do not avoid-break the
+   * body wholesale; only keep a heading with its first lines. */
+  .section-body {
+    break-inside: auto;
+  }
+
+  /* <details open> prints expanded (the open attribute guarantees it); hide
+   * the disclosure affordance so it reads as a normal heading on paper. */
+  details > summary {
+    list-style: none;
+  }
+  summary {
+    cursor: default;
+  }
+
+  /* Screenshots and callouts should not be torn across a page boundary. */
+  .screenshot,
+  .callout {
+    break-inside: avoid;
+  }
+  .screenshot img {
+    box-shadow: none;
+    max-width: 100%;
+  }
+
+  /* Links: keep them readable but do not append the URL (low-technical
+   * audience; the HTML version carries the live link). */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /* The STATIC disclaimer footer. It rides at the end of the flow (Chrome
+   * --no-pdf-header-footer suppresses the browser's own header/footer, so the
+   * only footer text is this disclaimer line). NO page numbers (D4). */
+  .doc-footer {
+    margin-top: 0.5in;
+    border-top: 1px solid #E2E4EC;
+    color: #5B647F;
+    font-size: 9pt;
+    text-align: center;
+  }
+}

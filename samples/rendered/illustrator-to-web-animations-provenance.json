@@ -1,0 +1,60 @@
+{
+  "slug": "illustrator-to-web-animations",
+  "lane": "educational-guide",
+  "source": {
+    "input_type": "manifest",
+    "manifest": "a8827daf934b",
+    "transcript": "illustrator-to-web-animations_transcript.txt",
+    "coverage": "00:00:00 to 00:11:58",
+    "exclusions": "On-camera asides and sign-off chatter (segments 82-84, 146-154), the duplicated walkthrough block (segments 96-106 repeat segments 85-95; the first occurrence is cited), and repeated filler were dropped per the significance filter."
+  },
+  "blocks": [
+    { "block_id": "intro-what-this-builds.prose-1", "section": "What this builds", "type": "prose", "source_segments": [1, 2, 3, 4, 5, 6, 7], "inferred": false, "inference_note": null },
+    { "block_id": "intro-what-this-builds.prose-2", "section": "What this builds", "type": "prose", "source_segments": [9, 10, 11, 12, 13], "inferred": false, "inference_note": null },
+    { "block_id": "intro-what-this-builds.screenshot-1", "section": "What this builds", "type": "screenshot", "source_segments": [3, 4, 5], "frames": [ { "frame_index": 10, "file": "frame_0011_000014.jpg", "timestamp_s": 14.0 } ], "inferred": false, "inference_note": null },
+    { "block_id": "intro-what-this-builds.callout-1", "section": "What this builds", "type": "callout", "source_segments": [77, 78, 79, 80], "inferred": false, "inference_note": null },
+
+    { "block_id": "why-file-structure.prose-1", "section": "Why a file structure, not an app", "type": "prose", "source_segments": [124, 125, 126, 127, 130, 131], "inferred": false, "inference_note": null },
+    { "block_id": "why-file-structure.prose-2", "section": "Why a file structure, not an app", "type": "prose", "source_segments": [120, 121, 122, 133, 134], "inferred": false, "inference_note": null },
+    { "block_id": "why-file-structure.callout-1", "section": "Why a file structure, not an app", "type": "callout", "source_segments": [123, 126, 127], "inferred": false, "inference_note": null },
+
+    { "block_id": "prepare-illustrator.prose-1", "section": "Start with the Illustrator file", "type": "prose", "source_segments": [16, 17, 18], "inferred": false, "inference_note": null },
+    { "block_id": "prepare-illustrator.screenshot-1", "section": "Start with the Illustrator file", "type": "screenshot", "source_segments": [16, 17], "frames": [ { "frame_index": 53, "file": "frame_0054_000116.jpg", "timestamp_s": 77.0 } ], "inferred": false, "inference_note": null },
+    { "block_id": "prepare-illustrator.prose-2", "section": "Start with the Illustrator file", "type": "prose", "source_segments": [22, 23, 24], "inferred": false, "inference_note": null },
+    { "block_id": "prepare-illustrator.screenshot-2", "section": "Start with the Illustrator file", "type": "screenshot", "source_segments": [23, 24], "frames": [ { "frame_index": 79, "file": "frame_0080_000204.jpg", "timestamp_s": 124.0 } ], "inferred": false, "inference_note": null },
+    { "block_id": "prepare-illustrator.prose-3", "section": "Start with the Illustrator file", "type": "prose", "source_segments": [24, 25, 26], "inferred": false, "inference_note": null },
+    { "block_id": "prepare-illustrator.callout-1", "section": "Start with the Illustrator file", "type": "callout", "source_segments": [23, 24], "inferred": false, "inference_note": null },
+
+    { "block_id": "remotion.prose-1", "section": "Add Remotion for the animations", "type": "prose", "source_segments": [27, 28, 29, 33, 34, 37], "inferred": false, "inference_note": null },
+    { "block_id": "remotion.screenshot-1", "section": "Add Remotion for the animations", "type": "screenshot", "source_segments": [29, 30, 33, 37], "frames": [ { "frame_index": 107, "file": "frame_0108_000249.jpg", "timestamp_s": 169.0 } ], "inferred": false, "inference_note": null },
+    { "block_id": "remotion.prose-2", "section": "Add Remotion for the animations", "type": "prose", "source_segments": [35, 36, 64], "inferred": false, "inference_note": null },
+
+    { "block_id": "ui-ux-skill.prose-1", "section": "Add the UI/UX Pro skill for clean design", "type": "prose", "source_segments": [40, 41, 42, 43, 44], "inferred": false, "inference_note": null },
+    { "block_id": "ui-ux-skill.screenshot-1", "section": "Add the UI/UX Pro skill for clean design", "type": "screenshot", "source_segments": [41, 42, 43], "frames": [ { "frame_index": 147, "file": "frame_0148_000346.jpg", "timestamp_s": 226.0 } ], "inferred": false, "inference_note": null },
+    { "block_id": "ui-ux-skill.callout-1", "section": "Add the UI/UX Pro skill for clean design", "type": "callout", "source_segments": [27, 28, 40, 44], "inferred": false, "inference_note": null },
+
+    { "block_id": "claude-in-editor.prose-1", "section": "Work in an editor with Claude Code", "type": "prose", "source_segments": [45, 46, 47, 48, 54, 55], "inferred": false, "inference_note": null },
+    { "block_id": "claude-in-editor.prose-2", "section": "Work in an editor with Claude Code", "type": "prose", "source_segments": [60, 61, 62, 63, 64, 65], "inferred": false, "inference_note": null },
+    { "block_id": "claude-in-editor.screenshot-1", "section": "Work in an editor with Claude Code", "type": "screenshot", "source_segments": [79, 80, 66, 67], "frames": [ { "frame_index": 231, "file": "frame_0232_000553.jpg", "timestamp_s": 354.0 } ], "inferred": false, "inference_note": null },
+    { "block_id": "claude-in-editor.prose-3", "section": "Work in an editor with Claude Code", "type": "prose", "source_segments": [70, 72, 73, 74, 75, 77], "inferred": false, "inference_note": null },
+    { "block_id": "claude-in-editor.callout-1", "section": "Work in an editor with Claude Code", "type": "callout", "source_segments": [92, 93, 94, 95], "inferred": false, "inference_note": null },
+
+    { "block_id": "refine-and-ship.prose-1", "section": "Refine in plain language, then move it to the site", "type": "prose", "source_segments": [88, 90, 109, 112, 113, 114], "inferred": false, "inference_note": null },
+    { "block_id": "refine-and-ship.prose-2", "section": "Refine in plain language, then move it to the site", "type": "prose", "source_segments": [108, 109, 110, 115, 116, 117], "inferred": false, "inference_note": null },
+    { "block_id": "refine-and-ship.callout-1", "section": "Refine in plain language, then move it to the site", "type": "callout", "source_segments": [140, 141, 142], "inferred": false, "inference_note": null },
+
+    { "block_id": "summary.prose-1", "section": "What you can take from this", "type": "prose", "source_segments": [16, 26, 27, 28, 40, 45, 115], "inferred": true, "inference_note": "Restates the workflow already taught in the steps above, gathered into one summary; ordering and recap only, no new claim." },
+    { "block_id": "summary.prose-2", "section": "What you can take from this", "type": "prose", "source_segments": [119, 120, 121, 122, 126, 131], "inferred": false, "inference_note": null },
+    { "block_id": "summary.callout-1", "section": "What you can take from this", "type": "callout", "source_segments": [142, 143, 144, 145], "inferred": false, "inference_note": null },
+
+    { "block_id": "references.list-1", "section": "Tools and links", "type": "list", "source_segments": [28, 29, 40, 44, 45, 17], "inferred": true, "inference_note": "The tools (Remotion, the UI/UX Pro skill, Claude Code, Adobe Illustrator) are named in the recording; the exact URLs are their official sites, added as reader convenience." }
+  ],
+  "screenshots": [
+    { "placed_in": "intro-what-this-builds.screenshot-1", "frame_index": 10, "file": "frame_0011_000014.jpg" },
+    { "placed_in": "prepare-illustrator.screenshot-1", "frame_index": 53, "file": "frame_0054_000116.jpg" },
+    { "placed_in": "prepare-illustrator.screenshot-2", "frame_index": 79, "file": "frame_0080_000204.jpg" },
+    { "placed_in": "remotion.screenshot-1", "frame_index": 107, "file": "frame_0108_000249.jpg" },
+    { "placed_in": "ui-ux-skill.screenshot-1", "frame_index": 147, "file": "frame_0148_000346.jpg" },
+    { "placed_in": "claude-in-editor.screenshot-1", "frame_index": 231, "file": "frame_0232_000553.jpg" }
+  ]
+}

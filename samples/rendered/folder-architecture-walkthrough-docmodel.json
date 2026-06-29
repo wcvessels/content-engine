@@ -1,0 +1,333 @@
+{
+  "schema": "docmodel-1.0",
+  "meta": {
+    "title": "The Folder System for AI: A Workspace Blueprint",
+    "subtitle": "For anyone who lives in Claude or ChatGPT all day: turn a folder of plain text files into a routed workspace so the AI only ever reads what the task needs.",
+    "doc_type": "guide",
+    "audience": "People who use Claude or another AI daily and keep hitting context limits, without needing to be a programmer",
+    "author": "content-engine (Will Vessels)",
+    "date": "2026-06-27",
+    "reading_time_min": 12,
+    "learning_objectives": [
+      "Explain why dumping everything into one file wastes tokens and breaks down as your work grows.",
+      "Separate your work into focused workspaces instead of one giant context.",
+      "Build the three layer system: a map file, per workspace context files, and the actual folders.",
+      "Write the routing table that tells the AI which files to read and which to skip for each task.",
+      "Adapt the blueprint to your own field by renaming the workspaces and rules."
+    ],
+    "source": {
+      "video_title": "Stop Building AI Agents. Use This Folder System Instead.",
+      "manifest": "da42d96375bd"
+    }
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "heading": "A folder is the workspace",
+      "level": 1,
+      "kind": "intro",
+      "objective": "See what this guide gets you set up to do.",
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Most people use AI one chat at a time. They open Claude or ChatGPT, type a long prompt, paste in some notes, get something back, and then start a new conversation when the old one fills up. It works for a while, but it does not scale, and it is not really a workflow."
+        },
+        {
+          "type": "prose",
+          "md": "This guide walks through a different approach: treating a plain folder of text files as your workspace. You point the AI at the folder, and a small set of files tells it where everything is, what to read for the task at hand, and what to ignore. By the end you will understand the whole pattern and be able to build your own version of it."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "You do not need to be a programmer, and you do not need any special software. Everything here is just folders and plain text files written in normal English."
+        }
+      ]
+    },
+    {
+      "id": "why-one-big-file-fails",
+      "heading": "Why one big file falls apart",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Understand the token and context limits that make a single dumping ground fail.",
+      "depends_on": ["intro"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "AI reads everything you give it and measures it in **tokens**. A token is roughly three quarters of a word, sometimes a whole word. A long word like *hamburger* can be three tokens on its own. The idea comes from older language research that needed a unit smaller than a word, because language does not always break in neat pieces."
+        },
+        {
+          "type": "prose",
+          "md": "The AI can only hold so many tokens at once. That limit is the **context window**, which just means how many tokens the AI can see at one time, and it is finite. When you dump everything into one file, an AI writing a blog post is also reading your video production notes. You are burning the limited window on things that do not matter to the task."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "md": "Constantly pasting context in, hitting the wall, and starting a fresh conversation is not sustainable. The fix is not a longer prompt. It is keeping unrelated work in separate places so the AI only sees what it needs."
+        }
+      ]
+    },
+    {
+      "id": "separate-workspaces",
+      "heading": "Separate work into workspaces",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Split your work into focused areas instead of one shared pile.",
+      "depends_on": ["why-one-big-file-fails"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Instead of one giant file, you separate your thoughts, ideas, and work into different areas. The example used here is a workspace blueprint with three workspaces, and each one handles a different kind of work. One is a community space for content and docs, one is production for building things like scripts and animations, and one is a writing room for drafting."
+        },
+        {
+          "type": "prose",
+          "md": "Three is just the example. You might have a space for planning, a client list, or anything else your work calls for. The point is that each area does its job well because you can stop the AI from seeing everything at once and instead direct it only to the area you want."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 192,
+          "caption": "The blueprint as a folder tree: separate community, production, and writing room workspaces, plus the shared files at the top.",
+          "alt": "A code editor file tree showing folders named community, production, and writing-room alongside files CLAUDE.md, CONTEXT.md, and START-HERE.md.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.74, "h": 1.0 },
+          "crop_reason": "Trimmed the presenter webcam tile in the upper right; the file tree and editor are kept whole."
+        }
+      ]
+    },
+    {
+      "id": "markdown-and-vs-code",
+      "heading": "Plain text and a folder view",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Recognize that the files are plain text and the editor is just a way to see folders.",
+      "depends_on": ["intro"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The files in these workspaces are **Markdown** files, which are just text files with some lightweight formatting. Dashes make bullets, pound signs make headings, and asterisks make text bold. It reads like a plain document, so even though it can look technical, it is all natural language."
+        },
+        {
+          "type": "prose",
+          "md": "Markdown was created in 2004 by John Gruber, and the whole idea was to write something that is readable as plain text but can also render into a nicely formatted document. Your AI already writes in Markdown: those bold words and headings you see in a chat reply are Markdown being rendered to look that way."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 229,
+          "caption": "The same Markdown text rendered as a clean, formatted document inside an AI chat.",
+          "alt": "An AI chat showing a formatted document titled 'AI Animation Workflow: Course Companion' with headings like 'What This Is' and 'Key Concepts' and bolded terms.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.74, "h": 1.0 },
+          "crop_reason": "Trimmed the presenter webcam tile in the upper right; the rendered document is kept whole."
+        },
+        {
+          "type": "prose",
+          "md": "The walkthrough uses a code editor called VS Code to show the files, because it lets you open a whole folder and jump between files without double clicking each one. You do not need it. You can do the same thing inside Claude, or even open the files in Notepad. Nothing breaks when you edit them, because it is just English."
+        }
+      ]
+    },
+    {
+      "id": "three-layer-system",
+      "heading": "The three layer system",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Build the map, the context files, and the workspace folders as three layers.",
+      "depends_on": ["separate-workspaces", "markdown-and-vs-code"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The folder runs on three layers, and each one has a job. The walkthrough uses a file named **CLAUDE.md** as the first layer. This is a file the AI reads every single time it works in the folder, so it always knows the basics without you pasting them in."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Layer one is the map.** This loads automatically. It holds what the AI always needs: the folder structure, naming conventions, and where files go. Think of it as the floor plan on the wall of every room.",
+            "**Layer two is the rooms.** These are the per workspace context files the map points you to. Want to write a blog post? The map sends you to the writing room's context file. Want to build a demo? It sends you to production's.",
+            "**Layer three is the workspace itself.** These are the actual folders and files: where your drafts, events, newsletters, and finished work live."
+          ]
+        },
+        {
+          "type": "prose",
+          "md": "The map loads when you start any task. A workspace file loads only when you are in that workspace. So when you do production work, the AI only reads production files, and when you are in the writing room, it only reads writing room files. Most people only build one of these layers, maybe two. Using all three is what stops the AI from doing too much at once while still letting you edit every part of the process."
+        }
+      ]
+    },
+    {
+      "id": "the-routing-table",
+      "heading": "The routing table",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Write the table that maps each task to the files to read and skip.",
+      "depends_on": ["three-layer-system"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The single most important pattern in the whole system is a simple table inside the map. It is written in plain English: for a given task, read these files, skip those files, and you might need these skills. That is it. No code, just file and folder names describing what you want."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 358,
+          "caption": "The routing table in the map file: a 'Want to' column on the left and the exact file to open on the right.",
+          "alt": "A Quick Navigation table in a Markdown file pairing tasks like 'Write a blog post or tutorial' and 'Build a demo or video' with the specific context file to read, above a cross-workspace flow diagram.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.59, "h": 1.0 },
+          "crop_reason": "Cropped to the editor and file tree, removing the side chat panel and the presenter webcam; the full routing table is kept."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "md": "Without this table, the AI either reads everything and burns the context window, guesses wrong about what matters, or produces work you cannot easily edit. The table removes all three problems at once."
+        },
+        {
+          "type": "prose",
+          "md": "This is not a new trick. Routing a request to the right handler is something software has done for decades. The only difference now is that the routing is written in plain English instead of code, so you can read it and swap it around just by looking at it."
+        }
+      ]
+    },
+    {
+      "id": "context-files-per-workspace",
+      "heading": "Context files route deeper",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Use a workspace context file to route to stages and reference docs.",
+      "depends_on": ["three-layer-system"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Inside a workspace, its own context file does the next level of routing. Production is the most involved example. Its context file routes to a pipeline with four stages: a brief, a spec, a build, and the output. A script idea becomes a brief, the brief generates a spec, the spec drives the build, and the build produces the finished output."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 567,
+          "caption": "A workspace context file that routes deeper: the production workspace has its own entry point that points to stages and reference docs.",
+          "alt": "A production CONTEXT.md file explaining it has two levels of routing, from the workspace entry point down to a pipeline of stages, with reference docs kept separate from the workflow.",
+          "crop": null,
+          "crop_reason": "Kept the full frame; the routing notes run to the right edge under the webcam, so cropping would clip the text."
+        },
+        {
+          "type": "prose",
+          "md": "This is why one context file can do so much. It can also pull in reference docs only when a stage needs them. The brief stage might load your technical standards, and the spec stage might load your design system and component library. You point each stage at exactly what it needs and nothing more."
+        }
+      ]
+    },
+    {
+      "id": "wiring-in-skills",
+      "heading": "Wiring in skills and tools",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Place skills and connected tools inside the workspace so they trigger at the right moment.",
+      "depends_on": ["the-routing-table"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "A **skill** is a process someone else figured out and packaged up, as a set of files that tell the AI how to do a specific task. You can download them, like a humanizer skill or a document co-authoring skill from a public repository. On their own they are just available. The difference here is that you put skills inside your context files, wired into the thought process instead of floating loose."
+        },
+        {
+          "type": "prose",
+          "md": "The same context files can also call connected tools through something called **MCP**, which is just a standard way for the AI to talk to other apps and services without custom setup for each one. So a workspace might reach for a design skill, a testing skill, or a tool that looks up current information, but only at the point in the work where it makes sense."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 675,
+          "caption": "Skills and tools listed in a workspace context file, each with a note on when to use it and what it is for.",
+          "alt": "A skills and tools table inside a workspace context file, listing capabilities like a documentation lookup tool, a frontend design skill, a web app testing skill, and a PDF skill, each paired with when to use it.",
+          "crop": null,
+          "crop_reason": "Kept the full frame; the table's columns run to the right edge under the webcam, so cropping would clip the entries."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "You could wire in a hundred skills, but the better move is to place each one only in the workspace and stage where it is needed, rather than loading them all the time. The whole idea is plug and play, on demand."
+        }
+      ]
+    },
+    {
+      "id": "naming-conventions",
+      "heading": "Naming instead of a database",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Use naming conventions so the AI can find and move files without a database.",
+      "depends_on": ["three-layer-system"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "One quiet trick replaces a lot of complicated machinery. In the map file, you add naming conventions: a rule for how each kind of file should be named and where it lives. A blog draft might be named for its slug and status, and a newsletter might lead with the year and date. Because the rule is written down, the AI knows how to name new files and where to put them."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 311,
+          "caption": "Naming and file placement rules in the map: each kind of file has a clear pattern and a home folder.",
+          "alt": "File placement and naming convention rules in a Markdown map file, showing path patterns for drafts, finals, briefs, specs, builds, and outputs across the workspaces.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.59, "h": 1.0 },
+          "crop_reason": "Cropped to the editor and file tree, removing the side chat panel and the presenter webcam; the naming rules are kept whole."
+        },
+        {
+          "type": "prose",
+          "md": "That naming is enough for the AI to find things on its own. You can ask it to pull a specific draft and build a spec from it, and it knows where that file should be, reads the related docs, and gets to work. There is no database, no query language, and no extra code involved. The folder is doing the job that people often reach for heavier tools to solve."
+        }
+      ]
+    },
+    {
+      "id": "make-it-yours",
+      "heading": "Make it yours",
+      "level": 1,
+      "kind": "step",
+      "objective": "Adapt the blueprint to your own field by renaming the workspaces and rules.",
+      "depends_on": ["three-layer-system", "wiring-in-skills", "naming-conventions"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The template ships with a made up example: fake blog posts, demos, and processes. The work is to swap that for your own. A content creator might turn the writing room into a script lab, production into an edit bay, and community into a distribution hub. A developer or freelancer might swap writing and production for intake, build, and delivery. You change the names, the rules, and the tone to match your audience."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "The workspaces change, but the three layer routing system stays the same: a map sends you to a workspace, the workspace sends you to lower level context, and that points to the right skills. With one subscription you can spin up many of these folder workspaces, each one shaped to a different job."
+        },
+        {
+          "type": "prose",
+          "md": "This is not a prompt trick or heavy infrastructure. It is folders and Markdown files arranged with the discipline of good software design. Once it is in place, every conversation after that knows where it is, what to load, which tools to use, and where to put the finished work."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "heading": "What you have now",
+      "level": 1,
+      "kind": "summary",
+      "objective": "Lock in the pattern and how to start.",
+      "depends_on": ["make-it-yours"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "You now understand the whole pattern. Separate work into focused workspaces so the AI never reads more than it needs. Use a map file that loads every time, per workspace context files that route deeper, and the actual folders underneath. Drive it all with a plain English routing table, wire skills in where they belong, and lean on naming conventions instead of a database."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "Start small. Build one workspace with a map and a routing table, get comfortable with it, then add the next. The habits carry straight over as you grow the system."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "heading": "Tools and links",
+      "level": 1,
+      "kind": "summary",
+      "objective": "Find the tools and ideas named in the walkthrough.",
+      "depends_on": ["summary"],
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Claude and Claude Code: [claude.com](https://claude.com)",
+            "Visual Studio Code (the editor used to view the folders): [code.visualstudio.com](https://code.visualstudio.com)",
+            "Markdown (created by John Gruber): [daringfireball.net/projects/markdown](https://daringfireball.net/projects/markdown)",
+            "MCP, the model context protocol for connecting tools: [modelcontextprotocol.io](https://modelcontextprotocol.io)"
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "disclaimer": "Educational guide generated by content-engine from a public recording. Every claim traces to the source transcript via the provenance sidecar; the reader surface carries no timestamps or citations.",
+    "confidentiality": "Source: 'Stop Building AI Agents. Use This Folder System Instead.' (public video). Attributed to the original presenter."
+  }
+}

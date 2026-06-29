@@ -1,0 +1,36 @@
+/* content-engine brand tokens
+   Drop-in for the renderer's _config/. Inlined verbatim into the single-file
+   HTML output and used for US-Letter PDF. No build step, no preprocessor.
+   All text/background pairs meet WCAG AA on #FFFFFF (see notes). */
+
+:root {
+  /* --- Core palette --- */
+  --primary:   #2B3A8C; /* press indigo  | headings, links, title-bar, the hyphen | 8.6:1 on white (AAA) */
+  --secondary: #5B647F; /* muted slate   | subtitles, captions, metadata          | 5.2:1 on white (AA)  */
+  --accent:    #E8A33D; /* warm amber    | single highlight + rules. NON-TEXT: use on fills/bars only */
+  --bg:        #FFFFFF;
+  --bg-soft:   #F4F5F8; /* zebra rows, code wells, quiet panels */
+  --text:      #14171F; /* ink           | body copy | 16.9:1 on white (AAA) */
+  --border:    #E2E4EC; /* hairlines, dividers, card edges */
+
+  /* --- Semantic callouts (bar + fill tint) --- */
+  --tip-bar:     #2B3A8C;  --tip-fill:     #EDEFF9; /* indigo */
+  --warning-bar: #E8A33D;  --warning-fill: #FBF1DE; /* amber  */
+  --note-bar:    #5B647F;  --note-fill:    #F1F2F5; /* slate  */
+  --prereq-bar:  #3B8C6E;  --prereq-fill:  #E8F3EE; /* green. bar/icon use; pair text in --text */
+
+  /* --- Type --- */
+  /* System-safe: the renderer never fetches webfonts, so the output opens
+     identically offline. No @font-face required. */
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;
+
+  /* Scale: 1.25 major third on a 16px base */
+  --h1: 39px;     --h1-lh: 1.15;   /* page / section titles      */
+  --h2: 31px;     --h2-lh: 1.20;   /* major headings             */
+  --h3: 25px;     --h3-lh: 1.30;   /* sub-headings / step titles */
+  --body: 16px;   --body-lh: 1.60; /* running text               */
+  --caption: 13px;--caption-lh: 1.5;/* metadata, captions        */
+  --mono: 14px;   --mono-lh: 1.5;  /* code, CLI, labels          */
+  /* Title pages may step up to 49px (next rung) for the document title. */
+}

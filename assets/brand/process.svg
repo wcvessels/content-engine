@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="190" viewBox="0 0 600 190" role="img" aria-label="recording in, transcript and curated screenshots, finished document out">
+  
+  <rect x="20" y="44" width="150" height="92" rx="8" fill="#F4F5F8" stroke="#E2E4EC" stroke-width="1.5"></rect>
+  <circle cx="95" cy="90" r="20" fill="#2B3A8C"></circle>
+  <path d="M89 80 L89 100 L107 90 Z" fill="#FFFFFF"></path>
+  <text x="95" y="166" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#14171F">recording</text>
+
+  
+  <path d="M182 80 L199 90 L182 100" fill="none" stroke="#2B3A8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  
+  <rect x="215" y="40" width="150" height="100" rx="8" fill="#FFFFFF" stroke="#E2E4EC" stroke-width="1.5"></rect>
+  <rect x="230" y="55" width="58" height="5" rx="2.5" fill="#14171F"></rect>
+  <rect x="230" y="67" width="100" height="4.5" rx="2.25" fill="#D7DAE3"></rect>
+  <rect x="230" y="77" width="100" height="4.5" rx="2.25" fill="#D7DAE3"></rect>
+  <rect x="230" y="94" width="50" height="32" rx="3" fill="#E8A33D"></rect>
+  <rect x="290" y="96" width="60" height="5" rx="2.5" fill="#D7DAE3"></rect>
+  <rect x="290" y="107" width="60" height="5" rx="2.5" fill="#D7DAE3"></rect>
+  <rect x="290" y="118" width="40" height="5" rx="2.5" fill="#D7DAE3"></rect>
+  <text x="290" y="166" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#14171F">transcript + screenshots</text>
+
+  
+  <path d="M377 80 L394 90 L377 100" fill="none" stroke="#2B3A8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  
+  <rect x="410" y="40" width="150" height="100" rx="8" fill="#FFFFFF" stroke="#2B3A8C" stroke-width="1.6"></rect>
+  <rect x="426" y="57" width="46" height="6" rx="3" fill="#2B3A8C"></rect>
+  <rect x="426" y="70" width="104" height="4.5" rx="2.25" fill="#D7DAE3"></rect>
+  <rect x="426" y="80" width="104" height="4.5" rx="2.25" fill="#D7DAE3"></rect>
+  <rect x="426" y="94" width="44" height="30" rx="3" fill="#E8A33D"></rect>
+  <rect x="480" y="96" width="50" height="5" rx="2.5" fill="#D7DAE3"></rect>
+  <rect x="480" y="107" width="50" height="5" rx="2.5" fill="#D7DAE3"></rect>
+  <rect x="480" y="118" width="34" height="5" rx="2.5" fill="#D7DAE3"></rect>
+  <circle cx="554" cy="46" r="12" fill="#3B8C6E"></circle>
+  <path d="M549 46 L553 50 L560 42" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+  <text x="485" y="166" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#14171F">finished document</text>
+  <text x="485" y="182" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1" fill="#5B647F">PDF + HTML</text>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "frames": [
+    {
+      "index": 1,
+      "file": "frame_0001_000005.jpg"
+    }
+  ],
+  "artifacts": {
+    "frames_dir": "frames"
+  }
+}

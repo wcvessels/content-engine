@@ -1,0 +1,305 @@
+Thank you.
+Welcome, welcome to the five session series.
+Now, this initial first session is on how to use cloud desktop and cloud code.
+We're going to be diving into a lot in the second session, which is actually cloud code in practice.
+So if you have already gotten it installed, maybe you can jump there.
+However, I'd be, you know, I give a caveat there because I dive into certain things in this session, this first one that are, well, maybe something you might not have installed or done for your cloud code.
+So even if you're a veteran, I recommend you checking it out.
+I also have a session three is going to be on cloud desktop as a thinking partner, right?
+How do you actually use this and more than just generating stuff for you?
+From there, session four is going to dive into making cloud code understand your product or your project, right?
+This is more than just asking it to run and hit something.
+How do you make it work with you in your project and get really good results consistently out of it?
+Finally, session five is going to dive into where all of this goes and how you can actually do a deeper dive and do a file architecture system I call Model Workspace Protocol.
+And that's really high-level good stuff.
+It's a separate course, but I touch on it a lot here in session five.
+So let's go ahead and dive in.
+Now, the goal for this session is to actually have you walk away with real deliverables, not just like awareness or who I understand AI better, but actual artifacts sitting on your computer after each session.
+All three interfaces installed and working, real tasks that you can use and run on your files, a clear sense of when to use which tool, when not to, so you stop guessing.
+I'm also going to show you what a good Claude MD file is, a markdown file for Claude that completely changes how Claude works on your projects.
+And a preview of something bigger in session five that I just mentioned that might be the most valuable part of all of these sessions, but I think it's all pretty valuable.
+Now, most people use Claude like this.
+It's more like a search engine that writes better sentences or code or something like that.
+You type a question, you get an answer, and then you copy and paste it or move it somewhere.
+And that works, but it's like using a car to check the mailbox.
+The car can take you across the country.
+You just haven't left the driveway yet.
+And we're going to try to leave the driveway today.
+Now, cloud desktop, just the normal downloaded version, is very similar to the one that you would log in on the website.
+And it's more of a conversational tool with all the good stuff that cloud has.
+And you can get a lot done with it.
+And it's great for planning, thinking out ideas, building stuff, all that jazz.
+But there is a limit to what it can do at scale.
+It can't see your files necessarily.
+And I'm talking purely just about the chat version.
+It can't run code, it can't edit anything in your projects, and everything has to go through copy, paste, or uploads.
+And that's not because the model is limited.
+It's extremely powerful, just the desktop version, but the model is the same one powering everything else.
+The problem is the interface.
+It just can't reach your stuff.
+So you've ever felt like Cloud is like kind of gets it, but not quite?
+It's probably because you're working with a more pasted excerpt instead of your actual project.
+Now, this is what I actually use for almost everything.
+Claude code living inside VS code.
+Your files are on the left.
+You can easily see them.
+If you're on Mac, it's a little bit different as well.
+And Claude is on the right.
+It reads your projects, edits your files in line runs commands.
+You don't copy and paste anything.
+You just describe what you need and it works directly within the files, right?
+If you already use VS code, visual studio code, and you're open to trying it, this is actually where I'd start.
+For those of you who've never opened VS Code before, we'll get you set up in the hands-on section, and it's simpler than it looks, but just keep that note.
+I'm going to walk you through install instructions and everything for that.
+There's also just the most generic way to use it, which is clod through the terminal.
+It's the same engine under the hood, but a kind of different wrapper.
+The terminal version is better for when your work doesn't live in a code project, processing a folder of documents, managing files, cleaning up your downloads folder, anything where you just need clod to read a bunch of files and do something with them.
+You don't need this one to get value from this course, but if you're already comfortable in the terminal, it's actually faster for some jobs, and I do it once in a while.
+And this is the thing that most people miss.
+It's not three different AIs.
+It's one model, three different ways to access it.
+Technically, there's a little bit of fine-tuning difference with Cloud Code and whatnot, but at the end of the day, the desktop is a conversation layer, VS Code is an editor layer, and the terminal is the command line layer.
+Same brain behind all three.
+The difference is what each interface lets that brain see and do.
+Although, quick note, there's things out there called Cursor or Windsurf or Copilot or Google's Anti-Gravity.
+And those are completely different products that are built on top of VS Code.
+So VS Code is the source IDE, an interface for developer environments.
+but the actual buildings or the interface or the layers are just supporting different models or different processes.
+Some of them actually use Claude and some don't, some mix multiple models.
+And I do have an entirely separate course diving into the pros and cons of each of them, which one you actually want and breaks it down.
+But this course is specifically for Claude's tools and the way inside of the anthropic environment.
+And that's all we're covering here.
+Now, let me show you what the difference between all of these kind of looks like.
+Just really quick off the bat, if you've never used any of them.
+So first of all, we have cloud desktop or the cloud normal one that you're actually going in through there.
+And let's say I wanted to just be able to summarize a document, right?
+We come in, we have to go find the document wherever we had put it.
+We come in, we open it, we upload it.
+And then from there, I can say summarize this Python breakdown PDF and suggest three improvements.
+And it's going to go ahead and it's going to go through and do that.
+Right now I'm using Opus 4.6, which is the more powerful one.
+And it's doing a pretty good job, right?
+It's good.
+It's good.
+It's nice.
+And I'm sure it's going to be a great one when we're done with this, right?
+But then from there, I actually want to be able to possibly use VS code, right?
+And so this is what it looks like, right?
+This is your VS code.
+You have your file explorer here where you're able to see all your files and you'd be able to break them down.
+I have an extension that allows me to open a whole bunch of cloud code tabs.
+That's another immediate usefulness out of this is the fact that I can have
+a whole bunch of conversations all going at once that i can swap between them but it's the same aspect except this time i can just say summarize python breakdown pdf it's going to immediately know which file we're in it's going to go find it and it's going to go read and search through it immediately so that's already one less layer of work that you have to do and it still does all the same good stuff that the normal 4.6 would there
+You can also do the same thing inside of the terminal.
+I have this terminal open inside of this file here, right?
+As simple as this.
+I come in, I open, I hit open terminal and it immediately is inside this folder, right?
+I just type Claude and it opens it up and I can say the same thing here.
+Same power as the VS code one, except the difference is I have to read everything inside the channel again, something nice, but it just depends on what you kind of want there.
+Now, the pattern here is pretty straightforward if you haven't noticed, right?
+The normal cloud chat is just for a good conversation and some work that you just want to bust out quickly.
+It's also good for finding memory.
+Code is more for action, right?
+Being able to quickly scale things, right?
+It's not as useful the difference in one file, but as soon as I have 100 files that I need to roll through, it's much easier to actually use cloud code.
+The difference is simply what they can touch and how they access it.
+The role worth paying attention to on this chart is the iterate on output.
+With the normal chat one, you have to read the response, decide what's wrong, copy it, start again.
+But with Cloud Code, you can say, that's not right, fix this, and move it into a separate folder.
+You can break down your processes as you're going along, and you're delegating instead of rounds of copy and paste in a single chat environment.
+For those of you who have been using the chat or the desktop and feel like you're getting these issues or there's a lot of manual work to kind of continuously get good results, even if you copy and paste prompts, this is exactly why.
+Your interface is playing the middleman, stopping you from working as well.
+The folder structure, being able to access files,
+All of this is extremely important.
+Now, again, I use VS Code extension for almost everything.
+I'm in VS Code anyway for most of my projects because I do a lot of coding.
+So having Claude right there in the sidebar and being able to open multiple work trees is the fastest path.
+The terminal is nice if I want to go quickly, but most of the time I just open up VS Code anyway.
+The desktop is something that I can use from anywhere, even though you can do remote access with the VS Code terminal now so I can use it on my phone.
+It's just sometimes a cleaner interface for when I'm not doing as deep stuff.
+Now your setup might look a little bit different from mine if you're on Mac or your different colors and stuff like that.
+And that's fine.
+Some people end up using desktop 80% of the time because their work is mostly thinking and planning anyway.
+So some of you might live in the terminal for whatever reasons, right?
+Just being able to use those commands.
+But the point is knowing that each one is good for you in specific areas.
+So just pick the right one and what you like working with and feels right for you, rather than just forcing everything through one interface, just play around with it, see what you like.
+The desktop is kind of the easiest to use.
+It's the least control over what Claude can do.
+The terminal is flexible, arguably the most flexible, because you can kind of open it up anywhere, and you can open multiple terminals in different ways and bounce between it.
+But it's kind of a weird learning curve.
+It's not as visual.
+But at the end of the day, the VS code one is this middle ground.
+I think it gives you this familiar editor if you're used to it, or at least an area to see.
+And it has the full power of the normal cloud code.
+OK, you might have noticed that the lighting has changed and I've changed my shirt as well as my hair.
+That is because it is the next day.
+I am recording all of this, building everything that you're seeing.
+So just a friendly reminder, I'm doing this all on my own, and this is free.
+So just bear with me here.
+Trying a little hard.
+But let's go ahead and go into installations of all of these, right?
+So we're not just going to look at one.
+We're going to look at all of them.
+So to install Claude Desktop, it's actually quite simple.
+You just go Claude Desktop.
+You can look straight on, you know, anywhere.
+Download Claude.
+You're going to make sure it's actually from Anthropic, from Claude.
+You're going to look, are you on Mac?
+Are you on Windows?
+Or are you ARM 65?
+For those of you who are curious what that even means...
+there are certain ways in which your operating system works and the way it's coded most of you are just going to be normal windows if you ever need to check if you are arm 65 it has to do with the type of processor that you have if you're on windows you simply just type in settings you go to settings you go to uh system
+right here under System.
+Then you're going to scroll all the way down, and it should have something called About.
+This is on Windows 11, obviously.
+You can find this roughly the same on any other one.
+And if you look at this, it should say Windows Specifications and Device Specifications.
+Under system type, it should say 64-bit operating system on x64-based processor.
+That's the standard Windows.
+That's the normal.
+Sometimes they'll say x86, which is technically similar.
+It would actually say 64-based ARM-based processor.
+if you had an ARM system.
+Some AMD processors, right, I have an AMD Ryzen 9, are similar in that way.
+Just a kind of certain note there for those who are curious.
+If you want to dive into why that's the case, what any of that means, it has to do with...
+actual instructions for the processor and lower languages.
+I'll probably make a course on that later on.
+Uh, but let me know if that's something you need.
+So you download it and then all you're gonna do is actually just click install.
+Um, I think I had one download.
+Yep.
+And you'll just click Claude set up and it'll install it.
+You give it permissions and then it's just like if you were using Claude, the initial one, um, uh,
+anywhere else you log in.
+Now I have the max account.
+So I also get access to something called cloak co work, which is a version of Claude code that's able to work through all your folders inside of the app.
+So this is kind of like the chat plus the ability to actually use it.
+And then there's actual Claude code which is built around you selecting folders and being able to
+edit it, which we'll dive into a bit later.
+But that's it, it handles most of it for you.
+And it also helps you install cloud code the non manual way.
+So you should be able to do this in that way.
+However, I'm going to show you some ways to handle it so that you can have it directly on your system as well outside of cloud code.
+Now installing cloud code, you do require to have certain things.
+You need something called node JS.
+Now there's a couple of ways to install this.
+You can even, if you just downloaded the app, you can actually go to code and have cloud code, install it for you.
+However, for those of you who want to do it manually yourself, there's a couple ways.
+You can either go to Node.js and you can just download their installer.
+It says get Node.js.
+This is just essentially a JavaScript library that allows it to run on your computer.
+JavaScript is required for Cloud Code to work a certain way.
+Sometimes this actually is installed with this into a certain extent, but it generally isn't, so you need to make sure that it's installed there.
+once you have node js installed uh you can then use something called an npm command right this is super useful i think you all should if you're diving into startups or anything like this you should have this installed anyway because it makes life 10 times easier down the line whenever i'm doing animations or stuff like that being able to do what we're about to do here is really nice so you want to open the command prompt there's a couple ways to do that you can either just type in cmd if you're on um
+mac you want to type in your integrated terminal is probably what it would look like it should pop up something similar to this and all you're going to do if npm was stalled properly into your path which means essentially that your computer can access it from anywhere you should be able to put this command in and it will actually install cloud code directly from
+Claude and Anthropix data stores and it'll install it onto your computer.
+Again, if you're having trouble with this, you can actually install Claude through the desktop and have it help you walk through this or just use Claude in general to kind of help you walk through it.
+I highly recommend that as I may miss something that your computer doesn't have or there's certain little things about packages and permissions and where it's installed on your computer.
+I highly recommend Claude, ChatGPT, they can all help you through that process.
+But if you were to do it that way, that's something you can do.
+Once it's installed and properly there, all it should be is literally from anywhere on your computer.
+If it was installed right, you can type in Claude and it'll actually, that command will go and say, hey, do you trust this workspace?
+Yes, I do.
+It'll have you log in and you can either log in with an API key.
+You actually need to go to Claude API developer platform, right?
+Which is still on Claude.com.
+It's still your same account if you want to log in with it.
+Now, if you log in and it takes you back to your normal chat account, you accidentally clicked back on normal.
+What sometimes helps people is actually going to typing in anthropic console and specifically finding platform.cloud and signing in on that part.
+And that sometimes forces it to go through.
+It should look something similar to this, right?
+It's a little bit different than the normal cloud, but you should be able to go down where it says API keys on the bottom left.
+You'll have to go through.
+Now, you should have created an organization or maybe you have to add in billing because this is separate from your normal Plot account and certain billing that you actually have to do.
+Don't worry, you can't see all of my key there, which is nice.
+But you can actually just create a new key and you can copy that and give it to the terminal.
+now i don't recommend this at all because at the end of the day if you are paying for a subscription account you can just log in to cloud code through this through your subscription account it'll say hey log in with subscription you'll click it it'll open up in your tab you hit authorize boom you're done but for those of you who have maybe a reason to do this and there are certain software reasons which i described later on why
+just wanted to show what that looks like and i'm probably going to show it in future you know ones as well but important to understand here right then from there
+You have Claude anywhere on your computer, right?
+You can have it access any sort of folders, things like that, and it's ready to go.
+And there's a lot of different commands that you can use, right?
+Web app testing, you can download skills.
+There's all sorts of things of sub-agents having Claude use agents.
+I'll go into that in future lectures for sure as well, but I just want everyone to understand and understand how to be installed, so to speak.
+This, in my opinion, is the best combination, being inside of VS Code.
+For those of you who don't know what VS Code is, it's called Visual Studio Code.
+It's the generic coding app that Microsoft has made.
+It's very nice.
+If you're familiar with Cursor or anti-gravity or any of these agentic coding tools,
+They're actually all just built off of VS Code, so I prefer to just use VS Code because there's no bloat.
+There's no extraness.
+They have any access that you want in there.
+It's already built for people to be coding, but you don't need to know how to code to use it, right?
+It lets you open any sort of folders and look at it in a completely different way than you've never seen it if you've ever used it.
+It's made for developers, but I actually like it for a lot of other reasons.
+So let's open up my content development folder, which I already have one open.
+and essentially it lets you see your entire folder again let me show you what this looks like just normally so if you were to go onto your normal windows this is what this looks like it's the same thing but now instead of having to click into it to see everything i can open it up like trees and see all of my folders and processes from there i can actually open up
+these uh oops these documents as well to be able to see what's going on inside of them without having to close the folder or have a separate tab but even better i can open up cloud right in the middle and all i have to do is hit this little button here
+right um this button i can also i have codecs installed openai's codecs to be able to pop over here and use it when i need to but right now we're focusing on claude this is super great because what if i'm having multiple chats and want to switch between them and work on multiple things at the same time this becomes super useful i can read what it's editing while bouncing between chats and it just becomes so nice
+But how do I get this here?
+Well, first, you need to make sure you've done the installation process before with the normal plot code.
+But once it's on and once you install VS Code, Visual Studio Code, again, if you're on Windows, you can literally just download it from the App Store.
+It should pop up pretty easily.
+just install that make sure it's good to go and from there you actually will open up vs code and you want to actually look for something called extensions so on the left here you're going to have a full bunch of options but this one right here with the squares and the one slightly tilted called extensions you can also hit ctrl shift x we'll open it up and you can just type in claude code
+And it says cloud code for VS code and you're going to have a little button blue button that says install.
+You'll click install and that's it.
+You might have to restart it, but you should now see this there.
+One important note some people get confused by is that when you open up VS code and you open up like maybe a brand new folder that you've never touched before.
+So let's do let's do this one.
+right yes i trust the offers uh if sometimes you have this right where there's nothing there and you see nowhere to add anything you actually need to click on something and have a page open to get that little extension open also vs code has its own chat built in as well that you can use just in case something's wrong with claude or you're not paying for the account
+And what's really cool is you can add your own language models in here if you log in and you can add Claude to this as well.
+I just like to use directly through Claude because it's cheaper, it works better, it's cleaner, there's less bloat.
+And I really think it's the way to go.
+I'll have a full video on which models are good at what, which one's better.
+At the end of the day, pick one and build the systems and the knowledge of how to use that one well.
+It will easily transfer all the other ones and you can make your choice.
+after you get decent at using one, okay?
+Simple as that.
+And if you have any questions about this whole install process, please throw them in the community.
+Happy to help out, happy to try to figure it out for you.
+That's the main goal I had for all of this.
+Now, one thing that I want you all to do, as I said, this isn't just a lecture, I'm gonna give you some homework or at least something that you can do.
+And I'll have links for files and documents that are a little extracurricular if you need to practice, but pick one thing from your own work and actually try to get it summarized.
+Put it in a folder, have Plot Code summarize it, try to use it with your normal cloud desktop, whatever you choose, and try to get it to answer things or build things from that single file.
+Run it in desktop, then try the VS Code extension if you want.
+Maybe look at the outputs, but think about the workflow, right?
+This is really important.
+You want to be able to build with these.
+You want to create scale.
+It's not just about installing something that's good.
+It's about thinking about, all right, if I'm going to be building a lot of stuff, if I'm running a company, running a startup, running a content things, what works best for me to create these builds?
+In my opinion, I love just having a folder that I'm able to navigate easily inside of VS Code because that means I have
+all the access to stuff.
+I can organize it right.
+All of your courses I'm building right here.
+I'm working with cloud code because again, I don't want it to automate the whole process.
+I want it to help me make this process better because I'm doing this all on my own.
+I would usually have to hire a whole team to do all of this.
+but because I've organized it in how I work, how I think like, oh, I've got my cleat notes for all of you here.
+I have my scripts for my long form and stuff that I can edit easily in here.
+If I don't like a script, I can change it and then Claude can easily reference it, right?
+That's why I like using VS code so much.
+It's just, it's a really great platform to look at, but you can use the normal Claude
+you know, code or co work to do this as well.
+It's just I find it harder because it's, I don't get to see everything I want to be able to click back and forth quickly.
+And it just kind of gets in the way.
+So practice with it, try to see what you like better what works for you, then we can think about sitting down on one specific tool and using that
+If you do have any comparisons or anything where you're like, hey, this happened with one, please post them.
+Is there anything that surprised you?
+You're like, whoa, I didn't know Claude could see that on my computer or execute stuff.
+This is kind of what we want to do.
+Now, this is the end of the first session.
+I'm going to be posting this right now after I'm done editing and taking out all the nasty parts where I maybe skipped something or said something wrong.
+But session two is actually going to be showing you cloud code in practice.
+I'm going to be filming that now.
+Hopefully, by the time you're watching this video, I'll have already posted it.
+If you're an early comer, then you probably aren't going to see it.
+But I promise you I'm working hard to get this all out to you all.
+So yeah, stay tuned.
+We're going to be diving into a lot in that session.
+about how to use Claude code, its real power, how you can see get that kind of workflow process because you see this isn't just about using an AI model.
+This is about designing your workflow to really get a lot out of it.
+But until next time, friends, much love and please stick with me as I build this channel in this community.

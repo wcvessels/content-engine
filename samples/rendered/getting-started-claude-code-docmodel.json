@@ -1,0 +1,308 @@
+{
+  "schema": "docmodel-1.0",
+  "meta": {
+    "title": "Getting Started with Claude Code: Install and First Use",
+    "subtitle": "Set up the three ways to use Claude, Desktop, the VS Code extension, and the terminal, then run your first real task on your own files.",
+    "doc_type": "guide",
+    "audience": "Anyone new to Claude who wants to move past copy and paste and use it directly on their files",
+    "author": "content-engine (Will Vessels)",
+    "date": "2026-06-27",
+    "reading_time_min": 9,
+    "learning_objectives": [
+      "Tell apart the three ways to use Claude (Desktop, the VS Code extension, and the terminal) and pick the right one for a task.",
+      "Install Claude Desktop and confirm you downloaded the official app.",
+      "Install Claude Code by setting up Node.js and running one npm command, then sign in.",
+      "Add the Claude Code extension to VS Code and open Claude next to your files.",
+      "Run your first real task by having Claude summarize a file in a folder."
+    ],
+    "source": {
+      "video_title": "Stop Copy-Pasting Into Claude. Install Claude Code and Actually Use It.",
+      "manifest": "75eb13895c95"
+    }
+  },
+  "sections": [
+    {
+      "id": "intro-beyond-copy-paste",
+      "heading": "Beyond copy and paste",
+      "level": 1,
+      "kind": "intro",
+      "objective": "See what this guide gets you set up to do.",
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Most people use Claude like a search engine that writes better sentences. You type a question, you get an answer, and then you copy it and paste it somewhere else. That works, but it is like using a car to check the mailbox. The car can take you across the country; you just have not left the driveway yet."
+        },
+        {
+          "type": "prose",
+          "md": "This guide leaves the driveway. By the end you will have all three ways to use Claude installed and working, a clear sense of when to use which one, and your first real task run directly on your own files instead of through copy and paste."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "The goal here is real deliverables sitting on your computer, not just a better understanding of the tools. Each step ends with something installed and working."
+        }
+      ]
+    },
+    {
+      "id": "three-ways",
+      "heading": "The three ways to use Claude",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Understand that one model is reachable three different ways.",
+      "depends_on": ["intro-beyond-copy-paste"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The thing most people miss is that these are not three different AIs. It is one model with three different ways to access it. The **desktop** app is the conversation layer, the **VS Code extension** is the editor layer, and the **terminal** is the command line layer. Same brain behind all three. The difference is what each interface lets that brain see and do."
+        },
+        {
+          "type": "prose",
+          "md": "**Claude Desktop** is the downloaded version of the chat you already know. It is great for conversation, planning, and thinking out ideas, but on its own it cannot see your files or run code; everything goes through copy, paste, or uploads. **Claude Code in VS Code** puts your files on the left and Claude on the right: it reads your project, edits files in place, and runs commands, so you describe what you need instead of pasting it. The **terminal** version is the same engine in a lighter wrapper, handy when your work is a folder of documents rather than a code project."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 79,
+          "caption": "Claude Code inside VS Code: your files on the left, Claude on the right, editing in place.",
+          "alt": "A slide titled 'Claude Code: VS Code Extension' showing a file tree (src, app.js, package.json, CLAUDE.md), a code pane, and a panel reading 'Reads your project. Edits files inline. Runs commands.'",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.80, "h": 0.83 },
+          "crop_reason": "Trimmed the presenter webcam tile in the upper right (over empty space) and the burned-in caption strip; the full slide is kept."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "You may have heard of Cursor, Windsurf, Copilot, or Google's Anti-Gravity. Those are separate products built on top of VS Code, and some do not even use Claude. This guide covers Claude's own tools inside the Anthropic environment."
+        }
+      ]
+    },
+    {
+      "id": "which-when",
+      "heading": "Which one to use when",
+      "level": 1,
+      "kind": "concept",
+      "objective": "Match each interface to the kind of work it is best at.",
+      "depends_on": ["three-ways"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "The pattern is straightforward once you see it. The normal chat or desktop is for a good conversation and quick work you want to bust out. Claude Code is for action and scale: it is not much different on one file, but as soon as you have a hundred files to roll through, it is far easier. The terminal is the most flexible, since you can open it anywhere, though it is less visual and has a bit of a learning curve."
+        },
+        {
+          "type": "prose",
+          "md": "The part worth paying attention to is iterating on output. With plain chat you read the response, decide what is wrong, copy it, and start again. With Claude Code you can say \"that is not right, fix this,\" and it changes the file in place, so you are delegating instead of running rounds of copy and paste. Pick the one that feels right for the work in front of you rather than forcing everything through a single interface."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "When chat feels like it almost gets it but not quite, it is usually because it is working from a pasted excerpt instead of your actual project. The interface is the middleman. The fix is to give Claude direct access to your files."
+        }
+      ]
+    },
+    {
+      "id": "install-desktop",
+      "heading": "Install Claude Desktop",
+      "level": 1,
+      "kind": "step",
+      "objective": "Get the official desktop app installed and signed in.",
+      "depends_on": ["three-ways"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Search for **Claude Desktop** or **Download Claude** and open the official download page. Make sure the result is actually from Anthropic at claude.com before you download anything. Then pick the build for your system: Mac, Windows, or ARM64."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 293,
+          "caption": "Search for Claude Desktop and choose the official Download Claude result from claude.com.",
+          "alt": "A web search for 'claude desktop' with the top result 'Download Claude | Claude' from claude.com.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.72, "h": 0.83 },
+          "crop_reason": "Trimmed the presenter webcam and the secondary right-hand results plus the caption strip; the official Download Claude result is kept."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "Not sure whether you are on a standard or ARM processor? On Windows, open Settings, go to System, then About, and read the **System type** line. \"x64-based processor\" is the standard build; \"ARM-based processor\" means pick the ARM64 download."
+        },
+        {
+          "type": "prose",
+          "md": "Download the installer, run it, give it permissions, and log in exactly as you would anywhere else you use Claude. Once it is open, the desktop app can even help you install Claude Code for you, the non-manual way. The next sections show the manual path so you understand what is happening and can put Claude directly on your system."
+        }
+      ]
+    },
+    {
+      "id": "install-code",
+      "heading": "Install Claude Code",
+      "level": 1,
+      "kind": "step",
+      "objective": "Set up Node.js and install Claude Code with one command.",
+      "depends_on": ["install-desktop"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Claude Code needs one thing first: **Node.js**. This is a free JavaScript runtime that lets the tool run on your computer. Go to nodejs.org and use the **Get Node.js** download (the LTS version is the safe choice). It is worth having installed anyway if you do any building."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 455,
+          "caption": "Download Node.js from nodejs.org using the Get Node.js button.",
+          "alt": "The nodejs.org homepage reading 'Run JavaScript Everywhere' with a green 'Get Node.js' download button.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.74, "h": 0.83 },
+          "crop_reason": "Trimmed the presenter webcam over the example code and the caption strip; the Get Node.js download button is kept."
+        },
+        {
+          "type": "prose",
+          "md": "With Node.js installed you get the **npm** command. Open your command line (type `cmd` on Windows, or the integrated terminal on Mac) and run one command to install Claude Code straight from Anthropic, then check that it worked:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Install Node.js from nodejs.org (LTS version).",
+            "Open your terminal.",
+            "Run `npm install -g @anthropic-ai/claude-code`.",
+            "Verify by typing `claude` and hitting enter."
+          ]
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 485,
+          "caption": "The four install steps: Node.js, a terminal, the npm install command, then type claude to verify.",
+          "alt": "A slide titled 'Install Claude Code' listing four steps: install Node.js from nodejs.org, open your terminal, run npm install -g @anthropic-ai/claude-code, and verify by typing claude.",
+          "crop": { "x": 0.02, "y": 0.30, "w": 0.56, "h": 0.42 },
+          "crop_reason": "Cropped to the step list, removing the browser chrome with a local file path, the presenter webcam, and the caption strip."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "If the command trips on packages, permissions, or where things landed on your computer, let Claude Desktop or Claude itself walk you through it. Setups vary machine to machine, and that is exactly the kind of thing it is good at fixing."
+        }
+      ]
+    },
+    {
+      "id": "sign-in",
+      "heading": "Sign in to Claude Code",
+      "level": 1,
+      "kind": "step",
+      "objective": "Authenticate Claude Code the simple way.",
+      "depends_on": ["install-code"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Now you can type `claude` from anywhere on your computer. The first time, it asks whether you trust the current workspace; say yes. Then it asks you to log in."
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 197,
+          "caption": "Claude Code running after install, ready in the folder you launched it from.",
+          "alt": "A Claude Code welcome panel reading 'Claude Code v2.1.63, Welcome back' with tips for getting started.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.70, "h": 0.74 },
+          "crop_reason": "Trimmed the presenter webcam and the lower message bar plus caption; the Claude Code welcome and tips panel is kept."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "The easy path: choose **log in with subscription**. It opens a tab, you click authorize, and you are done. You can also paste an API key from the Anthropic console instead, but if you already pay for a subscription you do not need one, and the subscription login is simpler."
+        }
+      ]
+    },
+    {
+      "id": "add-to-vscode",
+      "heading": "Add Claude Code to VS Code",
+      "level": 1,
+      "kind": "step",
+      "objective": "Install the editor extension so Claude sits next to your files.",
+      "depends_on": ["install-code"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "**VS Code** (Visual Studio Code) is Microsoft's free editor. You do not need to know how to code to use it; it just lets you open any folder and see everything as a tree. Once Claude Code is installed from the step above, add the extension so Claude lives in the sidebar next to your files."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Install VS Code (on Windows you can grab it from the App Store or the official site).",
+            "Open VS Code and go to **Extensions** (the squares icon in the left sidebar, or press `Ctrl+Shift+X`).",
+            "Search for `Claude Code` and install **Claude Code for VS Code** by Anthropic.",
+            "Restart VS Code if it asks you to.",
+            "Open a folder, trust it, and click the button to open Claude beside your files."
+          ]
+        },
+        {
+          "type": "screenshot",
+          "frame_index": 825,
+          "caption": "In the Extensions panel, search Claude Code and install Claude Code for VS Code by Anthropic.",
+          "alt": "The VS Code Extensions panel with 'claude code' searched and 'Claude Code for VS Code' by Anthropic at the top of the results with an Install button.",
+          "crop": { "x": 0.0, "y": 0.0, "w": 0.72, "h": 0.82 },
+          "crop_reason": "Cropped to the Extensions list and search, removing the presenter webcam, the detail pane, and a terminal path; the Claude Code for VS Code entry is kept."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "One thing that trips people up: when you open a brand-new folder and see nowhere to add anything, click on a file to open a page first. That gets the extension panel to show up."
+        }
+      ]
+    },
+    {
+      "id": "first-task",
+      "heading": "Run your first task",
+      "level": 1,
+      "kind": "step",
+      "objective": "Do one real thing so the setup is not just theory.",
+      "depends_on": ["sign-in", "add-to-vscode"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "Pick one thing from your own work and actually run it. Put a single file in a folder, then have Claude Code summarize it or answer questions about it. Try the same thing in Claude Desktop, and notice the difference in the workflow: in VS Code, Claude already knows which file you mean, finds it, and reads it, which is one less layer of work than uploading it by hand."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "md": "The point is not just installing something that works. It is starting to think about how you build and scale: if you are running a project, a startup, or a content pipeline, which tool fits the way you actually work?"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "heading": "Where you are now",
+      "level": 1,
+      "kind": "summary",
+      "objective": "Lock in what you set up and what to do next.",
+      "depends_on": ["first-task", "which-when"],
+      "blocks": [
+        {
+          "type": "prose",
+          "md": "You now have three ways to use Claude installed and working: the desktop app for conversation, the VS Code extension for working directly in your files, and the terminal for quick, flexible jobs. Pick the one that fits each task rather than forcing everything through one. Get comfortable with one setup first; the habits carry straight over to the others."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "md": "You have left the driveway. The shift is from copy and paste to Claude working directly on your files. That is the whole point, and everything else builds on it."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "heading": "Tools and links",
+      "level": 1,
+      "kind": "summary",
+      "objective": "Find the official sources for everything used above.",
+      "depends_on": ["summary"],
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Claude Desktop: [claude.com](https://claude.com)",
+            "Node.js: [nodejs.org](https://nodejs.org)",
+            "Visual Studio Code: [code.visualstudio.com](https://code.visualstudio.com)",
+            "Anthropic console (for an API key, optional): [console.anthropic.com](https://console.anthropic.com)"
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "disclaimer": "Educational guide generated by content-engine from a public recording. Every claim traces to the source transcript via the provenance sidecar; the reader surface carries no timestamps or citations.",
+    "confidentiality": "Source: 'Stop Copy-Pasting Into Claude. Install Claude Code and Actually Use It.' by Jake Van Clief (public YouTube). Attributed to Jake Van Clief."
+  }
+}
