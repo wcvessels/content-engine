@@ -1,0 +1,53 @@
+{
+  "slug": "ramp-manager-onboarding",
+  "lane": "sop",
+  "source": {
+    "input_type": "manifest",
+    "manifest": "ba9d65eb5768",
+    "transcript": "ramp-manager-onboarding_transcript.txt",
+    "coverage": "00:00:00 to 00:05:55",
+    "exclusions": "Opening and closing pleasantries (the greeting and the closing thanks) and demo-specific on-screen data (sample names, amounts, and the demo company's specific $75 receipt or memo threshold) were excluded as not part of the procedure."
+  },
+  "blocks": [
+    { "block_id": "purpose.prose-1", "section": "Purpose", "type": "purpose", "source_segments": [0, 1, 2, 3, 67, 68, 69, 70, 71], "inferred": false, "inference_note": null },
+    { "block_id": "scope.prose-1", "section": "Scope", "type": "scope-bound", "source_segments": [0, 1], "inferred": false, "inference_note": "States only that the recording demonstrates these tasks and does not state an explicit boundary. No boundary asserted." },
+    { "block_id": "roles.prose-1", "section": "Roles and owners", "type": "owner", "source_segments": [23, 24, 67, 68, 69, 70, 71, 149, 150, 151, 157, 158, 159, 160, 161, 170, 171, 172, 173, 174], "inferred": false, "inference_note": null },
+    { "block_id": "prerequisites.callout-1", "section": "Before you start", "type": "prerequisite", "source_segments": [3, 4, 5, 6, 175, 176, 177, 178, 179, 203, 204, 205, 206, 207, 208, 209, 210], "inferred": false, "inference_note": null },
+    { "block_id": "procedure.prose-1", "section": "The procedure", "type": "scope-bound", "source_segments": [0, 1], "inferred": false, "inference_note": "Framing only; ordering follows the stated process order of the recording." },
+    { "block_id": "accept-invite.list-1", "section": "Accept your invite and sign in", "type": "step", "source_segments": [3, 4, 5, 6, 7, 8, 9], "inferred": false, "inference_note": null },
+    { "block_id": "home-page.prose-1", "section": "Work from your home page", "type": "step", "source_segments": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22], "inferred": false, "inference_note": null },
+    { "block_id": "home-page.prose-2", "section": "Work from your home page", "type": "step", "source_segments": [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], "inferred": false, "inference_note": null },
+    { "block_id": "view-card.prose-1", "section": "View your card details", "type": "step", "source_segments": [37, 38, 39, 40], "inferred": false, "inference_note": null },
+    { "block_id": "view-card.list-1", "section": "View your card details", "type": "step", "source_segments": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58], "inferred": false, "inference_note": null },
+    { "block_id": "submit-transaction.prose-1", "section": "Submit receipts, memos, and codes on a transaction", "type": "step", "source_segments": [59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76], "inferred": false, "inference_note": null },
+    { "block_id": "submit-transaction.list-1", "section": "Submit receipts, memos, and codes on a transaction", "type": "step", "source_segments": [83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101], "inferred": false, "inference_note": null },
+    { "block_id": "submit-transaction.callout-1", "section": "Submit receipts, memos, and codes on a transaction", "type": "risk", "source_segments": [77, 78, 79, 80, 81, 82], "inferred": false, "inference_note": null },
+    { "block_id": "manage-team.prose-1", "section": "Invite and manage your team", "type": "step", "source_segments": [106, 107, 108, 109, 110, 111, 112, 113, 114, 115], "inferred": false, "inference_note": null },
+    { "block_id": "manage-team.list-1", "section": "Invite and manage your team", "type": "step", "source_segments": [115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132], "inferred": false, "inference_note": null },
+    { "block_id": "manage-team.prose-2", "section": "Invite and manage your team", "type": "step", "source_segments": [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148], "inferred": false, "inference_note": null },
+    { "block_id": "manage-team.callout-1", "section": "Invite and manage your team", "type": "risk", "source_segments": [142, 143, 144, 145, 146, 147, 148], "inferred": false, "inference_note": null },
+    { "block_id": "request-card.prose-1", "section": "Request a card", "type": "step", "source_segments": [149, 150, 151, 152, 153], "inferred": false, "inference_note": null },
+    { "block_id": "request-card.list-1", "section": "Request a card", "type": "step", "source_segments": [153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168], "inferred": false, "inference_note": null },
+    { "block_id": "request-card.prose-2", "section": "Request a card", "type": "step", "source_segments": [169, 170, 171, 172, 173, 174], "inferred": false, "inference_note": null },
+    { "block_id": "add-bank.prose-1", "section": "Add your bank account for reimbursements", "type": "step", "source_segments": [203, 204, 205, 206, 207, 208, 209, 210], "inferred": false, "inference_note": null },
+    { "block_id": "add-bank.list-1", "section": "Add your bank account for reimbursements", "type": "step", "source_segments": [211, 212, 213, 214, 215, 216, 217, 218, 219, 220], "inferred": false, "inference_note": null },
+    { "block_id": "oop-reimbursement.prose-1", "section": "Submit an out-of-pocket reimbursement", "type": "step", "source_segments": [181, 182, 183, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196], "inferred": false, "inference_note": null },
+    { "block_id": "oop-reimbursement.list-1", "section": "Submit an out-of-pocket reimbursement", "type": "step", "source_segments": [221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259], "inferred": false, "inference_note": null },
+    { "block_id": "mileage-reimbursement.prose-1", "section": "Submit a mileage reimbursement", "type": "step", "source_segments": [196, 197, 198, 199, 200, 201, 202], "inferred": false, "inference_note": null },
+    { "block_id": "mileage-reimbursement.list-1", "section": "Submit a mileage reimbursement", "type": "step", "source_segments": [260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282], "inferred": false, "inference_note": null },
+    { "block_id": "decisions.list-1", "section": "Decision points", "type": "decision-point", "source_segments": [67, 68, 69, 70, 71, 125, 126, 127, 128, 157, 158, 159, 160, 161, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 243, 244, 245, 246, 247, 248, 249, 250, 251, 253, 254, 255, 256, 257, 258, 259], "inferred": false, "inference_note": "Each listed branch shows only the sides stated in the recording." },
+    { "block_id": "risks.list-1", "section": "Risks and things to watch", "type": "risk", "source_segments": [77, 78, 79, 80, 81, 82, 96, 97, 98, 99, 100, 101, 142, 143, 144, 145, 146, 147, 148], "inferred": false, "inference_note": null },
+    { "block_id": "references.list-1", "section": "References and tools mentioned", "type": "reference", "source_segments": [87, 88, 89, 90, 91, 92, 93, 94, 203, 204, 205, 206, 207, 208, 209, 210, 275, 276, 277, 278], "inferred": false, "inference_note": null },
+    { "block_id": "open-questions.list-1", "section": "Open questions", "type": "open-question", "source_segments": [59, 60, 61, 62, 63, 64, 65, 175, 176, 177, 178, 179], "inferred": false, "inference_note": "Both gaps are flagged by the source itself as depending on the company; the recording does not state the answers." }
+  ],
+  "screenshots": [
+    { "placed_in": "home-page", "frame_index": 3, "file": "frame_0004_000028.jpg", "timestamp_s": 28.0 },
+    { "placed_in": "view-card", "frame_index": 7, "file": "frame_0008_000055.jpg", "timestamp_s": 55.0 },
+    { "placed_in": "submit-transaction", "frame_index": 12, "file": "frame_0013_000143.jpg", "timestamp_s": 103.0 },
+    { "placed_in": "manage-team", "frame_index": 18, "file": "frame_0019_000226.jpg", "timestamp_s": 146.0 },
+    { "placed_in": "request-card", "frame_index": 25, "file": "frame_0026_000316.jpg", "timestamp_s": 196.0 },
+    { "placed_in": "add-bank", "frame_index": 30, "file": "frame_0031_000427.jpg", "timestamp_s": 267.0 },
+    { "placed_in": "oop-reimbursement", "frame_index": 32, "file": "frame_0033_000451.jpg", "timestamp_s": 291.0 },
+    { "placed_in": "mileage-reimbursement", "frame_index": 35, "file": "frame_0036_000520.jpg", "timestamp_s": 320.0 }
+  ]
+}

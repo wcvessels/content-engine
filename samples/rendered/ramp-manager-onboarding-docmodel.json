@@ -1,0 +1,261 @@
+{
+  "schema": "docmodel-1.0",
+  "meta": {
+    "title": "Getting Started on Ramp as a Manager",
+    "subtitle": "A standard operating procedure for a manager's first run on Ramp: accept your invite, work the home task list, view cards, submit receipts and codes, manage your team, request cards, and submit reimbursements.",
+    "doc_type": "procedure",
+    "audience": "A new manager or approver setting up and operating their Ramp account for the first time.",
+    "author": "content-engine (Will Vessels)",
+    "date": "2026-06-30",
+    "reading_time_min": 6,
+    "learning_objectives": [],
+    "estimated_duration": null,
+    "source": {
+      "video_title": "Ramp manager training",
+      "manifest": "ba9d65eb5768"
+    }
+  },
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "level": 1,
+      "kind": "intro",
+      "blocks": [
+        { "type": "prose", "md": "This procedure walks through how to get started on Ramp as a manager. It covers your first account access and the core tasks a manager handles: the home task list, viewing your cards, submitting receipts and codes, managing your team, requesting cards, and submitting reimbursements. As a manager you can also complete these tasks on behalf of your team members." }
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "level": 1,
+      "blocks": [
+        { "type": "prose", "md": "The recording demonstrates the manager tasks listed in the procedure below. It does not state an explicit boundary for what falls outside this procedure." }
+      ]
+    },
+    {
+      "id": "roles",
+      "heading": "Roles and owners",
+      "level": 1,
+      "blocks": [
+        { "type": "prose", "md": "You, the manager, perform every step in this procedure. As a manager you can also submit items and request cards on behalf of a team member. Card and reimbursement requests are issued only after approval." }
+      ]
+    },
+    {
+      "id": "prerequisites",
+      "heading": "Before you start",
+      "level": 1,
+      "kind": "prereq",
+      "blocks": [
+        { "type": "callout", "variant": "prereq", "md": "You need an email invite from Ramp to create your account. To receive reimbursements by direct deposit, you also need to add a personal bank account, and your company must have reimbursement submissions enabled in Ramp." }
+      ]
+    },
+    {
+      "id": "procedure",
+      "heading": "The procedure",
+      "level": 1,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "The recording walks through the following manager tasks in this order. Do them as you need them; the sequence here follows the recording." }
+      ]
+    },
+    {
+      "id": "accept-invite",
+      "heading": "Accept your invite and sign in",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "list", "ordered": true, "items": [
+          "Open the invite email you receive from Ramp.",
+          "Click **Accept invite** to create your account.",
+          "Log in. You land on your home page, which is your task list."
+        ] }
+      ]
+    },
+    {
+      "id": "home-page",
+      "heading": "Work from your home page",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "Your home page is your task list. Everything that needs your approval shows up here, whether it is a transaction, a reimbursement, a funds request, a bill, or more. Your own transactions that need attention appear here too." },
+        { "type": "prose", "md": "Use the quick tabs at the top to toggle between all of your tasks and your own expenses. You can also review approvals from the **Inbox** tab for a consolidated view of pending items." },
+        { "type": "screenshot", "frame_index": 3, "caption": "The home page task list: items awaiting your approval, your cards on the right, and quick links to request cards, reimbursements, and travel.", "alt": "The Ramp home page showing a Requires your approval list, virtual cards on the right, and Request buttons.", "crop": null, "crop_reason": "Full-screen application capture; no webcam or participant tile to remove." }
+      ]
+    },
+    {
+      "id": "view-card",
+      "heading": "View your card details",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "On the right-hand side you can view the cards issued to you." },
+        { "type": "list", "ordered": true, "items": [
+          "Select your card to reveal the full card details.",
+          "Use the copy boxes to grab the card number, expiration date, CVV, or billing address when you make a virtual purchase.",
+          "Click **Actions** in the top right for options to manage and protect your card."
+        ] },
+        { "type": "screenshot", "frame_index": 7, "caption": "A card's detail panel: card number, expiration, CVV, and billing address, each with a copy box, plus the Actions menu.", "alt": "A Ramp virtual card detail panel showing the card number, expiration, CVV, name on card, billing address, and an Actions button.", "crop": null, "crop_reason": "Full-screen application capture; no webcam or participant tile to remove." }
+      ]
+    },
+    {
+      "id": "submit-transaction",
+      "heading": "Submit receipts, memos, and codes on a transaction",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "Depending on how your company sets up its policies, you may need to submit receipts and memos and code your card transactions and reimbursement requests. You can complete these required fields for yourself or on behalf of a team member to keep expenses compliant." },
+        { "type": "list", "ordered": true, "items": [
+          "Click into a transaction for a detailed view of the expense.",
+          "Upload a receipt: click to upload, or drag and drop. You can also submit receipts by text, in the Ramp app, or by email.",
+          "Fill out the memo.",
+          "Use the drop-down or the text field to fill in any required accounting codes."
+        ] },
+        { "type": "callout", "variant": "note", "md": "If a transaction is missing a receipt, memo, or accounting code, Ramp prompts you to fill it in." },
+        { "type": "screenshot", "frame_index": 12, "caption": "The transaction detail view, with the receipt upload, memo, and accounting code fields.", "alt": "A Ramp expense detail showing Upload a receipt (required), a memo field, and accounting code dropdowns with a Submit button.", "crop": null, "crop_reason": "Full-screen application capture; no webcam or participant tile to remove." }
+      ]
+    },
+    {
+      "id": "manage-team",
+      "heading": "Invite and manage your team",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "From the **Team** tab you can invite users, see everyone who reports to you, and edit their profiles. To invite a new team member:" },
+        { "type": "list", "ordered": true, "items": [
+          "Click **Invite** in the top right corner.",
+          "Enter the employee's email address.",
+          "Select their manager, location, and department.",
+          "Select their role on Ramp.",
+          "If they have a team reporting to them, toggle on **Will they manage others**.",
+          "Click **Send invite** in the bottom right to issue the invite."
+        ] },
+        { "type": "prose", "md": "To edit a user, click the user's name, then **Edit profile** in the top right. You can change their department, location, manager, and role. You can also lock all of their cards, deactivate their account, or permanently terminate their account from this window." },
+        { "type": "callout", "variant": "warning", "md": "Locking cards, deactivating, and permanently terminating an account are all available from the edit window. The recording labels termination as permanent, so confirm before you use it." },
+        { "type": "screenshot", "frame_index": 18, "caption": "The Invite people panel: email, reports-to manager, location, department, role, and the Will they manage others toggle.", "alt": "The Ramp Invite people panel with an email field, Reports to, Location, Department, role options, a Will they manage others toggle, and a Send invite button.", "crop": null, "crop_reason": "Full-screen application capture; no webcam or participant tile to remove." }
+      ]
+    },
+    {
+      "id": "request-card",
+      "heading": "Request a card",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "As a manager you can request additional cards for yourself or your team." },
+        { "type": "list", "ordered": true, "items": [
+          "Click **Request** and select your card type.",
+          "Under **Who will be the owner**, select yourself or the team member you are requesting the card for.",
+          "Enter the card label, the limit, and a description of why you are requesting it.",
+          "Click **Request** in the bottom right to submit."
+        ] },
+        { "type": "prose", "md": "All card and reimbursement requests show up on your home page and are issued after approval." },
+        { "type": "screenshot", "frame_index": 25, "caption": "Requesting a card: choosing who will own it from your team.", "alt": "The Ramp card request screen with a Who will be the owner selector listing team members and a Request button.", "crop": null, "crop_reason": "Full-screen application capture; no webcam or participant tile to remove." }
+      ]
+    },
+    {
+      "id": "add-bank",
+      "heading": "Add your bank account for reimbursements",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "Reimbursements are typically paid by direct deposit, so you are prompted to add your bank account to receive the ACH payment." },
+        { "type": "list", "ordered": true, "items": [
+          "Click your initials in the top right.",
+          "Go to **Settings**, then **Banking**.",
+          "Add your personal bank account details."
+        ] },
+        { "type": "screenshot", "frame_index": 30, "caption": "Settings, then Banking: add a personal bank account to receive reimbursements.", "alt": "The Ramp Settings Personal Banking tab with an Add personal bank account button.", "crop": null, "crop_reason": "Full-screen application capture; no webcam or participant tile to remove." }
+      ]
+    },
+    {
+      "id": "oop-reimbursement",
+      "heading": "Submit an out-of-pocket reimbursement",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "An out-of-pocket reimbursement is when you used your personal credit card or cash for a work-related expense and your employer pays you back. You can request one for yourself or for a team member if your company has enabled reimbursement submissions in Ramp." },
+        { "type": "list", "ordered": true, "items": [
+          "From your home page, click **Request reimbursement**.",
+          "If you are asked, provide your place of residence so the request complies with local laws and processes accurately.",
+          "Select the out-of-pocket reimbursement type.",
+          "Upload a receipt, or select **No receipt**. Dragging and dropping a receipt auto-fills the merchant, amount, and date; you can also enter these manually.",
+          "Complete the memo and accounting fields.",
+          "Submit the request, or it saves as a draft until you are ready. You can also delete the request."
+        ] },
+        { "type": "screenshot", "frame_index": 32, "caption": "Request reimbursement: upload a receipt, choose No receipt, or start a New mileage request.", "alt": "The Ramp Request reimbursement screen with a receipt upload area and New mileage and No receipt buttons.", "crop": null, "crop_reason": "Full-screen application capture; no webcam or participant tile to remove." }
+      ]
+    },
+    {
+      "id": "mileage-reimbursement",
+      "heading": "Submit a mileage reimbursement",
+      "level": 2,
+      "kind": "step",
+      "blocks": [
+        { "type": "prose", "md": "A mileage reimbursement is when you used your personal vehicle for business travel and your employer pays you back for gas." },
+        { "type": "list", "ordered": true, "items": [
+          "From your home page, click **Request reimbursement**.",
+          "Click **New mileage**.",
+          "Enter your start and end location, and add any stops if needed.",
+          "Ramp calculates the distance and applies the IRS mileage rate automatically.",
+          "Submit the request once all the details are filled out."
+        ] },
+        { "type": "screenshot", "frame_index": 35, "caption": "A mileage request: start and end location, with distance and the IRS rate applied automatically.", "alt": "The Ramp mileage reimbursement form with One-way and Round trip options, start and destination fields, a calculated rate, and a Submit button.", "crop": null, "crop_reason": "Full-screen application capture; no webcam or participant tile to remove." }
+      ]
+    },
+    {
+      "id": "decisions",
+      "heading": "Decision points",
+      "level": 1,
+      "blocks": [
+        { "type": "prose", "md": "These are the choices the recording shows. Only the options stated in the recording are listed." },
+        { "type": "list", "ordered": false, "items": [
+          "**Submit for yourself or a team member.** You can complete expenses, request cards, and request reimbursements for yourself or on behalf of a team member.",
+          "**Will they manage others?** When inviting a team member, toggle this on if they have a team reporting to them.",
+          "**Out-of-pocket or mileage.** Choose the reimbursement type: out-of-pocket for personal-card or cash spend, mileage for business travel in your personal vehicle.",
+          "**Receipt or no receipt.** On an out-of-pocket reimbursement, upload a receipt or select No receipt.",
+          "**Auto-fill or enter manually.** Drag and drop a receipt to auto-fill the merchant, amount, and date, or enter them manually.",
+          "**Submit or save as a draft.** Submit the request, or it saves as a draft until you are ready. You can also delete it."
+        ] }
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks and things to watch",
+      "level": 1,
+      "blocks": [
+        { "type": "list", "ordered": false, "items": [
+          "**Missing fields hold up compliance.** If a transaction is missing a receipt, memo, or accounting code, Ramp prompts you to fill it in to keep the expense compliant.",
+          "**Account termination is labeled permanent.** From the edit-user window you can lock cards, deactivate an account, or permanently terminate it. Confirm before you terminate."
+        ] }
+      ]
+    },
+    {
+      "id": "references",
+      "heading": "References and tools mentioned",
+      "level": 1,
+      "blocks": [
+        { "type": "list", "ordered": false, "items": [
+          "**Receipt submission channels:** upload in the app (click or drag and drop), text, the Ramp app, and email.",
+          "**Reimbursement payment:** typically by direct deposit (ACH) to your personal bank account.",
+          "**Mileage rate:** Ramp applies the IRS mileage rate automatically, based on the distance it calculates."
+        ] }
+      ]
+    },
+    {
+      "id": "open-questions",
+      "heading": "Open questions",
+      "level": 1,
+      "blocks": [
+        { "type": "prose", "md": "These gaps are real. The recording flags them as depending on your company, and it does not give the answers." },
+        { "type": "list", "ordered": false, "items": [
+          "**Which fields are required?** Whether you must submit receipts, memos, or accounting codes depends on how your company sets up its policies. The recording does not specify your company's requirements.",
+          "**Is reimbursement submission available?** Requesting reimbursements through Ramp depends on whether your company has enabled it."
+        ] }
+      ]
+    }
+  ],
+  "footer": {
+    "disclaimer": "Standard operating procedure generated by content-engine from a public recording. Every claim traces to the source transcript via the provenance sidecar; the reader surface carries no timestamps or citations.",
+    "confidentiality": "Source: 'Ramp manager training' by Ramp (public YouTube). Attributed to Ramp. content-engine is not affiliated with Ramp."
+  }
+}

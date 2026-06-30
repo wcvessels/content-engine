@@ -2,7 +2,7 @@
 
 This folder ships complete worked examples so anyone (a judge, a new user) can see content-engine's output and re-render with ZERO install and zero GPU. You do not need the transcription engine to inspect what is here; open the rendered guide, or point a lane at the committed manifest and render.
 
-All four samples are educational guides rendered from PUBLIC Jake Van Clief YouTube videos (from his Clief Notes set). Source attributed to Jake Van Clief. We deliberately ship nothing derived from private recordings. The SOP lane is proven on prose only (see `../lanes/sop/`); any local SOP test on an internal clip stays on the tester's machine and is never committed here.
+Five samples ship here. Four are educational guides rendered from PUBLIC Jake Van Clief YouTube videos (from his Clief Notes set), attributed to Jake Van Clief. The fifth is a Standard Operating Procedure from the second lane (`../lanes/sop/`), rendered from a PUBLIC Ramp training video, attributed to Ramp. We deliberately ship nothing derived from PRIVATE recordings: a rendered SOP built from an internal clip stays on the tester's machine and is never committed here.
 
 ## The featured sample: Getting Started with Claude Code
 
@@ -23,14 +23,25 @@ The same lane, run on three more public videos of different shapes, to show it g
 
 Four source shapes (a hands-on tutorial, a concept talk, a design-to-code build, and a method walkthrough) demonstrate the lane generalizes.
 
+## The SOP sample: Ramp manager onboarding (a second lane)
+
+The fifth sample is NOT an educational guide. It is a Standard Operating Procedure produced by the **sop lane** (`../lanes/sop/`), to show the factory runs a second document type, not just a second guide.
+
+- `rendered/ramp-manager-onboarding.html` and `.pdf`, from **"Ramp manager training"** (about 6 minutes, public, by Ramp).
+- It is structured as an SOP: Purpose, Scope, Roles, Before you start, a numbered Procedure grouped into tasks (accept invite, home task list, cards, receipts and codes, team invites, card requests, bank account, out-of-pocket and mileage reimbursements), Decision points, Risks, References, and Open questions.
+- It shows the sop lane's defining rule, ZERO content inference: owners appear only where named, decision points list only the sides the recording stated, and the two genuinely company-dependent gaps (which fields are required, whether reimbursements are enabled) are surfaced as Open questions rather than guessed. The on-screen demo shows a specific "$75" receipt threshold, but because the narration says required fields "depend on how your company sets up their policies," the SOP does not assert $75 as a rule. That restraint is the lane.
+
+The same shared shelf produced it: stages 01/04/05, the renderer, brand, voice, design system, the doc-model schema, and the 16-item fidelity bar are identical to the educational lane. Only stages 02 (taxonomy) and 03 (document shape) differ.
+
 ## View the rendered guides in your browser (no clone)
 
-GitHub shows `.html` as source, so the four interactive guides are served via GitHub Pages:
+GitHub shows `.html` as source, so the interactive guides and the SOP are served via GitHub Pages:
 
 - [Getting Started with Claude Code](https://wcvessels.github.io/content-engine/samples/rendered/getting-started-claude-code.html) (featured)
 - [The Ladder of Abstraction](https://wcvessels.github.io/content-engine/samples/rendered/ladder-of-abstraction.html)
 - [From Illustrator to Web Animations](https://wcvessels.github.io/content-engine/samples/rendered/illustrator-to-web-animations.html)
 - [The Folder System for AI](https://wcvessels.github.io/content-engine/samples/rendered/folder-architecture-walkthrough.html)
+- [Ramp Manager Onboarding (SOP)](https://wcvessels.github.io/content-engine/samples/rendered/ramp-manager-onboarding.html) (the sop lane, a second document type)
 
 The PDFs render inline on GitHub: just click any `rendered/*.pdf`.
 
@@ -50,10 +61,11 @@ samples/
     └── <slug>-provenance.json  # the internal grounding sidecar: every block traces to real transcript segments
 
 slugs: getting-started-claude-code (featured), ladder-of-abstraction,
-       illustrator-to-web-animations, folder-architecture-walkthrough
+       illustrator-to-web-animations, folder-architecture-walkthrough  (educational-guide lane)
+       ramp-manager-onboarding  (sop lane)
 ```
 
-**On the frames:** each manifest records the full dense curation the engine produced (982, 578, 480, and 933 frames respectively). The committed `_frames/` folders hold only the frames each guide actually embeds (6, 4, 6, 6), which is what the blueprint's samples spec calls for. This keeps the repo light and, just as important, avoids republishing a raw screen-recording frame dump that can incidentally capture on-screen email addresses, keys, or file paths. The reader-facing HTML and PDF are self-contained (screenshots are base64-embedded) and carry ZERO timestamps, citations, or frame references; all grounding lives in the `-provenance.json` sidecars.
+**On the frames:** each manifest records the full dense curation the engine produced (982, 578, 480, and 933 frames for the four guides; 40 for the Ramp SOP). The committed `_frames/` folders hold only the frames each deliverable actually embeds (6, 4, 6, 6 for the guides; 8 for the SOP), which is what the blueprint's samples spec calls for. This keeps the repo light and, just as important, avoids republishing a raw screen-recording frame dump that can incidentally capture on-screen email addresses, keys, or file paths. The reader-facing HTML and PDF are self-contained (screenshots are base64-embedded) and carry ZERO timestamps, citations, or frame references; all grounding lives in the `-provenance.json` sidecars.
 
 ## How a sample was produced
 

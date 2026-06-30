@@ -1,8 +1,8 @@
 # SOP lane rules (ANCHOR): extract steps, owners, decisions, risks; zero inference
 
-This is the SOP lane's structuring contract. The SOP lane ships as a DOCUMENTATION-ONLY delta for this submission: this file plus `examples.md` describe exactly how a second lane specializes off the shared shelf, without copying or running a second set of stages. It proves the factory thesis (a new doc type is two stages of difference over identical plumbing) with no second integration test to keep green.
+This file is the SOP lane's structuring ANCHOR: the zero-inference thesis and the prose contract behind the stages. The lane is WIRED (it has its own `stages/01-ingest .. 05-qa`), and a shipped public example, a Ramp manager onboarding SOP rendered from a public Ramp training video, lives in `../../../samples/` (`ramp-manager-onboarding`). It still proves the factory thesis: a new doc type is two stages of difference over identical 01/04/05 plumbing.
 
-If promoted to a wired lane later, these rules become `stages/02-structure/references/extraction-heuristics.md` and `stages/03-layout/references/sop-doc-structure.md`. Everything 01/04/05 (ingest, render, QA) is the SHARED template, unchanged from the educational lane.
+These rules are now wired into loadable homes: the taxonomy + ordering live in `../stages/02-structure/references/sop-extraction.md`, and the output structure in `../stages/03-layout/references/sop-doc-structure.md`. This anchor is the thinking behind those two files. Everything 01/04/05 (ingest, render, QA) is the SHARED template, unchanged from the educational lane.
 
 ## What this lane is
 

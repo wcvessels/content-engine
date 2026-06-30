@@ -2,7 +2,7 @@
 
 Two things here: a worked example of one good SOP section (the few-shot a wired SOP lane's stages 02/03 would calibrate against), and a one-page prose description of exactly how this lane differs from the educational lane at each of the five specialization points. Together they prove that a second lane is a thin, legible specialization, not a fork.
 
-The SOP lane is DOC-ONLY for this submission (see `rules.md`). It can be proven LOCALLY end to end by running the shared stages over a real process recording (a Ramp screen-capture, say), but that rendered SOP is private employer content and is NEVER committed to this repo. The shipped public samples are educational guides from public videos. This page is the public proof of the pattern.
+The SOP lane is WIRED, and a public example is shipped: a Ramp manager onboarding SOP rendered from a public Ramp training video, in `../../../samples/` (`ramp-manager-onboarding`, with rendered PDF + HTML, the docmodel, and the provenance sidecar). The principle on private material still holds: a rendered SOP built from a private employer recording stays on the tester's machine and is NEVER committed here. Public-sourced SOPs can ship; private ones do not. This page remains the prose proof of the specialization pattern.
 
 ## Worked example: one Procedure section, done right
 
@@ -59,8 +59,8 @@ The single deepest difference is S3, the inference posture. The educational lane
 2. Note that neither lane re-declares brand, voice, the renderer, or the schema; both point at the shared shelf.
 3. Conclude: adding a third lane (release notes, a KB article) is the same shape of work, which is what `_lane-builder/` documents.
 
-## Proving it locally (private, not committed)
+## Proving it runs: the shipped public sample (and private tests stay local)
 
-To prove the SOP lane truly runs (not just reads well), point the shared stages at a real process recording locally: stamp the lane from `_templates/` per `_lane-builder/README.md`, write the two reference files from `rules.md`, run 01->05. A Ramp expense-flow screen-capture works well as a private test. The rendered SOP stays on your machine; it is confidential and must never enter this public repo. The public proof is this prose plus the educational-guide samples.
+The SOP lane is proven to run end to end by the shipped `ramp-manager-onboarding` sample in `../../../samples/`: a public Ramp training video went through the engine and all five stages (ingest, structure, layout, render, QA) to a branded PDF + HTML with a provenance sidecar. To test it on a PRIVATE process recording, run the same shared stages locally; that rendered SOP is confidential and must never enter this public repo. The public proof is the Ramp SOP sample plus this prose; private recordings stay on your machine.
 
 House rule: zero em dash characters.
